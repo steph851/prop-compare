@@ -1,0 +1,37 @@
+# ── Sensitive / Secrets ──
+*.key
+*.secret
+.env
+credentials.json
+api_key.txt
+
+# ── Generated Output (rebuildable) ──
+output/*.json
+output/*.csv
+output/comparison-*.json
+output/master-comparison-*.json
+output/categorized-master-*.json
+
+# ── Logs (except decisions.log) ──
+logs/*.log
+!logs/decisions.log
+
+# ── Editor / IDE ──
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── OS Files ──
+.DS_Store
+Thumbs.db
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/

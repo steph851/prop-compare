@@ -1,0 +1,100 @@
+{
+  "firm_name": "Topstep",
+  "division": "Futures",
+  "last_verified": "2026-03-25",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://propfirmmatch.com/prop-firms/topstep",
+    "https://intercom.help/topstep-llc/"
+  ],
+  "challenge_models": [
+    {
+      "model_name": "Standard Path",
+      "model_type": "speed",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": 2000,
+          "daily_loss_limit_pct": 4.0
+        },
+        {
+          "size": 100000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": 3000,
+          "daily_loss_limit_pct": 3.0
+        },
+        {
+          "size": 150000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": 4500,
+          "daily_loss_limit_pct": 3.0
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 2,
+        "consistency_rule_active": true,
+        "consistency_rule_pct": 50,
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "daily_loss_type": "TBD",
+        "daily_loss_includes_float": true,
+        "daily_loss_includes_commissions": true,
+        "max_loss_type": "TBD",
+        "max_loss_locks_at_initial": null,
+        "drawdown_calculation": "TBD"
+      },
+      "trading_rules": {
+        "overnight_holding": false,
+        "weekend_holding": false,
+        "market_close_time_ct": "15:10",
+        "market_open_time_ct": "17:00",
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "copy_trading_allowed": "own_accounts_only",
+        "prohibited_strategies": [
+          "Account Stacking",
+          "Intentional Account Depletion",
+          "Use of Manipulative Tools",
+          "Abnormal Market Behavior",
+          "Trading Outside Market Range",
+          "News Event Exploitation",
+          "VPN Usage",
+          "Sim Fill Abuse"
+        ]
+      },
+      "payout_structure": {
+        "profit_split_pct": 90,
+        "withdrawal_frequency_days": 1,
+        "min_withdrawal_amount": 125,
+        "min_profit_for_withdrawal": 150,
+        "benchmark_days_for_payout": 5,
+        "consistency_rule_payout": false,
+        "consistency_rule_payout_pct": null,
+        "performance_reward_cap": {
+          "50K": 5000,
+          "100K": 5000,
+          "150K": 5000
+        },
+        "first_payout_delay_days": null
+      },
+      "restrictions": {
+        "inactivity_days_breach": null,
+        "inactivity_days_funded_breach": 30,
+        "disciplinary_program": true,
+        "account_reset_allowed": true
+      }
+    }
+  ]
+}

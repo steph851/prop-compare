@@ -1,0 +1,184 @@
+{
+  "firm_name": "Tradeify",
+  "division": "Futures",
+  "last_verified": "2026-03-25",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://www.propfirmmatch.com/prop-firms/tradeify",
+    "https://help.tradeify.co"
+  ],
+  "challenge_models": [
+    {
+      "model_name": "Growth Plan",
+      "model_type": "discipline",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null
+        },
+        {
+          "size": 100000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null
+        },
+        {
+          "size": 150000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 0,
+        "consistency_rule_active": true,
+        "consistency_rule_pct": 35,
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "daily_loss_type": "TBD",
+        "daily_loss_includes_float": null,
+        "daily_loss_includes_commissions": null,
+        "max_loss_type": "TBD",
+        "max_loss_locks_at_initial": null,
+        "drawdown_calculation": "TBD"
+      },
+      "trading_rules": {
+        "overnight_holding": false,
+        "weekend_holding": false,
+        "market_close_time_ct": "16:00",
+        "market_open_time_ct": "17:00",
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "copy_trading_allowed": "own_accounts_only",
+        "prohibited_strategies": [
+          "Hedging",
+          "HFT Bots",
+          "Microscalping (<10sec 50% rule)",
+          "Platform Exploitation",
+          "Micro and Mini Simultaneous Trading",
+          "Third-party Copy Trading"
+        ]
+      },
+      "payout_structure": {
+        "profit_split_pct": 90,
+        "withdrawal_frequency_days": null,
+        "min_withdrawal_amount": 500,
+        "min_profit_for_withdrawal": 500,
+        "benchmark_days_for_payout": 5,
+        "consistency_rule_payout": true,
+        "consistency_rule_payout_pct": 35,
+        "performance_reward_cap": {
+          "50K": 3000,
+          "100K": 4000,
+          "150K": 5000
+        },
+        "first_payout_delay_days": null
+      },
+      "restrictions": {
+        "inactivity_days_breach": 7,
+        "inactivity_days_funded_breach": 7,
+        "disciplinary_program": null,
+        "account_reset_allowed": true
+      }
+    },
+    {
+      "model_name": "Select",
+      "model_type": "discipline",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null
+        },
+        {
+          "size": 100000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null
+        },
+        {
+          "size": 150000,
+          "profit_target": null,
+          "profit_target_pct": null,
+          "max_loss_limit": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 0,
+        "consistency_rule_active": true,
+        "consistency_rule_pct": 40,
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "daily_loss_type": "TBD",
+        "daily_loss_includes_float": null,
+        "daily_loss_includes_commissions": null,
+        "max_loss_type": "TBD",
+        "max_loss_locks_at_initial": null,
+        "drawdown_calculation": "TBD"
+      },
+      "trading_rules": {
+        "overnight_holding": false,
+        "weekend_holding": false,
+        "market_close_time_ct": "16:00",
+        "market_open_time_ct": "17:00",
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "copy_trading_allowed": "own_accounts_only",
+        "prohibited_strategies": [
+          "Hedging",
+          "HFT Bots",
+          "Microscalping (<10sec 50% rule)",
+          "Platform Exploitation",
+          "Micro and Mini Simultaneous Trading",
+          "Third-party Copy Trading"
+        ]
+      },
+      "payout_structure": {
+        "profit_split_pct": 90,
+        "withdrawal_frequency_days": 5,
+        "min_withdrawal_amount": 250,
+        "min_profit_for_withdrawal": null,
+        "benchmark_days_for_payout": 5,
+        "consistency_rule_payout": false,
+        "consistency_rule_payout_pct": null,
+        "performance_reward_cap": {
+          "50K": 3000,
+          "100K": 4000,
+          "150K": 5000
+        },
+        "first_payout_delay_days": null
+      },
+      "restrictions": {
+        "inactivity_days_breach": 7,
+        "inactivity_days_funded_breach": 7,
+        "disciplinary_program": null,
+        "account_reset_allowed": true
+      }
+    }
+  ]
+}

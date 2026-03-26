@@ -1,0 +1,186 @@
+{
+  "firm_name": "FundedNext",
+  "division": "Futures",
+  "last_verified": "2026-03-24",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://fundednext.com/futures/challenges",
+    "https://fundednext.com/futures/rules"
+  ],
+  "challenge_models": [
+    {
+      "model_name": "Rapid Challenge",
+      "model_type": "speed",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target": 1500,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 1000,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": 500,
+          "daily_loss_limit_pct": 2.0
+        },
+        {
+          "size": 50000,
+          "profit_target": 3000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 2000,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": 1000,
+          "daily_loss_limit_pct": 2.0
+        },
+        {
+          "size": 100000,
+          "profit_target": 5000,
+          "profit_target_pct": 5.0,
+          "max_loss_limit": 2500,
+          "max_loss_limit_pct": 2.5,
+          "daily_loss_limit": 2000,
+          "daily_loss_limit_pct": 2.0
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 0,
+        "consistency_rule_active": false,
+        "consistency_rule_pct": null,
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "daily_loss_type": "Trailing EOD",
+        "daily_loss_includes_float": true,
+        "daily_loss_includes_commissions": true,
+        "max_loss_type": "Trailing EOD (locks at initial)",
+        "max_loss_locks_at_initial": true,
+        "drawdown_calculation": "Equity (Balance + Float)"
+      },
+      "trading_rules": {
+        "overnight_holding": false,
+        "weekend_holding": false,
+        "market_close_time_ct": "15:10",
+        "market_open_time_ct": "17:00",
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "copy_trading_allowed": "own_accounts_only",
+        "prohibited_strategies": [
+          "Grid Trading",
+          "Micro-Scalping",
+          "Spoofing",
+          "Layering",
+          "Latency Arbitrage",
+          "Wash Trading",
+          "Account Rolling",
+          "Signal Services"
+        ]
+      },
+      "payout_structure": {
+        "profit_split_pct": 80,
+        "withdrawal_frequency_days": 3,
+        "min_withdrawal_amount": 250,
+        "min_profit_for_withdrawal": 250,
+        "benchmark_days_for_payout": 0,
+        "consistency_rule_payout": true,
+        "consistency_rule_payout_pct": 40,
+        "performance_reward_cap": {
+          "25K": 3000,
+          "50K": 6000,
+          "100K": 6000
+        },
+        "first_payout_delay_days": null
+      },
+      "restrictions": {
+        "inactivity_days_breach": 7,
+        "inactivity_days_funded_breach": 30,
+        "disciplinary_program": true,
+        "account_reset_allowed": false
+      }
+    },
+    {
+      "model_name": "Legacy Challenge",
+      "model_type": "discipline",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target": 1250,
+          "profit_target_pct": 5.0,
+          "max_loss_limit": 1000,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": 500,
+          "daily_loss_limit_pct": 2.0
+        },
+        {
+          "size": 50000,
+          "profit_target": 3000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 2000,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": 1000,
+          "daily_loss_limit_pct": 2.0,
+          "note": "Before Jan 5, 2026: $2,500 max loss"
+        },
+        {
+          "size": 100000,
+          "profit_target": 6000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 3000,
+          "max_loss_limit_pct": 3.0,
+          "daily_loss_limit": 2000,
+          "daily_loss_limit_pct": 2.0
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 0,
+        "consistency_rule_active": true,
+        "consistency_rule_pct": 40,
+        "consistency_rule_penalty": "Target increases: highest_day / 0.40",
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "daily_loss_type": "Trailing EOD",
+        "daily_loss_includes_float": true,
+        "daily_loss_includes_commissions": true,
+        "max_loss_type": "Trailing EOD (locks at initial)",
+        "max_loss_locks_at_initial": true,
+        "drawdown_calculation": "Equity (Balance + Float)"
+      },
+      "trading_rules": {
+        "overnight_holding": false,
+        "weekend_holding": false,
+        "market_close_time_ct": "15:10",
+        "market_open_time_ct": "17:00",
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "copy_trading_allowed": "own_accounts_only",
+        "prohibited_strategies": [
+          "Grid Trading",
+          "Micro-Scalping",
+          "Spoofing",
+          "Layering",
+          "Latency Arbitrage",
+          "Wash Trading",
+          "Account Rolling",
+          "Signal Services"
+        ]
+      },
+      "payout_structure": {
+        "profit_split_pct": 80,
+        "withdrawal_frequency_days": 5,
+        "min_withdrawal_amount": 250,
+        "min_profit_for_withdrawal": 500,
+        "benchmark_days_for_payout": 5,
+        "consistency_rule_payout": false,
+        "consistency_rule_payout_pct": null,
+        "performance_reward_cap": null,
+        "first_payout_delay_days": null
+      },
+      "restrictions": {
+        "inactivity_days_breach": 7,
+        "inactivity_days_funded_breach": 30,
+        "disciplinary_program": true,
+        "account_reset_allowed": false
+      }
+    }
+  ]
+}
