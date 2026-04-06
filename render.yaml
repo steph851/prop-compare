@@ -1,13 +1,9 @@
-databases: []
+build:
+  pip install -r requirements.txt
 
-services:
-  - type: web
-    name: propintel
-    env: python
-    region: oregon
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "uvicorn api:app --host 0.0.0.0 --port 8000 --no-access-log"
-    envVars:
-      - key: PYTHONUNBUFFERED
-        value: "1"
-    pythonVersion: "3.14.3"
+run:
+  uvicorn api:app --host 0.0.0.0 --port 8000
+
+env:
+  - key: PYTHONUNBUFFERED
+    value: "1"
