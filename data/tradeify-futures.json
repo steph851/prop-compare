@@ -1,184 +1,421 @@
 {
   "firm_name": "Tradeify",
   "division": "Futures",
-  "last_verified": "2026-03-25",
+  "last_verified": "2026-03-27",
   "verified_by": "Steph",
   "source_urls": [
-    "https://www.propfirmmatch.com/prop-firms/tradeify",
-    "https://help.tradeify.co"
+    "https://tradeify.co",
+    "https://propfirmmatch.com/futures/prop-firms/tradeify",
+    "https://www.proptradingvibes.com/blog/myfundedfutures-vs-tradeify"
   ],
-  "challenge_models": [
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2024,
+    "ceo": "Brett Simberkoff",
+    "company_tagline": "Transparent futures funding with trader-friendly rules",
+    "platforms_offered": [
+      "NinjaTrader",
+      "Tradovate",
+      "TradingView",
+      "Quantower",
+      "WealthCharts"
+    ],
+    "payment_methods": [
+      "Credit Card",
+      "Crypto",
+      "PayPal"
+    ],
+    "payout_methods": [
+      "Plane",
+      "Riseworks"
+    ],
+    "review_score_avg": 4.8,
+    "review_count": 149,
+    "review_platform": "Prop Firm Match",
+    "trading_hours": "6:00 PM - 5:00 PM EST (Next Day)",
+    "regulated_exchanges": [
+      "CME",
+      "CBOT",
+      "NYMEX",
+      "COMEX"
+    ],
+    "account_minimum": 25000,
+    "account_maximum": 150000,
+    "total_paid_out": "Not publicly disclosed",
+    "traders_funded": "Not publicly disclosed"
+  },
+  "💰 PRICING & OFFERS": {
+    "pricing_model": "One-time challenge fee (30% off promo ends Apr 1)",
+    "account_sizes_pricing": {
+      "25000": {
+        "monthly_usd": 230.3,
+        "activation_fee": 0,
+        "total_first_month": 230.3,
+        "note": "Lightning Funded Plan (Instant)"
+      },
+      "50000": {
+        "monthly_usd": 97.3,
+        "activation_fee": 0,
+        "total_first_month": 97.3,
+        "note": "Growth Plan (1-Step)"
+      },
+      "100000": {
+        "monthly_usd": 181.3,
+        "activation_fee": 0,
+        "total_first_month": 181.3,
+        "note": "Select Flex (1-Step)"
+      },
+      "150000": {
+        "monthly_usd": 251.3,
+        "activation_fee": 0,
+        "total_first_month": 251.3,
+        "note": "Select Flex (1-Step)"
+      }
+    },
+    "commission_structure": {
+      "per_contract_futures": "$1.29 per side ($2.58 roundtrip)",
+      "note": "Varies by instrument; full list at help.tradeify.co"
+    },
+    "leverage_offered": {
+      "futures": "1:4 (based on contract scaling)",
+      "details": "$25k: 1 contract (10 micros); $50k: 4 contracts (40 micros); $100k: 8 contracts (80 micros); $150k: 12 contracts (120 micros)"
+    },
+    "active_promotions": [
+      "30% off all accounts (Ends: Apr 1)"
+    ],
+    "refund_policy": "Monthly subscription fees are non-refundable; resets available (max 10 resets per 30-day period). Max 15 evaluations purchased per 30-day period."
+  },
+  "📊 CHALLENGE MODELS": [
     {
       "model_name": "Growth Plan",
-      "model_type": "discipline",
+      "model_type": "standard",
+      "description": "1-Step evaluation with 35% consistency rule. Requires 5 winning days to request payout.",
       "account_sizes": [
         {
           "size": 50000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 4,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 35,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null
         },
         {
           "size": 100000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 4000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 8,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 35,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null
         },
         {
           "size": 150000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 6000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 12,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 35,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null
         }
-      ],
-      "passing_requirements": {
-        "profit_target_required": true,
-        "min_trading_days": 0,
-        "consistency_rule_active": true,
-        "consistency_rule_pct": 35,
-        "benchmark_days_required": 0
-      },
-      "risk_limits": {
-        "daily_loss_type": "TBD",
-        "daily_loss_includes_float": null,
-        "daily_loss_includes_commissions": null,
-        "max_loss_type": "TBD",
-        "max_loss_locks_at_initial": null,
-        "drawdown_calculation": "TBD"
-      },
-      "trading_rules": {
-        "overnight_holding": false,
-        "weekend_holding": false,
-        "market_close_time_ct": "16:00",
-        "market_open_time_ct": "17:00",
-        "news_trading_allowed": true,
-        "ea_allowed": true,
-        "copy_trading_allowed": "own_accounts_only",
-        "prohibited_strategies": [
-          "Hedging",
-          "HFT Bots",
-          "Microscalping (<10sec 50% rule)",
-          "Platform Exploitation",
-          "Micro and Mini Simultaneous Trading",
-          "Third-party Copy Trading"
-        ]
-      },
-      "payout_structure": {
-        "profit_split_pct": 90,
-        "withdrawal_frequency_days": null,
-        "min_withdrawal_amount": 500,
-        "min_profit_for_withdrawal": 500,
-        "benchmark_days_for_payout": 5,
-        "consistency_rule_payout": true,
-        "consistency_rule_payout_pct": 35,
-        "performance_reward_cap": {
-          "50K": 3000,
-          "100K": 4000,
-          "150K": 5000
-        },
-        "first_payout_delay_days": null
-      },
-      "restrictions": {
-        "inactivity_days_breach": 7,
-        "inactivity_days_funded_breach": 7,
-        "disciplinary_program": null,
-        "account_reset_allowed": true
-      }
+      ]
     },
     {
       "model_name": "Select",
-      "model_type": "discipline",
+      "model_type": "standard",
+      "description": "Evaluation phase with 40% consistency rule. After funding, choose Flex (5-day payouts) or Daily payout policy.",
       "account_sizes": [
         {
           "size": 50000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 4,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 40,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null
         },
         {
           "size": 100000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 4000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 8,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 40,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null
         },
         {
           "size": 150000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 6000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 12,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 40,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null
         }
       ],
-      "passing_requirements": {
-        "profit_target_required": true,
-        "min_trading_days": 0,
-        "consistency_rule_active": true,
-        "consistency_rule_pct": 40,
-        "benchmark_days_required": 0
-      },
-      "risk_limits": {
-        "daily_loss_type": "TBD",
-        "daily_loss_includes_float": null,
-        "daily_loss_includes_commissions": null,
-        "max_loss_type": "TBD",
-        "max_loss_locks_at_initial": null,
-        "drawdown_calculation": "TBD"
-      },
-      "trading_rules": {
-        "overnight_holding": false,
-        "weekend_holding": false,
-        "market_close_time_ct": "16:00",
-        "market_open_time_ct": "17:00",
-        "news_trading_allowed": true,
-        "ea_allowed": true,
-        "copy_trading_allowed": "own_accounts_only",
-        "prohibited_strategies": [
-          "Hedging",
-          "HFT Bots",
-          "Microscalping (<10sec 50% rule)",
-          "Platform Exploitation",
-          "Micro and Mini Simultaneous Trading",
-          "Third-party Copy Trading"
-        ]
-      },
-      "payout_structure": {
-        "profit_split_pct": 90,
-        "withdrawal_frequency_days": 5,
-        "min_withdrawal_amount": 250,
-        "min_profit_for_withdrawal": null,
-        "benchmark_days_for_payout": 5,
-        "consistency_rule_payout": false,
-        "consistency_rule_payout_pct": null,
-        "performance_reward_cap": {
-          "50K": 3000,
-          "100K": 4000,
-          "150K": 5000
+      "post_funding_payout_policies": {
+        "flex": {
+          "description": "Every 5 winning days (min $150-250 profit/day)",
+          "buffer": "$2,100 (50k), $2,600 (100k), $3,600 (150k)",
+          "caps": "$3,000 (50k), $4,000 (100k), $5,000 (150k)"
         },
-        "first_payout_delay_days": null
-      },
-      "restrictions": {
-        "inactivity_days_breach": 7,
-        "inactivity_days_funded_breach": 7,
-        "disciplinary_program": null,
-        "account_reset_allowed": true
+        "daily": {
+          "description": "Daily payouts with 20/25/30% sliding consistency",
+          "caps": "$1,000 (50k), $1,500 (100k), $2,500 (150k)"
+        }
       }
+    },
+    {
+      "model_name": "Lightning Funded (Instant Funding)",
+      "model_type": "instant",
+      "description": "No evaluation phase. Tiered consistency rules based on payout number (20% → 25% → 30%).",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 750,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 1,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": "20% (1st), 25% (2nd), 30% (3rd+)",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null,
+          "note": "Payout goals: 6% first, then 4% recurring"
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 1500,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 4,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": "20% (1st), 25% (2nd), 30% (3rd+)",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null,
+          "note": "Payout goals: 6% first, then 4% recurring"
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 8,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": "20% (1st), 25% (2nd), 30% (3rd+)",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null,
+          "note": "Payout goals: 6% first, then 3.5% recurring"
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 4500,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 12,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": "20% (1st), 25% (2nd), 30% (3rd+)",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "refund_policy_days": null,
+          "note": "Payout goals: 6% first, then 3% recurring"
+        }
+      ]
     }
-  ]
+  ],
+  "🎯 PAYOUT STRUCTURE": {
+    "sim_funded_account": {
+      "profit_split_pct": "90%",
+      "payout_frequency": "Varies by plan (Growth: after 5 winning days; Select Flex: every 5 winning days; Select Daily: daily; Lightning: upon hitting profit goals)",
+      "payout_methods": [
+        "Plane (International)",
+        "Riseworks"
+      ],
+      "withdrawal_days": 1,
+      "first_payout_delay_days": 0,
+      "note": "Payout caps apply per tier (e.g., $1,500-$3,000 first payout for 50k accounts)"
+    },
+    "tradeify_elite": {
+      "profit_split_pct": "90%",
+      "payout_frequency": "Unlimited",
+      "withdrawal_days": 3,
+      "upgrade_requirement": "Not specified in listing",
+      "max_account_scale": "Not specified in listing"
+    }
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 65,
+    "difficulty_reasoning": "Complex sliding consistency rules (20/25/30%) and payout caps increase cognitive load; microscalping rule (50% > 10 seconds) adds restriction; EOD drawdown is beginner-friendly but restrictions favor disciplined traders.",
+    "transparency_score": 8,
+    "transparency_note": "Rules are clearly documented, though payout complexity requires careful reading. 4.8/5 rating on 149 reviews indicates strong user satisfaction.",
+    "support_quality_score": 8,
+    "community_size": "Small (~149 reviews, newer firm)",
+    "completion_rate_pct": "Not disclosed",
+    "avg_time_to_pass_days": "Not disclosed",
+    "best_suited_for": "Traders who prefer EOD drawdown, want 90% split, and can navigate complex consistency rules; scalpers who hold >10 seconds; algorithmic traders willing to verify bot ownership.",
+    "worst_suited_for": "Swing traders (no overnight); high-frequency scalpers (<10 seconds); hedgers; traders wanting simple payout caps; copy-traders using third-party groups.",
+    "payout_reliability": "Good (149 reviews, 4.8 rating; payout caps limit exposure for firm)",
+    "platform_stability": "Stable (multiple third-party platforms supported)",
+    "key_strength": "90% profit split; multiple platform options; clear EOD drawdown; instant funding option (Lightning).",
+    "key_weakness": "Complex tiered consistency rules; restrictive trading rules (no hedging, no micro/mini mixing, microscalping rule); low initial payout caps."
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "Complex Sliding Consistency Rules",
+        "severity": "medium",
+        "detail": "Lightning accounts have consistency rules that change per payout (20% → 25% → 30%). Easy to violate if unaware."
+      },
+      {
+        "flag": "Microscalping Restriction",
+        "severity": "medium",
+        "detail": "At least 50% of profit must come from trades held longer than 10 seconds. Bans pure high-frequency scalping."
+      },
+      {
+        "flag": "No Hedging / No Micro-Mini Mixing",
+        "severity": "medium",
+        "detail": "Hedging prohibited. Cannot hold micro and mini contracts simultaneously. Restricts sophisticated position management."
+      },
+      {
+        "flag": "Payout Caps",
+        "severity": "medium",
+        "detail": "Initial payouts capped low (e.g., $1,500 on 50k Growth first payout). Caps increase gradually but limit early withdrawals."
+      },
+      {
+        "flag": "Newer Firm (June 2024)",
+        "severity": "low",
+        "detail": "Limited long-term track record compared to established competitors."
+      },
+      {
+        "flag": "Restricted Countries",
+        "severity": "high",
+        "detail": "Extensive restricted list includes Israel, Turkey, Russia, Ukraine, Indonesia, Malaysia, and many others."
+      }
+    ],
+    "restricted_countries": [
+      "Afghanistan",
+      "Albania",
+      "Algeria",
+      "Andorra",
+      "Angola",
+      "Bahamas",
+      "Barbados",
+      "Belarus",
+      "Bosnia and Herzegovina",
+      "Botswana",
+      "Bulgaria",
+      "Burundi",
+      "Cambodia",
+      "Central African Republic",
+      "Cote d'Ivoire",
+      "Crimea",
+      "Cuba",
+      "Democratic Republic of the Congo",
+      "Ecuador",
+      "Ethiopia",
+      "Ghana",
+      "Iceland",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Israel",
+      "Jamaica",
+      "Kosovo",
+      "Laos",
+      "Lebanon",
+      "Liberia",
+      "Libya",
+      "Malaysia",
+      "Mauritius",
+      "Mongolia",
+      "Montenegro",
+      "Morocco",
+      "Myanmar",
+      "Nicaragua",
+      "North Korea",
+      "Pakistan",
+      "Panama",
+      "Papua New Guinea",
+      "Russia",
+      "Somalia",
+      "South Sudan",
+      "Sri Lanka",
+      "Sudan",
+      "Syria",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Uganda",
+      "Ukraine",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zimbabwe"
+    ],
+    "account_minimum_ok": true,
+    "minimum_experience_months": 6,
+    "advantages_over_competitors": [
+      "90% profit split across all plans",
+      "EOD drawdown (easier than intraday trailing)",
+      "Multiple platform support (TradingView, NinjaTrader, etc.)",
+      "Instant funding option (Lightning)",
+      "Clear, transparent rules documentation"
+    ]
+  },
+  "💡 PRO TIPS FOR TRADERS": [
+    "Use the 30% off promo before Apr 1 for best pricing",
+    "For Lightning accounts, track consistency rule carefully—it changes after each payout (20% → 25% → 30%)",
+    "Avoid microscalping violations—ensure at least 50% of profit comes from trades >10 seconds",
+    "Do not use Daily Loss Limit as a stop loss—slippage can breach trailing drawdown",
+    "If using bots, prepare for video verification of code ownership; bots cannot be used across multiple firms",
+    "Select Flex requires buffer (e.g., $2,100 for 50k) before withdrawals—factor this into expectations",
+    "Check restricted countries list before purchasing to avoid account issues"
+  ],
+  "⚖️ COMPETITIVE POSITIONING": {
+    "vs_topstep": "Tradeify: EOD drawdown, 90% split, $97/mo (50k). Topstep: intraday trailing, 80-90% split, $49/mo (50k). Tradeify easier drawdown but more complex payout rules.",
+    "vs_apex": "Tradeify: no activation fee, EOD drawdown, $97/mo. Apex: lower upfront, stricter intraday rules.",
+    "vs_myforex": "Tradeify: futures only, 90% split, stricter microscalping rule. MFFU: forex + futures, more flexible.",
+    "unique_advantage": "EOD drawdown + 90% split + multiple platform support. Strong for disciplined day traders who avoid hedging and scalping."
+  },
+  "generated_at": "2026-03-27T15:30:00Z"
 }

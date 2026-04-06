@@ -1,1 +1,11 @@
 2026-03-26T05:13:02.3457188-04:00 | [firm-name] | [approve/reject] | [reason]
+[2026-03-28 06:12:19] ✅ FundedNext | Difficulty: 
+[2026-03-28T14:39:03.856088] FAILED | blueberry | step=discovery
+[2026-03-28T14:46:05.498276] COMPLETE | lucid | step=full_pipeline
+[2026-03-28T15:32:38.262719] COMPLETE | topstep | step=full_pipeline
+[2026-03-28T15:49:26.704370] FAILED | takeprofit | step=discovery
+[2026-03-28T15:58:36.727777] COMPLETE | tpt | step=full_pipeline
+[2026-03-28T16:32:47.492745] FAILED | t1 | step=discovery
+[2026-03-28T16:40:19.359470] COMPLETE | tradeday | step=full_pipeline
+[2026-03-29T02:28:00.400186] COMPLETE | apex | step=full_pipeline
+[2026-03-29T02:39:39.459003] COMPLETE | tl | step=full_pipeline

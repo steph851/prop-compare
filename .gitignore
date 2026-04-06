@@ -35,3 +35,20 @@ __pycache__/
 .Python
 venv/
 env/
+
+# ── Local Config & Personal ──
+.env.local
+.env.local.*
+RESUME.pdf
+RESUME.md
+=.30.0
+=.40.0
+=.0.41.0
+=.1.0.0
+=.2.31.0
+.claude-skills.md
+.claude/
+config.json
+memory/
+staging/
+agents/

@@ -1,0 +1,403 @@
+{
+  "firm_name": "Traders Launch",
+  "division": "Futures",
+  "last_verified": "2026-03-29",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://traderslaunch.com",
+    "https://traderslaunch.com/terms-and-conditions"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2023,
+    "years_in_operation": 3,
+    "restricted_countries": [],
+    "restricted_countries_source": "https://traderslaunch.com/terms-and-conditions",
+    "restricted_countries_verified": false,
+    "restricted_countries_note": "Not publicly enumerated in T&C as a named list. Terms reference OFAC/sanctions compliance. Confirm eligibility directly with firm.",
+    "platforms_offered": [
+      "QuantTower",
+      "TradingView",
+      "Volumetrica"
+    ],
+    "payment_methods": [
+      "Credit Card",
+      "Debit Card",
+      "Crypto"
+    ],
+    "payout_methods": [
+      "Crypto",
+      "Bank Transfer"
+    ],
+    "brokers": [
+      "IBKR (Interactive Brokers)"
+    ],
+    "max_allocation_per_trader": 1500000,
+    "estimated_user_count": null,
+    "review_score_avg": 4.6,
+    "review_count": 61,
+    "is_featured_favorite": false,
+    "ceo": "Max Thomas",
+    "trustpilot_rating": 4.6
+  },
+  "💰 PRICING & OFFERS": {
+    "one_time_fee_usd": null,
+    "monthly_subscription_usd": 109.0,
+    "refund_policy_days": null,
+    "active_promotions": [
+      "15% OFF available via propfirmmatch.com"
+    ],
+    "commission_structure": {
+      "per_lot_forex": null,
+      "per_contract_futures": null,
+      "crypto_percentage": null,
+      "commission_info_url": null
+    },
+    "leverage_offered": {
+      "forex": null,
+      "indices": null,
+      "gold": null,
+      "silver": null,
+      "oil": null,
+      "futures_general": "Varies by contract; CME, CBOT, COMEX, NYMEX listed instruments"
+    },
+    "model_pricing": {
+      "Standard Evaluation (1-Step)": {
+        "100K NYC 55%": {
+          "original": 109.0,
+          "discounted": 92.65
+        },
+        "100K 22hr 80%": {
+          "original": 159.0,
+          "discounted": 135.15
+        },
+        "200K NYC 80%": {
+          "original": 279.0,
+          "discounted": 237.15
+        },
+        "200K 22hr 80%": {
+          "original": 299.0,
+          "discounted": 254.15
+        },
+        "300K NYC 80%": {
+          "original": 279.0,
+          "discounted": 237.15
+        },
+        "300K 22hr 80%": {
+          "original": 599.0,
+          "discounted": 509.15
+        }
+      }
+    }
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "Standard Evaluation (1-Step)",
+      "model_type": "discipline",
+      "description": "Single-phase evaluation with EOD drawdown. No time limit. No consistency rules once funded.",
+      "sessions": [
+        "NYC (9:30 AM–4:00 PM ET)",
+        "22-Hour (6:00 PM–4:00 PM ET)"
+      ],
+      "account_sizes": [
+        {
+          "size": 100000,
+          "profit_target_pct": 2.0,
+          "profit_target_usd": 2000,
+          "max_loss_limit_pct": 1.0,
+          "max_loss_limit_usd": 1000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": false,
+          "drawdown_type": "End-of-Day (EOD) — Locks at Starting Balance",
+          "drawdown_note": "Drawdown floor is fixed at original starting balance; does not trail upward",
+          "minimum_trading_days": 0,
+          "time_limit_days": null,
+          "starting_contracts": "2 Mini or 20 Micros",
+          "max_contracts": 15,
+          "overnight_holding_nyc": false,
+          "overnight_holding_22hr": true,
+          "consistency_rule_eval": false,
+          "consistency_rule_funded": false,
+          "payout_frequency": "Daily (on-demand)",
+          "payout_threshold_pct": 1.0,
+          "payout_threshold_usd": 1000,
+          "profit_split_options": [
+            55,
+            80
+          ],
+          "monthly_fee_nyc_55pct": 109.0,
+          "monthly_fee_22hr_80pct": 159.0,
+          "activation_fee": 0
+        },
+        {
+          "size": 200000,
+          "profit_target_pct": 2.0,
+          "profit_target_usd": 4000,
+          "max_loss_limit_pct": 1.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": false,
+          "drawdown_type": "End-of-Day (EOD) — Locks at Starting Balance",
+          "drawdown_note": "Drawdown floor is fixed at original starting balance; does not trail upward",
+          "minimum_trading_days": 0,
+          "time_limit_days": null,
+          "starting_contracts": "4 Mini or 40 Micros",
+          "max_contracts": 15,
+          "overnight_holding_nyc": false,
+          "overnight_holding_22hr": true,
+          "consistency_rule_eval": false,
+          "consistency_rule_funded": false,
+          "payout_frequency": "Daily (on-demand)",
+          "payout_threshold_pct": 1.0,
+          "payout_threshold_usd": 2000,
+          "profit_split_options": [
+            55,
+            80
+          ],
+          "monthly_fee_nyc_80pct": 279.0,
+          "monthly_fee_22hr_80pct": 299.0,
+          "activation_fee": 0
+        },
+        {
+          "size": 300000,
+          "profit_target_pct": 2.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 1.0,
+          "max_loss_limit_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": false,
+          "drawdown_type": "End-of-Day (EOD) — Locks at Starting Balance",
+          "drawdown_note": "Drawdown floor is fixed at original starting balance; does not trail upward",
+          "minimum_trading_days": 0,
+          "time_limit_days": null,
+          "starting_contracts": "6 Mini or 60 Micros",
+          "max_contracts": 15,
+          "overnight_holding_nyc": false,
+          "overnight_holding_22hr": true,
+          "consistency_rule_eval": false,
+          "consistency_rule_funded": false,
+          "payout_frequency": "Daily (on-demand)",
+          "payout_threshold_pct": 1.0,
+          "payout_threshold_usd": 3000,
+          "profit_split_options": [
+            80
+          ],
+          "monthly_fee_nyc_80pct": 279.0,
+          "monthly_fee_22hr_80pct": 599.0,
+          "activation_fee": 0
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": "22-Hour session only; NYC session must close by 4:00 PM ET",
+        "news_trading_allowed": true,
+        "news_trading_note": "News trading permitted on all sessions",
+        "ea_allowed": false,
+        "ea_restrictions": "Manual trading only; automated/EA trading prohibited",
+        "copy_trading_allowed": null,
+        "copy_trading_restrictions": "Not confirmed; verify directly with firm",
+        "hedging_allowed": null,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "max_contracts_all_sizes": 15,
+        "prohibited_strategies": [
+          "Automated/EA trading",
+          "Any strategy that manipulates or exploits the simulation environment"
+        ],
+        "allowed_instruments": "Futures on CME, CBOT, COMEX, NYMEX"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 80,
+        "profit_split_options": [
+          55,
+          80
+        ],
+        "profit_split_detail": "Fixed split chosen at signup; 55% lower cost entry, 80% higher cost entry. No tiered progression.",
+        "first_payout_delay_days": 3,
+        "minimum_payout": 1000.0,
+        "payout_threshold_pct": 1.0,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "payout_caps": "None",
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "consistency_rule_funded": false,
+        "consistency_note": "No consistency rules once funded — major differentiator",
+        "forty_pct_rule_funded": true,
+        "forty_pct_rule_note": "Best single day must not exceed 40% of total profits in funded stage only",
+        "payout_processing_hours": 6.0,
+        "highest_documented_payout_usd": 54500
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "inactivity_days_breach": null,
+        "inactivity_note": "Not publicly specified",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": null,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": false,
+        "details_url": null,
+        "requirements": "Sim-funded model with real payouts; not explicitly live capital"
+      }
+    }
+  ],
+  "🎯 COMPARISON SCORECARD": {
+    "_note": "Flat 38-metric scorecard. Every field required. Use null if genuinely unknown. Powers side-by-side firm comparisons.",
+    "firm_background": {
+      "year_founded": 2023,
+      "headquarters_country": "United States",
+      "restricted_countries_count": null,
+      "restricted_countries_includes_kenya": null,
+      "review_score_avg": 4.6,
+      "review_count": 61
+    },
+    "pricing": {
+      "cheapest_account_usd": 92.65,
+      "cheapest_account_regular_usd": 109.0,
+      "cheapest_account_model": "Standard Evaluation 100K NYC 55% (15% off via propfirmmatch.com)",
+      "has_subscription_fee": true,
+      "subscription_fee_monthly_usd": 109.0,
+      "active_discount_codes": [
+        "15% OFF via propfirmmatch.com"
+      ],
+      "best_current_discount_pct": 15.0
+    },
+    "challenge_rules": {
+      "profit_target_pct_range": "2%",
+      "trailing_drawdown_types": [
+        "EOD"
+      ],
+      "best_max_loss_pct": 1.0,
+      "has_daily_loss_limit_any_model": false,
+      "daily_loss_limit_on_all_models": false,
+      "min_trading_days_to_pass": 0,
+      "has_consistency_rule_any_model": false
+    },
+    "payout_terms": {
+      "max_profit_split_pct": 80,
+      "has_first_10k_bonus": false,
+      "first_10k_split_pct": null,
+      "fastest_payout_days": 1,
+      "min_withdrawal_usd": 1000.0,
+      "payout_processing_hours": 6.0,
+      "has_payout_cap_any_model": false
+    },
+    "trading_restrictions": {
+      "overnight_holding": "some_models",
+      "news_trading": "allowed",
+      "ea_allowed": false,
+      "copy_trading_allowed": null,
+      "instruments": "Futures only (CME, CBOT, COMEX, NYMEX)"
+    },
+    "model_availability": {
+      "num_challenge_models": 1,
+      "has_instant_funded_model": false,
+      "has_live_capital_path": false,
+      "max_account_size_usd": 300000,
+      "max_accounts_per_trader": 5,
+      "platforms_count": 3
+    }
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 60.0,
+    "best_for_beginners": false,
+    "best_for_scalpers": true,
+    "best_for_swing": false,
+    "best_for_large_cap": true,
+    "transparency_score": 8.0,
+    "support_quality_score": 7.0,
+    "value_score": 7.0,
+    "innovation_score": 7.5,
+    "key_differentiators": [
+      "No consistency rules once funded — rare in the industry",
+      "Daily on-demand payouts with no payout caps",
+      "EOD drawdown locks at starting balance — never trails up, giving growing accounts permanent cushion",
+      "Up to 5 funded accounts with $1.5M total capital exposure",
+      "22-Hour session allows overnight futures holding",
+      "Zero fees once funded — monthly subscription stops at funded stage",
+      "No activation fee on any account size",
+      "1% profit threshold for daily payout requests — very accessible"
+    ],
+    "potential_concerns": [
+      "Monthly subscription model during evaluation — slow evaluators accumulate more cost",
+      "EA/automated trading prohibited — manual trading only",
+      "Small review base (61 Trustpilot reviews) — limited track record at scale",
+      "NYC session disallows overnight holding — not suitable for swing traders on that session",
+      "Minimum account size $100K — no small starter accounts for newer traders",
+      "40% single-day rule in funded stage limits blow-out day strategies",
+      "Restricted countries list not publicly enumerated — eligibility unclear for many regions",
+      "Only 3 platforms offered — less variety than many competitors"
+    ]
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "Relatively Small Review Base",
+        "severity": "low",
+        "detail": "Only 61 Trustpilot reviews as of March 2026. Positive but limited track record at scale."
+      },
+      {
+        "flag": "Monthly Subscription Model During Eval",
+        "severity": "medium",
+        "detail": "Unlike one-time fee firms, you pay monthly until funded. Slow evaluators accumulate more cost."
+      },
+      {
+        "flag": "NYC Session — No Overnight Holding",
+        "severity": "medium",
+        "detail": "NYC session traders must close all positions by 4:00 PM ET. Not suitable for swing traders on this session."
+      },
+      {
+        "flag": "EA/Bots Prohibited",
+        "severity": "low",
+        "detail": "Manual trading only. No automated strategies permitted."
+      },
+      {
+        "flag": "Limited Account Sizes",
+        "severity": "low",
+        "detail": "Only $100K, $200K, $300K options. No smaller entry points for newer traders under $100K."
+      },
+      {
+        "flag": "40% Single-Day Rule in Funded Stage",
+        "severity": "low",
+        "detail": "No single trading day's profit can exceed 40% of total cumulative profits in the funded account. Limits blow-out day strategies."
+      },
+      {
+        "flag": "Restricted Countries Not Publicly Listed",
+        "severity": "medium",
+        "detail": "T&C references OFAC/sanctions compliance but no named country list is published. Traders must confirm eligibility directly with firm."
+      }
+    ],
+    "restricted_countries_note": "TBD — full official list not publicly disclosed; confirm with firm directly",
+    "account_minimum_ok": true,
+    "minimum_experience_months": null,
+    "pass_rate_pct": null
+  },
+  "💡 PRO TIPS FOR TRADERS": [
+    "No consistency rules once funded is rare — take advantage of aggressive trading days without fear of disqualification",
+    "Daily payouts with no caps = fastest path to compounding real income from a prop firm",
+    "55% split at lower monthly fee vs 80% split at higher fee — do the math based on your expected monthly profit",
+    "22-Hour session allows overnight holding — better for traders who swing overnight futures positions",
+    "Scale to 5 funded accounts = $1.5M total capital — one of the highest multi-account caps in the industry",
+    "1% profit threshold to request payout means you can withdraw very small gains daily",
+    "40% rule in funded stage: no single day should exceed 40% of total profits — plan trading accordingly",
+    "No time limit on evaluation — take as long as you need without accruing reset fees",
+    "EOD drawdown does not trail up — your floor remains at your starting balance, so you never lose cushion as you grow"
+  ],
+  "⚖️ COMPETITIVE POSITIONING": {
+    "vs_top_one_futures": "Traders Launch: Monthly fee, 55–80% split, daily payouts, no consistency rule funded, $100K–$300K. Top One Futures: One-time fee, 90% split, same-day payouts, consistency rules apply, $25K–$150K.",
+    "vs_apex": "Traders Launch: Monthly fee, higher account sizes, no consistency funded, daily payouts. Apex: Monthly fee, up to $300K, 100% on first $25K then 90%, trailing drawdown.",
+    "vs_topstep": "Traders Launch: No consistency rule funded, daily payouts, 80% split, newer firm. Topstep: Established 2012, 90% split, biweekly payouts, consistency rules apply.",
+    "unique_advantage": "No consistency rules once funded + daily payouts with no caps + up to 5 accounts ($1.5M exposure) = most flexible payout environment in the futures prop space"
+  },
+  "generated_at": "2026-03-29T02:36:30.667667Z"
+}'// APPROVED'

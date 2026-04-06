@@ -1,0 +1,712 @@
+{
+  "firm_name": "Take Profit Trader",
+  "division": "Futures",
+  "last_verified": "2026-03-28",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/22447557656477-Restricted-Countries",
+    "https://www.takeprofittrader.com",
+    "https://propfirmmatch.com/prop-firms/takeprofittrader"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2021,
+    "years_in_operation": 5,
+    "restricted_countries": [
+      "Afghanistan",
+      "Angola",
+      "Belize",
+      "Benin",
+      "Botswana",
+      "Burkina Faso",
+      "Burundi",
+      "Cameroon",
+      "Cape Verde",
+      "Central African Republic",
+      "Chad",
+      "Christmas Island",
+      "Cocos Islands",
+      "Comoros",
+      "Congo",
+      "Cook Islands",
+      "Cote d'Ivoire",
+      "Cuba",
+      "Djibouti",
+      "Dominica",
+      "Equatorial Guinea",
+      "Eritrea",
+      "Ethiopia",
+      "Falkland Islands",
+      "Fiji",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Gibraltar",
+      "Guinea",
+      "Guinea-Bissau",
+      "Guyana",
+      "Haiti",
+      "Heard Islands",
+      "Iran",
+      "Iraq",
+      "Jamaica",
+      "Jordan",
+      "Kazakhstan",
+      "Kenya",
+      "Kiribati",
+      "Kosovo",
+      "Laos",
+      "Lebanon",
+      "Lesotho",
+      "Libya",
+      "Malawi",
+      "Mali",
+      "Malta",
+      "Mauritania",
+      "Mauritius",
+      "Mayotte",
+      "Micronesia",
+      "Monaco",
+      "Mongolia",
+      "Montserrat",
+      "Morocco",
+      "Mozambique",
+      "Myanmar",
+      "Namibia",
+      "Nauru",
+      "Nepal",
+      "Niger",
+      "Nigeria",
+      "North Korea",
+      "North Macedonia",
+      "Northern Mariana Islands",
+      "Pakistan",
+      "Panama",
+      "Philippines",
+      "Qatar",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Saint Vincent and the Grenadines",
+      "Senegal",
+      "Serbia",
+      "Slovenia",
+      "Somalia",
+      "South Africa",
+      "Sudan",
+      "Syria",
+      "Tanzania",
+      "Turkey",
+      "Turkmenistan",
+      "Uganda",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zimbabwe"
+    ],
+    "restricted_countries_count": 90,
+    "restricted_countries_source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/22447557656477-Restricted-Countries",
+    "restricted_countries_verified": "2026-03-28",
+    "platforms_offered": [
+      "NinjaTrader",
+      "TradingView",
+      "Tradovate",
+      "Quantower",
+      "Rithmic RTrader Pro",
+      "Sierra Chart",
+      "Bookmap",
+      "ATAS",
+      "Finamark",
+      "Jigsaw",
+      "Multicharts",
+      "MotiveWave",
+      "Optimus Flow",
+      "R|Trader Pro",
+      "Edgeclear"
+    ],
+    "payment_methods": [
+      "Credit Card",
+      "Debit Card"
+    ],
+    "payout_methods": [
+      "Bank Transfer via Plaid (US, often same-day)",
+      "International wire (non-US)"
+    ],
+    "brokers": [
+      "Tradovate",
+      "Rithmic"
+    ],
+    "data_feeds": [
+      "CQG",
+      "Rithmic"
+    ],
+    "max_allocation_per_trader": 150000,
+    "max_funded_accounts": 5,
+    "max_test_accounts": null,
+    "estimated_user_count": null,
+    "review_score_avg": 4.4,
+    "review_count": 8785,
+    "review_platform": "Trustpilot",
+    "is_featured_favorite": null,
+    "ceo": "James Sixsmith",
+    "trustpilot_rating": 4.4,
+    "trading_hours": "6:00 PM ET to 5:00 PM ET (Sun–Fri, ~23hr session). All positions must close by 5:00 PM ET.",
+    "regulated_exchanges": [
+      "CME",
+      "CBOT",
+      "COMEX",
+      "NYMEX"
+    ],
+    "pass_rate_pct": 20.37,
+    "pass_rate_period": "Jan 2023 – Aug 2023 (self-reported)",
+    "ea_bots_allowed": false,
+    "copy_trading_allowed": true,
+    "copy_trading_note": "Copy trading allowed across your own accounts; cannot hold opposing positions across accounts simultaneously",
+    "overnight_holding": false,
+    "commission_per_rt": 5.0,
+    "commission_micros_per_rt": 0.5,
+    "payout_speed_hours": 24.0,
+    "admin_approval_hours": 12.0
+  },
+  "💰 PRICING & OFFERS": {
+    "one_time_fee_usd": 130.0,
+    "one_time_fee_note": "One-time $130 activation fee to unlock PRO after passing Test. Can be waived with promo code NOFEE40.",
+    "monthly_subscription_usd": null,
+    "refund_policy_days": null,
+    "refund_policy_note": "No automatic refunds on monthly fees. Buffer returned 50% if account closed within 60 days; 80% returned if closed after 60 days. Initial eval fee is non-refundable unless specific promo code applied.",
+    "active_promotions": [
+      "NOFEE40 - 40% lifetime discount + waived $130 PRO activation fee",
+      "MATCH - 40% off (via PropFirmMatch partnership)",
+      "50AND100 - 50% off monthly + refund of initial fee on first withdrawal",
+      "NOFEE100 - 30% off + no fees + full refund after first payout"
+    ],
+    "reward_system": "TPT Points earned for activity; redeemable for free resets and free accounts",
+    "commission_structure": {
+      "per_lot_forex": null,
+      "per_contract_futures": 5.0,
+      "per_contract_micros": 0.5,
+      "crypto_percentage": null,
+      "commission_info_url": null
+    },
+    "leverage_offered": {
+      "forex": null,
+      "indices": null,
+      "gold": null,
+      "silver": null,
+      "oil": null,
+      "futures_general": "Varies by contract; contract-specific limits apply"
+    },
+    "model_pricing": {
+      "1-Step Test": {
+        "25K": {
+          "original": 150.0,
+          "discounted": 105.0,
+          "discount_pct": 30.0,
+          "reset_fee": 100.0
+        },
+        "50K": {
+          "original": 170.0,
+          "discounted": 119.0,
+          "discount_pct": 30.0,
+          "reset_fee": 100.0
+        },
+        "75K": {
+          "original": 245.0,
+          "discounted": 171.5,
+          "discount_pct": 30.0,
+          "reset_fee": 100.0
+        },
+        "100K": {
+          "original": 330.0,
+          "discounted": 231.0,
+          "discount_pct": 30.0,
+          "reset_fee": 100.0
+        },
+        "150K": {
+          "original": 360.0,
+          "discounted": 252.0,
+          "discount_pct": 30.0,
+          "reset_fee": 100.0
+        }
+      },
+      "PRO Activation": {
+        "all_sizes": {
+          "original": 130.0,
+          "discounted": 0.0,
+          "discount_note": "Waived with NOFEE40 promo code"
+        }
+      }
+    }
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "1-Step Test",
+      "model_type": "evaluation",
+      "description": "Standard 1-step evaluation on simulated account. EOD trailing drawdown. No time limit. 5-day minimum trading days required.",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": 6.0,
+          "max_loss_limit_usd": 1500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "Removed January 2025",
+          "trailing_drawdown": true,
+          "drawdown_type": "EOD",
+          "drawdown_note": "Drawdown trails based on highest EOD balance, NOT intraday highs",
+          "minimum_trading_days": 5,
+          "max_trading_days": null,
+          "consistency_rule": true,
+          "consistency_pct": 50,
+          "consistency_note": "No single trading day may exceed 50% of total cumulative profits. Test phase only.",
+          "max_contracts_mini": 3,
+          "max_contracts_micro": 30
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "Removed January 2025",
+          "trailing_drawdown": true,
+          "drawdown_type": "EOD",
+          "minimum_trading_days": 5,
+          "max_trading_days": null,
+          "consistency_rule": true,
+          "consistency_pct": 50,
+          "max_contracts_mini": 6,
+          "max_contracts_micro": 60
+        },
+        {
+          "size": 75000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 4500,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "Removed January 2025",
+          "trailing_drawdown": true,
+          "drawdown_type": "EOD",
+          "minimum_trading_days": 5,
+          "max_trading_days": null,
+          "consistency_rule": true,
+          "consistency_pct": 50,
+          "max_contracts_mini": 9,
+          "max_contracts_micro": 90
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 4000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "Removed January 2025",
+          "trailing_drawdown": true,
+          "drawdown_type": "EOD",
+          "minimum_trading_days": 5,
+          "max_trading_days": null,
+          "consistency_rule": true,
+          "consistency_pct": 50,
+          "max_contracts_mini": 12,
+          "max_contracts_micro": 120
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 6000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "Removed January 2025",
+          "trailing_drawdown": true,
+          "drawdown_type": "EOD",
+          "minimum_trading_days": 5,
+          "max_trading_days": null,
+          "consistency_rule": true,
+          "consistency_pct": 50,
+          "max_contracts_mini": 15,
+          "max_contracts_micro": 150
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": true,
+        "news_trading_note": "News trading allowed during Test phase only",
+        "ea_allowed": false,
+        "ea_restrictions": "Automated trading strategies strictly prohibited at all stages",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Copy trading allowed across own accounts; cannot hold opposing positions across accounts simultaneously",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "price_limit_rule": null,
+        "cross_instrument_policy": null
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": null,
+        "profit_split_pct": null,
+        "first_payout_delay_days": null,
+        "minimum_payout": null,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "max_loss_lock": null
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 50,
+        "consistency_note": "No single trading day may exceed 50% of total cumulative profits. Applies in Test phase only.",
+        "inactivity_days_breach": null,
+        "inactivity_note": null,
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": true,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": 20.37
+      },
+      "live_transition": {
+        "available": false,
+        "details_url": null,
+        "requirements": "Must pass to unlock PRO account (sim-funded)"
+      }
+    },
+    {
+      "model_name": "PRO Account",
+      "model_type": "funded_simulated",
+      "description": "Sim-funded account unlocked after passing Test. Day-one withdrawals eligible once above buffer. Intraday trailing drawdown (key switch from Test). 80/20 profit split. Buffer zone applies. Max 3 resets before permanent account closure.",
+      "activation_fee": 130.0,
+      "activation_fee_note": "One-time fee to activate PRO after passing Test. Can be waived with promo code NOFEE40.",
+      "max_resets": 3,
+      "max_resets_note": "After 3 PRO resets, account is permanently closed.",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "TBD — exact figure not confirmed for $25K; reported to exist",
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday",
+          "drawdown_note": "CRITICAL: PRO uses intraday trailing — unrealized gains raise the floor in real-time",
+          "minimum_trading_days": null,
+          "buffer_required": 1500,
+          "buffer_note": "Balance must exceed $26,500 before any withdrawal is permitted",
+          "profit_split_pct": 80,
+          "consistency_rule": false,
+          "max_contracts_mini": 3,
+          "max_contracts_micro": 30
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": 1100,
+          "daily_loss_limit_confirmed": true,
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday",
+          "minimum_trading_days": null,
+          "buffer_required": 2000,
+          "buffer_note": "Balance must exceed $52,000 before withdrawal. 80% of buffer returned on account close if open >60 days.",
+          "profit_split_pct": 80,
+          "consistency_rule": false,
+          "max_contracts_mini": 6,
+          "max_contracts_micro": 60
+        },
+        {
+          "size": 75000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "TBD — not publicly confirmed",
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday",
+          "minimum_trading_days": null,
+          "buffer_required": 3000,
+          "buffer_note": "Balance must exceed $78,000 before withdrawal",
+          "profit_split_pct": 80,
+          "consistency_rule": false,
+          "max_contracts_mini": 9,
+          "max_contracts_micro": 90
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "TBD — not publicly confirmed",
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday",
+          "minimum_trading_days": null,
+          "buffer_required": 4000,
+          "buffer_note": "Balance must exceed $104,000 before withdrawal",
+          "profit_split_pct": 80,
+          "consistency_rule": false,
+          "max_contracts_mini": 12,
+          "max_contracts_micro": 120
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_note": "TBD — not publicly confirmed",
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday",
+          "minimum_trading_days": null,
+          "buffer_required": 6000,
+          "buffer_note": "Balance must exceed $156,000 before withdrawal",
+          "profit_split_pct": 80,
+          "consistency_rule": false,
+          "max_contracts_mini": 15,
+          "max_contracts_micro": 150
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": false,
+        "news_trading_note": "Must not trade 1–2 minutes before or after high-impact news events. Violation can trigger account termination.",
+        "ea_allowed": false,
+        "ea_restrictions": "Automated trading strategies strictly prohibited",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Copy trading allowed across own accounts; cannot hold opposing positions across accounts simultaneously",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "price_limit_rule": null,
+        "cross_instrument_policy": null
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 80,
+        "first_payout_delay_days": 1,
+        "minimum_payout": null,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "max_loss_lock": null,
+        "buffer_return_policy": "50% returned if account closed within 60 days; 80% returned if closed after 60 days"
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "inactivity_days_breach": null,
+        "inactivity_note": null,
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details_url": null,
+        "requirements": "Accumulate $5,000 in realized PRO profits to unlock PRO+ live account via Tradovate. $5,000 frozen as working capital during upgrade transition."
+      }
+    },
+    {
+      "model_name": "PRO+ Account",
+      "model_type": "funded_live",
+      "description": "Live brokerage account via Tradovate. Unlocked after accumulating $5,000 in realized PRO profits. No buffer zone. EOD trailing drawdown. 90/10 profit split. No daily loss limit. No consistency rule.",
+      "pro_plus_unlock_threshold_usd": 5000,
+      "pro_plus_unlock_note": "$5,000 from PRO profits is frozen as working capital during the upgrade process to PRO+. This amount is held and not immediately accessible.",
+      "broker": "Tradovate",
+      "live_capital": true,
+      "account_sizes": [
+        {
+          "size": null,
+          "size_note": "Mirrors PRO account size selected",
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "EOD",
+          "minimum_trading_days": null,
+          "buffer_required": 0,
+          "buffer_note": "No buffer zone in PRO+",
+          "profit_split_pct": 90,
+          "consistency_rule": false,
+          "max_contracts_mini": null,
+          "max_contracts_micro": null,
+          "max_contracts_note": "Same as PRO size equivalents",
+          "live_market": true
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": false,
+        "news_trading_note": "Same restriction as PRO: avoid 1–2 min before/after high-impact news",
+        "ea_allowed": false,
+        "ea_restrictions": "Automated trading strategies strictly prohibited",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Copy trading allowed across own accounts; cannot hold opposing positions across accounts simultaneously",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "price_limit_rule": null,
+        "cross_instrument_policy": null
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 90,
+        "first_payout_delay_days": 1,
+        "minimum_payout": null,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "max_loss_lock": null
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "inactivity_days_breach": null,
+        "inactivity_note": null,
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": false,
+        "details_url": null,
+        "requirements": "PRO+ is the final live capital stage"
+      }
+    }
+  ],
+  "🎯 COMPARISON SCORECARD": {
+    "_note": "Flat 38-metric scorecard. Every field required. Use null if genuinely unknown. Powers side-by-side firm comparisons.",
+    "firm_background": {
+      "year_founded": 2021,
+      "headquarters_country": "United States",
+      "restricted_countries_count": 90,
+      "restricted_countries_includes_kenya": true,
+      "review_score_avg": 4.4,
+      "review_count": 8785
+    },
+    "pricing": {
+      "cheapest_account_usd": 90.0,
+      "cheapest_account_regular_usd": 150.0,
+      "cheapest_account_model": "1-Step Test 25K (discounted with NOFEE40 40% off = ~$90)",
+      "has_subscription_fee": true,
+      "subscription_fee_monthly_usd": 150.0,
+      "active_discount_codes": [
+        "NOFEE40",
+        "MATCH",
+        "50AND100",
+        "NOFEE100"
+      ],
+      "best_current_discount_pct": 50.0
+    },
+    "challenge_rules": {
+      "profit_target_pct_range": "6%",
+      "trailing_drawdown_types": [
+        "EOD",
+        "Intraday"
+      ],
+      "best_max_loss_pct": 6.0,
+      "has_daily_loss_limit_any_model": true,
+      "daily_loss_limit_on_all_models": false,
+      "min_trading_days_to_pass": 5,
+      "has_consistency_rule_any_model": true
+    },
+    "payout_terms": {
+      "max_profit_split_pct": 90,
+      "has_first_10k_bonus": false,
+      "first_10k_split_pct": null,
+      "fastest_payout_days": 1,
+      "min_withdrawal_usd": null,
+      "payout_processing_hours": 24.0,
+      "has_payout_cap_any_model": false
+    },
+    "trading_restrictions": {
+      "overnight_holding": "all_models",
+      "news_trading": "partial",
+      "ea_allowed": false,
+      "copy_trading_allowed": true,
+      "instruments": "Futures only (CME, CBOT, COMEX, NYMEX listed)"
+    },
+    "model_availability": {
+      "num_challenge_models": 3,
+      "has_instant_funded_model": false,
+      "has_live_capital_path": true,
+      "max_account_size_usd": 150000,
+      "max_accounts_per_trader": 5,
+      "platforms_count": 15
+    }
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 60.0,
+    "best_for_beginners": false,
+    "best_for_scalpers": true,
+    "best_for_swing": false,
+    "best_for_large_cap": true,
+    "transparency_score": 7.0,
+    "support_quality_score": 8.0,
+    "value_score": 7.5,
+    "innovation_score": 7.5,
+    "key_differentiators": [
+      "Day-one withdrawals on PRO once above buffer",
+      "Clear 3-stage progression: Test → PRO (sim) → PRO+ (live via Tradovate)",
+      "15+ platform options including NinjaTrader, TradingView, Quantower, Sierra Chart",
+      "90% profit split at PRO+ live funded stage",
+      "EOD trailing drawdown in Test phase is forgiving (intraday dips don't count)",
+      "No daily loss limit in Test phase (removed January 2025)",
+      "One-step evaluation with no time limit",
+      "$100 flat reset fee for Test across all account sizes",
+      "TPT Points reward system for free resets and accounts"
+    ],
+    "potential_concerns": [
+      "Critical EOD → Intraday drawdown switch at PRO stage catches many traders off guard",
+      "50% consistency rule in Test prevents single-day passing strategies",
+      "No overnight holding on any model (not suitable for swing trading)",
+      "EA/bot trading strictly prohibited at all stages",
+      "PRO reset fees ($399–$1,299 estimated) not prominently published",
+      "News trading restricted at PRO and PRO+ stages",
+      "Max 3 PRO resets before permanent account closure",
+      "$5,000 frozen during PRO → PRO+ upgrade transition",
+      "Extensive restricted countries list (90 countries) limits global access",
+      "Buffer zone may delay first withdrawal if Test was passed at minimum profit"
+    ]
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "EOD → Intraday Drawdown Switch at PRO",
+        "severity": "high",
+        "detail": "Test phase uses EOD trailing drawdown (forgiving — only counts end-of-day balance). PRO switches to intraday trailing drawdown. Unrealized gains push the floor up in real-time. Many traders breach PRO within first week if they maintain Test-phase position sizing. This is the #1 account killer at TPT."
+      },
+      {
+        "flag": "Buffer Zone Delays 'Day-One' Payout",
+        "severity": "medium",
+        "detail": "Buffer equals your max drawdown (e.g., $2,000 on $50K account). You must reach $52,000 balance before withdrawing anything. If you passed Test at exactly minimum profit ($3,000), your PRO balance starts at ~$53,000 but buffer is $2,000 — you start above it. However, if eval was close, PRO starting balance may be near floor. Always pass Test with more than minimum profit to ensure day-one access."
+      },
+      {
+        "flag": "50% Consistency Rule in Test Phase",
+        "severity": "medium",
+        "detail": "No single trading day can account for more than 50% of total cumulative profits. Cannot pass in 1 day. Can trap traders who made a large early profit and must keep trading to balance ratio. Does NOT"
+      }
+    ]
+  },
+  "generated_at": "2026-03-28T15:56:36.568250Z"
+}

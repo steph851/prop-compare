@@ -1,0 +1,643 @@
+{
+  "firm_name": "TradeDay",
+  "division": "Futures",
+  "last_verified": "2026-03-28",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://tradeday.freshdesk.com/support/solutions/articles/101000453478-restricted-countries",
+    "https://www.tradeday.com",
+    "https://tradeday.freshdesk.com"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2020,
+    "years_in_operation": 6,
+    "ceo": "James Thorpe",
+    "co_founders": [
+      "Steve Miley",
+      "Tera Vicker"
+    ],
+    "address": "412 S. Wells, 2nd Floor, Chicago, IL 60607",
+    "company_tagline": "Day-one payouts, no funded consistency rule, three drawdown types",
+    "restricted_countries": [
+      "Iran",
+      "North Korea",
+      "Cuba",
+      "Syria",
+      "Russia",
+      "Belarus"
+    ],
+    "restricted_countries_source": "https://tradeday.freshdesk.com/support/solutions/articles/101000453478-restricted-countries",
+    "restricted_countries_verified": false,
+    "platforms_offered": [
+      "Tradovate",
+      "NinjaTrader",
+      "TradingView",
+      "Jigsaw Daytradr",
+      "TradeDayX"
+    ],
+    "data_feed": "CQG (via Tradovate)",
+    "brokers": [
+      "Tradovate"
+    ],
+    "payment_methods": [
+      "Credit Card",
+      "Debit Card",
+      "PayPal"
+    ],
+    "payout_methods": [
+      "Riseworks (US Bank Wire - free)",
+      "Riseworks (International Wire - $15)",
+      "Crypto L1 ($2.50 + gas fees)",
+      "Crypto L2 (free)"
+    ],
+    "regulated_exchanges": [
+      "CME",
+      "CBOT",
+      "COMEX",
+      "NYMEX"
+    ],
+    "max_allocation_per_trader": 150000,
+    "account_minimum": 50000,
+    "account_maximum": 150000,
+    "estimated_user_count": null,
+    "review_score_avg": 4.6,
+    "review_count": 1337,
+    "review_platform": "Trustpilot",
+    "trustpilot_rating": 4.6,
+    "is_featured_favorite": false,
+    "trading_hours": "6:00 PM ET (Sun) to 5:00 PM ET (Fri). Daily maintenance break: 5:00 PM to 6:00 PM ET. All positions must be flat by 5:00 PM ET daily.",
+    "payout_speed_hours": "Next business day (requests submitted before 5:30 PM CT)",
+    "minimum_payout_usd": 250,
+    "activation_fee": "$0 (currently waived; standard is $139)",
+    "kyc_time_hours": null,
+    "inactivity_rule": "Not publicly specified",
+    "overnight_holding": "Not allowed. All positions must be flat by 5:00 PM ET (auto-liquidated).",
+    "weekend_holding": "Not allowed.",
+    "news_trading_allowed": false,
+    "news_trading_detail": "Auto-liquidated 2 minutes before and 2 minutes after Tier 1 economic data releases. Accidental trades tolerated; repeated abuse results in account loss.",
+    "ea_bots_allowed": false,
+    "ea_bots_detail": "Third-party purchased bots and ATS prohibited. Tradovate API not exposed. Custom strategies on NinjaTrader, TradingView, Jigsaw are permitted.",
+    "copy_trading_allowed": "Partial — copying FROM a personal external account INTO one TradeDay account is allowed. Copying between TradeDay accounts is not facilitated. All accounts must use the same platform.",
+    "pass_rate_pct": 28.2,
+    "pass_rate_period": "October 2023 to March 2024"
+  },
+  "💰 PRICING & OFFERS": {
+    "one_time_fee_usd": null,
+    "monthly_subscription_usd": 87.0,
+    "pricing_model": "Monthly subscription (includes one free evaluation + free resets on renewal). Resets available for $59+ or $99.",
+    "subscription_note": "Unlike one-time fee firms, TradeDay uses a recurring monthly subscription model. You get one free evaluation included. If you breach, you can wait for the next billing cycle for a free reset, or pay $59-$99 for an immediate reset.",
+    "educational_plan_usd_monthly": 39.0,
+    "refund_policy_days": 14,
+    "refund_policy_note": "14-day free trial available (no credit card required). Monthly subscription model.",
+    "active_promotions": [
+      "Code: PFA = 30% off all accounts",
+      "Code: NOFEE40 = 40% off + $0 activation fee",
+      "$0 activation fee currently active (standard $139)"
+    ],
+    "reset_fee_usd_min": 59.0,
+    "reset_fee_usd_max": 99.0,
+    "reset_fee_note": "$59-99 for immediate reset; free on monthly renewal",
+    "commission_structure": {
+      "per_lot_forex": null,
+      "per_contract_futures": null,
+      "crypto_percentage": null,
+      "commission_info_url": null
+    },
+    "leverage_offered": {
+      "futures_general": "Varies by contract"
+    },
+    "model_pricing": {
+      "EOD Trailing Drawdown": {
+        "50K": {
+          "original": 175.0,
+          "discounted": 122.0
+        },
+        "100K": {
+          "original": 275.0,
+          "discounted": 192.0
+        },
+        "150K": {
+          "original": 375.0,
+          "discounted": 262.0
+        }
+      },
+      "Intraday Trailing Drawdown": {
+        "50K": {
+          "original": 125.0,
+          "discounted": 87.0
+        },
+        "100K": {
+          "original": 200.0,
+          "discounted": 140.0
+        },
+        "150K": {
+          "original": 300.0,
+          "discounted": 210.0
+        }
+      },
+      "Static Drawdown": {
+        "50K": {
+          "original": 165.0,
+          "discounted": 115.0
+        },
+        "100K": {
+          "original": 250.0,
+          "discounted": 175.0
+        },
+        "150K": {
+          "original": 350.0,
+          "discounted": 245.0
+        }
+      }
+    }
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "EOD Trailing Drawdown",
+      "model_type": "discipline",
+      "description": "End-of-Day trailing drawdown calculated from realized profits at 4:00 PM CT close. Freezes at starting balance once unlocked. No daily loss limit.",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target_usd": 3000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit_pct": 4.0,
+          "max_drawdown_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "drawdown_freeze": "Locks at starting balance once TMD reaches account open balance",
+          "minimum_trading_days": 5,
+          "max_contracts": 5,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "consistency_note": "30% rule during evaluation only. No consistency rule once funded.",
+          "price_monthly_usd": 175.0,
+          "price_discounted_usd": 122.0
+        },
+        {
+          "size": 100000,
+          "profit_target_usd": 6000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit_pct": 3.0,
+          "max_drawdown_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "drawdown_freeze": "Locks at starting balance once TMD reaches account open balance",
+          "minimum_trading_days": 5,
+          "max_contracts": 10,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "price_monthly_usd": 275.0,
+          "price_discounted_usd": 192.0
+        },
+        {
+          "size": 150000,
+          "profit_target_usd": 9000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit_pct": 2.67,
+          "max_drawdown_usd": 4000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "drawdown_freeze": "Locks at starting balance once TMD reaches account open balance",
+          "minimum_trading_days": 5,
+          "max_contracts": 15,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "price_monthly_usd": 375.0,
+          "price_discounted_usd": 262.0
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": false,
+        "news_trading_detail": "Auto-liquidated 2 minutes before and 2 minutes after Tier 1 economic data releases.",
+        "ea_allowed": false,
+        "ea_restrictions": "Third-party purchased bots and ATS prohibited. Tradovate API not exposed. Custom strategies on NinjaTrader, TradingView, Jigsaw are permitted.",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Copying FROM a personal external account INTO one TradeDay account is allowed. Copying between TradeDay accounts is not facilitated. All accounts must use the same platform.",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "price_limit_rule": null,
+        "cross_instrument_policy": null
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 80,
+        "profit_split_detail": {
+          "tier_1": "80% trader / 20% firm — first $50,000 in lifetime withdrawals",
+          "tier_2": "90% trader / 10% firm — $50,000 to $100,000 lifetime",
+          "tier_3": "95% trader / 5% firm — above $100,000 lifetime",
+          "buffer_zone_split": "50% trader / 50% firm — applies to profits withdrawn below the cleared buffer"
+        },
+        "first_payout_delay_days": 1,
+        "minimum_payout": 250.0,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "scaling_plan_available": true,
+        "scaling_increment_pct": null,
+        "max_loss_lock": "Trailing drawdown locks at starting balance once TMD reaches account open balance",
+        "buffer_zone_explained": "Buffer = Starting Balance + Max Drawdown. Trader must clear TMD to starting balance before first withdrawal. Withdrawing below buffer triggers 50/50 split on that portion."
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 30,
+        "consistency_note": "30% rule during evaluation only. No consistency rule once funded.",
+        "inactivity_days_breach": null,
+        "inactivity_note": "Not publicly specified",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details_url": null,
+        "requirements": "After 3rd withdrawal on Funded Sim, TradeDay may review and move account to Funded Live. Not guaranteed — they contact trader directly."
+      }
+    },
+    {
+      "model_name": "Intraday Trailing Drawdown",
+      "model_type": "aggressive",
+      "description": "Real-time intraday trailing drawdown calculated from unrealized equity peaks. Tighter but locks at starting balance. Cheapest entry point. No daily loss limit.",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target_usd": 3000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit_pct": 4.0,
+          "max_drawdown_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday Trailing (real-time from unrealized equity peaks)",
+          "drawdown_freeze": "Locks at starting balance once unlocked",
+          "minimum_trading_days": 5,
+          "max_contracts": 5,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "consistency_note": "30% rule during evaluation only. No consistency rule once funded.",
+          "price_monthly_usd": 125.0,
+          "price_discounted_usd": 87.0
+        },
+        {
+          "size": 100000,
+          "profit_target_usd": 6000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit_pct": 3.0,
+          "max_drawdown_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday Trailing",
+          "drawdown_freeze": "Locks at starting balance once unlocked",
+          "minimum_trading_days": 5,
+          "max_contracts": 10,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "price_monthly_usd": 200.0,
+          "price_discounted_usd": 140.0
+        },
+        {
+          "size": 150000,
+          "profit_target_usd": 9000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit_pct": 2.67,
+          "max_drawdown_usd": 4000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "Intraday Trailing",
+          "drawdown_freeze": "Locks at starting balance once unlocked",
+          "minimum_trading_days": 5,
+          "max_contracts": 15,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "price_monthly_usd": 300.0,
+          "price_discounted_usd": 210.0
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": false,
+        "news_trading_detail": "Auto-liquidated 2 minutes before and 2 minutes after Tier 1 economic data releases.",
+        "ea_allowed": false,
+        "ea_restrictions": "Third-party purchased bots and ATS prohibited. Tradovate API not exposed. Custom strategies on NinjaTrader, TradingView, Jigsaw are permitted.",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Copying FROM a personal external account INTO one TradeDay account is allowed. Copying between TradeDay accounts is not facilitated. All accounts must use the same platform.",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "price_limit_rule": null,
+        "cross_instrument_policy": null
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 80,
+        "profit_split_detail": {
+          "tier_1": "80% trader / 20% firm — first $50,000 in lifetime withdrawals",
+          "tier_2": "90% trader / 10% firm — $50,000 to $100,000 lifetime",
+          "tier_3": "95% trader / 5% firm — above $100,000 lifetime",
+          "buffer_zone_split": "50% trader / 50% firm — applies to profits withdrawn below the cleared buffer"
+        },
+        "first_payout_delay_days": 1,
+        "minimum_payout": 250.0,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "scaling_plan_available": true,
+        "scaling_increment_pct": null,
+        "max_loss_lock": "Trailing drawdown locks at starting balance once unlocked",
+        "buffer_zone_explained": "Buffer = Starting Balance + Max Drawdown. Trader must clear TMD to starting balance before first withdrawal. Withdrawing below buffer triggers 50/50 split on that portion."
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 30,
+        "consistency_note": "30% rule during evaluation only. No consistency rule once funded.",
+        "inactivity_days_breach": null,
+        "inactivity_note": "Not publicly specified",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": true,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details_url": null,
+        "requirements": "After 3rd withdrawal on Funded Sim, TradeDay may review and move account to Funded Live. Not guaranteed — they contact trader directly."
+      }
+    },
+    {
+      "model_name": "Static Drawdown",
+      "model_type": "discipline",
+      "description": "Fixed static drawdown level that never moves or trails. Lower profit targets. Most forgiving drawdown type — floor never rises, protecting against whipsaws.",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target_usd": 1500,
+          "profit_target_pct": 3.0,
+          "max_loss_limit_pct": 1.0,
+          "max_drawdown_usd": 500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": false,
+          "drawdown_type": "Static (fixed, never moves)",
+          "minimum_trading_days": 5,
+          "max_contracts": 1,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "consistency_note": "30% rule during evaluation only. No consistency rule once funded.",
+          "price_monthly_usd": 165.0,
+          "price_discounted_usd": 115.0
+        },
+        {
+          "size": 100000,
+          "profit_target_usd": 2500,
+          "profit_target_pct": 2.5,
+          "max_loss_limit_pct": 0.75,
+          "max_drawdown_usd": 750,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": false,
+          "drawdown_type": "Static",
+          "minimum_trading_days": 5,
+          "max_contracts": 2,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "price_monthly_usd": 250.0,
+          "price_discounted_usd": 175.0
+        },
+        {
+          "size": 150000,
+          "profit_target_usd": 3750,
+          "profit_target_pct": 2.5,
+          "max_loss_limit_pct": 0.67,
+          "max_drawdown_usd": 1000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit": null,
+          "trailing_drawdown": false,
+          "drawdown_type": "Static",
+          "minimum_trading_days": 5,
+          "max_contracts": 3,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "price_monthly_usd": 350.0,
+          "price_discounted_usd": 245.0
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": false,
+        "news_trading_detail": "Auto-liquidated 2 minutes before and 2 minutes after Tier 1 economic data releases.",
+        "ea_allowed": false,
+        "ea_restrictions": "Third-party purchased bots and ATS prohibited. Tradovate API not exposed. Custom strategies on NinjaTrader, TradingView, Jigsaw are permitted.",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Copying FROM a personal external account INTO one TradeDay account is allowed. Copying between TradeDay accounts is not facilitated. All accounts must use the same platform.",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "price_limit_rule": null,
+        "cross_instrument_policy": null
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 80,
+        "profit_split_detail": {
+          "tier_1": "80% trader / 20% firm — first $50,000 in lifetime withdrawals",
+          "tier_2": "90% trader / 10% firm — $50,000 to $100,000 lifetime",
+          "tier_3": "95% trader / 5% firm — above $100,000 lifetime",
+          "buffer_zone_split": "50% trader / 50% firm — applies to profits withdrawn below the cleared buffer"
+        },
+        "first_payout_delay_days": 1,
+        "minimum_payout": 250.0,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "max_loss_lock": "Static drawdown floor never moves",
+        "buffer_zone_explained": "Buffer = Starting Balance + Max Drawdown. Trader must clear TMD to starting balance before first withdrawal. Withdrawing below buffer triggers 50/50 split on that portion."
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 30,
+        "consistency_note": "30% rule during evaluation only. No consistency rule once funded.",
+        "inactivity_days_breach": null,
+        "inactivity_note": "Not publicly specified",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details_url": null,
+        "requirements": "After 3rd withdrawal on Funded Sim, TradeDay may review and move account to Funded Live. Not guaranteed — they contact trader directly."
+      }
+    }
+  ],
+  "🎯 COMPARISON SCORECARD": {
+    "_note": "Flat 38-metric scorecard. Every field required. Use null if genuinely unknown. Powers side-by-side firm comparisons.",
+    "firm_background": {
+      "year_founded": 2020,
+      "headquarters_country": "United States",
+      "restricted_countries_count": 6,
+      "restricted_countries_includes_kenya": false,
+      "review_score_avg": 4.6,
+      "review_count": 1337
+    },
+    "pricing": {
+      "cheapest_account_usd": 87.0,
+      "cheapest_account_regular_usd": 125.0,
+      "cheapest_account_model": "Intraday Trailing Drawdown 50K (30% off with code PFA)",
+      "has_subscription_fee": true,
+      "subscription_fee_monthly_usd": 87.0,
+      "active_discount_codes": [
+        "PFA",
+        "NOFEE40"
+      ],
+      "best_current_discount_pct": 40.0
+    },
+    "challenge_rules": {
+      "profit_target_pct_range": "2.5-6%",
+      "trailing_drawdown_types": [
+        "EOD",
+        "Intraday",
+        "Static"
+      ],
+      "best_max_loss_pct": 4.0,
+      "has_daily_loss_limit_any_model": false,
+      "daily_loss_limit_on_all_models": false,
+      "min_trading_days_to_pass": 5,
+      "has_consistency_rule_any_model": true
+    },
+    "payout_terms": {
+      "max_profit_split_pct": 95,
+      "has_first_10k_bonus": false,
+      "first_10k_split_pct": null,
+      "fastest_payout_days": 1,
+      "min_withdrawal_usd": 250.0,
+      "payout_processing_hours": 24.0,
+      "has_payout_cap_any_model": false
+    },
+    "trading_restrictions": {
+      "overnight_holding": "none",
+      "news_trading": "restricted",
+      "ea_allowed": false,
+      "copy_trading_allowed": true,
+      "instruments": "Futures only (CME, CBOT, COMEX, NYMEX-listed)"
+    },
+    "model_availability": {
+      "num_challenge_models": 3,
+      "has_instant_funded_model": false,
+      "has_live_capital_path": true,
+      "max_account_size_usd": 150000,
+      "max_accounts_per_trader": 6,
+      "platforms_count": 5
+    }
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 50.0,
+    "best_for_beginners": true,
+    "best_for_scalpers": true,
+    "best_for_swing": false,
+    "best_for_large_cap": false,
+    "transparency_score": 9.0,
+    "support_quality_score": 9.0,
+    "value_score": 7.5,
+    "innovation_score": 8.0,
+    "key_differentiators": [
+      "3 drawdown type choices: EOD, Intraday, and Static",
+      "Day-one payouts after clearing buffer zone",
+      "No consistency rule once funded (eval only)",
+      "Tiered profit split up to 95% (after $100K lifetime withdrawals)",
+      "14-day free trial with no credit card required",
+      "Path to live capital after 3rd funded sim withdrawal",
+      "Progress review milestones at $5K, $10K, $15K, $20K",
+      "Static drawdown never moves — most forgiving for whipsaw markets"
+    ],
+    "potential_concerns": [
+      "Monthly subscription model — longer evaluations cost more over time",
+      "No overnight holding on any model (not suitable for swing trading)",
+      "News trading auto-liquidated — cannot trade major economic releases",
+      "Third-party EA/bots prohibited (custom platform strategies allowed)",
+      "30% consistency rule applies during evaluation phase",
+      "No 25K account size — minimum is $50K",
+      "All accounts must use the same trading platform",
+      "Buffer zone withdrawals trigger 50/50 split on that portion",
+      "Restricted countries list only partially confirmed — full list requires verification"
+    ]
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "Monthly Subscription Model",
+        "severity": "medium",
+        "detail": "Unlike one-time fee firms, TradeDay charges a recurring monthly fee. Traders who take longer to pass pay more over time."
+      },
+      {
+        "flag": "No Overnight Holding",
+        "severity": "medium",
+        "detail": "All positions auto-liquidated at 5:00 PM ET. Not suitable for swing traders."
+      },
+      {
+        "flag": "News Trading Prohibited",
+        "severity": "medium",
+        "detail": "Auto-liquidation 2 minutes before/after Tier 1 news releases. Cannot trade major events like Fed decisions or NFP."
+      },
+      {
+        "flag": "EA/Bots Prohibited",
+        "severity": "low",
+        "detail": "Third-party ATS and purchased bots not allowed. Tradovate API not exposed. Custom platform strategies (NinjaTrader, TradingView, Jigsaw) are permitted."
+      },
+      {
+        "flag": "30% Consistency Rule During Evaluation",
+        "severity": "medium",
+        "detail": "If best day exceeds 30% of total profits, the profit target adjusts upward. Can significantly extend evaluation time. Rule removed once funded."
+      },
+      {
+        "flag": "No 25K Account Size",
+        "severity": "low",
+        "detail": "Minimum account is $50K. Traders wanting a lower starting point must look elsewhere."
+      },
+      {
+        "flag": "Buffer Zone 50/50 Split",
+        "severity": "low",
+        "detail": "Withdrawals that dip into the buffer zone are split 50/50 instead of the normal tiered split. Requires careful withdrawal planning."
+      },
+      {
+        "flag": "Same-Platform Rule for Multiple Accounts",
+        "severity": "low",
+        "detail": "All accounts must use the same trading platform. Cannot mix Tradovate and NinjaTrader across accounts."
+      }
+    ],
+    "restricted_countries_note": "Partial list confirmed — full verification required at official help center URL: https://tradeday.freshdesk.com/support/solutions/articles/101000453478-restricted-countries",
+    "account_minimum_ok": true,
+    "minimum_experience_months": null,
+    "pass_rate_pct": 28.2
+  },
+  "💡 PRO TIPS FOR TRADERS": [
+    "Day-one payouts are real — you can request a withdrawal from Day 1 after clearing the buffer zone"
+  ],
+  "generated_at": "2026-03-28T16:37:45.432249Z"
+}

@@ -1,16 +1,99 @@
 {
   "firm_name": "FundedNext",
   "division": "Futures",
-  "last_verified": "2026-03-24",
+  "last_verified": "2026-03-27",
   "verified_by": "Steph",
   "source_urls": [
+    "https://fundednext.com/futures",
     "https://fundednext.com/futures/challenges",
-    "https://fundednext.com/futures/rules"
+    "https://fundednext.com/futures/rules",
+    "https://help.fundednext.com",
+    "https://www.trustpilot.com/review/fundednext.com"
   ],
-  "challenge_models": [
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "UAE (Ajman)",
+    "year_founded": 2025,
+    "ceo": "Abdullah Jayed",
+    "platforms_offered": [
+      "NinjaTrader",
+      "Tradovate",
+      "TradingView"
+    ],
+    "brokers": [
+      "Tradovate"
+    ],
+    "payment_methods": [
+      "Credit/Debit Card",
+      "Crypto",
+      "Apple Pay",
+      "Google Pay",
+      "PayPal",
+      "Skrill",
+      "Astropay"
+    ],
+    "payout_methods": [
+      "Wire",
+      "Crypto (USDT TRC20)",
+      "Digital Wallet"
+    ],
+    "review_score_avg": 4.5,
+    "review_count": 61090,
+    "review_breakdown_pct": {
+      "five_star": 83,
+      "four_star": 8,
+      "three_star": 1,
+      "two_star": 0,
+      "one_star": 7
+    },
+    "restricted_countries": "Afghanistan, Albania, Antarctica, Antigua and Barbuda, Bangladesh, Belarus, Belize, Bouvet Island, Burkina Faso, Burundi, Cape Verde, Chad, Comoros, Cook Islands, Cote d'Ivoire (Ivory Coast), Cuba, Democratic Republic of the Congo (Congo Free State), Djibouti, Eritrea, Fiji, Grenada, Guinea-Bissau, Iran, Iraq, Jordan, Laos, Lebanon, Lesotho, Libya, Malawi, Malaysia, Mali, Myanmar (Burma), North Korea, Palestinian Territory, Republic of the Congo (Congo Brazzaville), Russia, Rwanda, Sierra Leone, Somalia, South Sudan, Sri Lanka, Sudan, Syria, Tajikistan, Timor-Leste (East Timor), Tuvalu, Ukraine, Venezuela, Vietnam, Yemen",
+    "global_traders_funded": 364000,
+    "total_payouts_usd": "$257M+",
+    "key_differentiators": [
+      "Real CME Group pricing",
+      "100% profit split on funded accounts",
+      "24-hour payout guarantee with $1,000 penalty if missed",
+      "15% performance bonus on challenge phase profits",
+      "No time limit on challenges",
+      "News trading allowed",
+      "Up to $300K combined capital allocation",
+      "Built specifically for futures (not CFD retrofit)"
+    ]
+  },
+  "💰 PRICING & OFFERS": {
+    "challenge_fees_usd": {
+      "25K_account": 79,
+      "50K_account": 179,
+      "100K_account": 279
+    },
+    "one_time_fee_usd": null,
+    "monthly_fees_usd": 0,
+    "activation_fees_usd": 0,
+    "inactivity_fees_usd": 0,
+    "commission_structure": {
+      "per_contract_open": 3,
+      "per_contract_close": 3,
+      "roundtrip_commission": 6,
+      "exchange_regulatory_fee_on_close": 1,
+      "total_cost_roundtrip_per_contract": 7,
+      "note": "All-in rate: $3 to open, $3 to close, $1 exchange/NFA/regulatory on exit"
+    },
+    "leverage_offered": {
+      "futures": "Institutional (CME Group standard by instrument)",
+      "note": "No fixed leverage cap — instrument-dependent"
+    },
+    "spreads": "Near-ECN, described as among tightest in industry",
+    "withdrawal_fee_pct": 3.5,
+    "active_promotions": [
+      "DGT: 10% off all challenges",
+      "FNF30: 30% off challenges",
+      "10% reset discount on rule violations"
+    ]
+  },
+  "📊 CHALLENGE MODELS": [
     {
       "model_name": "Rapid Challenge",
       "model_type": "speed",
+      "description": "Speed-focused with maximum flexibility. No consistency rule during challenge phase. No daily loss limit. Ideal for traders who want fast-paced, unrestricted evaluation.",
       "account_sizes": [
         {
           "size": 25000,
@@ -18,8 +101,11 @@
           "profit_target_pct": 6.0,
           "max_loss_limit": 1000,
           "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": 500,
-          "daily_loss_limit_pct": 2.0
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": "25K: 2 minis (eval) / up to 3 minis (funded)",
+          "price_usd": 79,
+          "promo_code": "DGT = 10% off"
         },
         {
           "size": 50000,
@@ -27,17 +113,23 @@
           "profit_target_pct": 6.0,
           "max_loss_limit": 2000,
           "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": 1000,
-          "daily_loss_limit_pct": 2.0
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": "50K: 3 minis (eval) / up to 5 minis (funded)",
+          "price_usd": 149,
+          "promo_code": "DGT = 10% off"
         },
         {
           "size": 100000,
-          "profit_target": 5000,
-          "profit_target_pct": 5.0,
-          "max_loss_limit": 2500,
-          "max_loss_limit_pct": 2.5,
-          "daily_loss_limit": 2000,
-          "daily_loss_limit_pct": 2.0
+          "profit_target": 6000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 3000,
+          "max_loss_limit_pct": 3.0,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": "100K: 5 minis (eval) / up to 7 minis (funded)",
+          "price_usd": 279,
+          "promo_code": "DGT = 10% off"
         }
       ],
       "passing_requirements": {
@@ -45,12 +137,13 @@
         "min_trading_days": 0,
         "consistency_rule_active": false,
         "consistency_rule_pct": null,
-        "benchmark_days_required": 0
+        "benchmark_days_required": 0,
+        "note": "Meet target in 1 day or spread across multiple days"
       },
       "risk_limits": {
-        "daily_loss_type": "Trailing EOD",
-        "daily_loss_includes_float": true,
-        "daily_loss_includes_commissions": true,
+        "daily_loss_type": "None",
+        "daily_loss_includes_float": false,
+        "daily_loss_includes_commissions": false,
         "max_loss_type": "Trailing EOD (locks at initial)",
         "max_loss_locks_at_initial": true,
         "drawdown_calculation": "Equity (Balance + Float)"
@@ -61,17 +154,32 @@
         "market_close_time_ct": "15:10",
         "market_open_time_ct": "17:00",
         "news_trading_allowed": true,
-        "ea_allowed": true,
-        "copy_trading_allowed": "own_accounts_only",
+        "ea_allowed": "Semi-automated only (active supervision required)",
+        "copy_trading_allowed": "Subject to firm policies",
+        "micro_scalping_allowed": false,
+        "micro_scalping_rule": "If >40% of total profit from trades closed within 10 seconds = breach",
+        "price_limit_rule": "If contract within 2% of CME limit, stop trading that day",
+        "inactivity_rule": "Must trade at least once every 7 days to keep account active",
         "prohibited_strategies": [
+          "Multiple Account Abuse (creating multiple accounts with different emails)",
+          "Fake Orders (excessive artificial orders to create fake trading volume)",
+          "Order Coordination (coordinating trades with others to influence orders)",
+          "Slow Data Feed Exploitation (using delayed data feeds for trading advantage)",
+          "Extreme Leverage (highly leveraged/high-risk trades to artificially escalate equity)",
+          "Latency Trading (exploiting errors in displayed prices or delays in updates)",
+          "Opposing Positions (opening opposite positions across multiple accounts to bypass restrictions)",
+          "Correlated Hedging (hedging correlated instruments across one or multiple accounts)",
+          "Extreme Market Conditions (trading during extreme gaps or low-liquidity conditions)",
           "Grid Trading",
-          "Micro-Scalping",
+          "Micro-Scalping (>40% of profit from <10sec trades)",
           "Spoofing",
           "Layering",
-          "Latency Arbitrage",
           "Wash Trading",
           "Account Rolling",
-          "Signal Services"
+          "Signal Services",
+          "DCA (adding to losing positions)",
+          "Multi-Order Spam and Coordinated Trading Exploits",
+          "Bracket Strategies"
         ]
       },
       "payout_structure": {
@@ -82,51 +190,72 @@
         "benchmark_days_for_payout": 0,
         "consistency_rule_payout": true,
         "consistency_rule_payout_pct": 40,
+        "performance_reward_challenge_phase_pct": 15,
         "performance_reward_cap": {
-          "25K": 3000,
-          "50K": 6000,
-          "100K": 6000
+          "25K": 800,
+          "50K": 1500,
+          "100K": 2500
         },
-        "first_payout_delay_days": null
+        "cap_removal": "After 5 total withdrawals",
+        "first_payout_delay_days": 3,
+        "payout_guarantee": "24-hour guaranteed or $1,000 penalty",
+        "typical_payout_speed_hours": 5
       },
       "restrictions": {
         "inactivity_days_breach": 7,
         "inactivity_days_funded_breach": 30,
         "disciplinary_program": true,
-        "account_reset_allowed": false
+        "account_reset_allowed": false,
+        "reset_discount_pct": 10
+      },
+      "transition_to_funded": {
+        "consistency_rule_applies": true,
+        "daily_loss_limit_applies": false,
+        "earliest_withdrawal_day": 3,
+        "note": "Consistency rule (40% max daily) APPLIES in FundedNext Account"
       }
     },
     {
       "model_name": "Legacy Challenge",
       "model_type": "discipline",
+      "description": "Structured approach with disciplined risk management. Consistency rule (40% max daily profit) during challenge. Designed for steady, methodical traders.",
       "account_sizes": [
         {
           "size": 25000,
-          "profit_target": 1250,
-          "profit_target_pct": 5.0,
+          "profit_target": 1500,
+          "profit_target_pct": 6.0,
           "max_loss_limit": 1000,
           "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": 500,
-          "daily_loss_limit_pct": 2.0
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": "25K: 2 minis (eval) / up to 3 minis (funded)",
+          "price_usd": 89,
+          "promo_code": "DGT = 10% off"
         },
         {
           "size": 50000,
-          "profit_target": 3000,
-          "profit_target_pct": 6.0,
+          "profit_target": 2500,
+          "profit_target_pct": 5.0,
           "max_loss_limit": 2000,
           "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": 1000,
-          "daily_loss_limit_pct": 2.0,
-          "note": "Before Jan 5, 2026: $2,500 max loss"
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": "50K: 3 minis (eval) / up to 5 minis (funded)",
+          "price_usd": 149,
+          "promo_code": "DGT = 10% off",
+          "historical_note": "Before Jan 5 2026: $2,500 max loss"
         },
         {
           "size": 100000,
-          "profit_target": 6000,
-          "profit_target_pct": 6.0,
+          "profit_target": 5000,
+          "profit_target_pct": 5.0,
           "max_loss_limit": 3000,
           "max_loss_limit_pct": 3.0,
-          "daily_loss_limit": 2000,
-          "daily_loss_limit_pct": 2.0
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": "100K: 5 minis (eval) / up to 7 minis (funded)",
+          "price_usd": 279,
+          "promo_code": "DGT = 10% off"
         }
       ],
       "passing_requirements": {
@@ -134,13 +263,14 @@
         "min_trading_days": 0,
         "consistency_rule_active": true,
         "consistency_rule_pct": 40,
-        "consistency_rule_penalty": "Target increases: highest_day / 0.40",
-        "benchmark_days_required": 0
+        "consistency_rule_penalty": "Profit target increases to: highest_day / 0.40",
+        "benchmark_days_required": 0,
+        "note": "Daily profit cannot exceed 40% of total target. If exceeded, target increases to meet threshold."
       },
       "risk_limits": {
-        "daily_loss_type": "Trailing EOD",
-        "daily_loss_includes_float": true,
-        "daily_loss_includes_commissions": true,
+        "daily_loss_type": "None",
+        "daily_loss_includes_float": false,
+        "daily_loss_includes_commissions": false,
         "max_loss_type": "Trailing EOD (locks at initial)",
         "max_loss_locks_at_initial": true,
         "drawdown_calculation": "Equity (Balance + Float)"
@@ -151,17 +281,32 @@
         "market_close_time_ct": "15:10",
         "market_open_time_ct": "17:00",
         "news_trading_allowed": true,
-        "ea_allowed": true,
-        "copy_trading_allowed": "own_accounts_only",
+        "ea_allowed": "Semi-automated only (active supervision required)",
+        "copy_trading_allowed": "Subject to firm policies",
+        "micro_scalping_allowed": false,
+        "micro_scalping_rule": "If >40% of total profit from trades closed within 10 seconds = breach",
+        "price_limit_rule": "If contract within 2% of CME limit, stop trading that day",
+        "inactivity_rule": "Must trade at least once every 7 days to keep account active",
         "prohibited_strategies": [
+          "Multiple Account Abuse (creating multiple accounts with different emails)",
+          "Fake Orders (excessive artificial orders to create fake trading volume)",
+          "Order Coordination (coordinating trades with others to influence orders)",
+          "Slow Data Feed Exploitation (using delayed data feeds for trading advantage)",
+          "Extreme Leverage (highly leveraged/high-risk trades to artificially escalate equity)",
+          "Latency Trading (exploiting errors in displayed prices or delays in updates)",
+          "Opposing Positions (opening opposite positions across multiple accounts to bypass restrictions)",
+          "Correlated Hedging (hedging correlated instruments across one or multiple accounts)",
+          "Extreme Market Conditions (trading during extreme gaps or low-liquidity conditions)",
           "Grid Trading",
-          "Micro-Scalping",
+          "Micro-Scalping (>40% of profit from <10sec trades)",
           "Spoofing",
           "Layering",
-          "Latency Arbitrage",
           "Wash Trading",
           "Account Rolling",
-          "Signal Services"
+          "Signal Services",
+          "DCA (adding to losing positions)",
+          "Multi-Order Spam and Coordinated Trading Exploits",
+          "Bracket Strategies"
         ]
       },
       "payout_structure": {
@@ -172,15 +317,138 @@
         "benchmark_days_for_payout": 5,
         "consistency_rule_payout": false,
         "consistency_rule_payout_pct": null,
+        "performance_reward_challenge_phase_pct": 15,
         "performance_reward_cap": null,
-        "first_payout_delay_days": null
+        "cap_removal": "After 5 total withdrawals",
+        "first_payout_delay_days": 5,
+        "payout_guarantee": "24-hour guaranteed or $1,000 penalty",
+        "typical_payout_speed_hours": 5
       },
       "restrictions": {
         "inactivity_days_breach": 7,
         "inactivity_days_funded_breach": 30,
         "disciplinary_program": true,
-        "account_reset_allowed": false
+        "account_reset_allowed": false,
+        "reset_discount_pct": 10
+      },
+      "transition_to_funded": {
+        "consistency_rule_applies": false,
+        "daily_loss_limit_applies": false,
+        "earliest_withdrawal_day": 5,
+        "note": "Consistency rule REMOVED in FundedNext Account (as of Nov 21, 2025)"
+      }
+    },
+    {
+      "model_name": "Bolt Challenge",
+      "model_type": "instant",
+      "description": "Lowest cost, quick rewards model. $99.99 one-time fee for $50K account. Capped payouts up to 5 withdrawals, then unlimited.",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": 3000,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 2000,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": 1000,
+          "daily_loss_limit_pct": 2.0,
+          "max_contracts": "3 E-mini or 9 Micro E-mini",
+          "price_usd": 99.99,
+          "promo_code": "DGT = 10% off, FNF30 = 30% off",
+          "drawdown_model": "6% trailing drawdown (locks at $50,100 after first withdrawal)"
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 3,
+        "consistency_rule_active": true,
+        "consistency_rule_pct": 40,
+        "consistency_rule_penalty": "Profit target increases to: highest_day / 0.40",
+        "benchmark_days_required": 0,
+        "note": "40% consistency rule forces at least 3 trading days. No official minimum days but effectively required."
+      },
+      "risk_limits": {
+        "daily_loss_type": "Soft Breach (trading pauses, resumes next day)",
+        "daily_loss_includes_float": true,
+        "daily_loss_includes_commissions": true,
+        "max_loss_type": "Trailing EOD (locks at $50,100 after first withdrawal)",
+        "max_loss_locks_at_initial": false,
+        "drawdown_calculation": "Equity (Balance + Float)",
+        "drawdown_note": "Max loss limit caps at $50,100 permanently after first withdrawal"
+      },
+      "trading_rules": {
+        "overnight_holding": false,
+        "weekend_holding": false,
+        "market_close_time_ct": "15:10",
+        "market_open_time_ct": "17:00",
+        "news_trading_allowed": true,
+        "ea_allowed": "Semi-automated only (active supervision required)",
+        "copy_trading_allowed": "Subject to firm policies",
+        "micro_scalping_allowed": false,
+        "micro_scalping_rule": "If >40% of total profit from trades closed within 10 seconds = breach",
+        "price_limit_rule": "If contract within 2% of CME limit, stop trading that day",
+        "inactivity_rule": "Must trade at least once every 7 days to keep account active",
+        "prohibited_strategies": "Aligns with Rapid/Legacy prohibited strategies"
+      },
+      "payout_structure": {
+        "profit_split_pct": 80,
+        "withdrawal_frequency_days": null,
+        "min_withdrawal_amount": 250,
+        "min_profit_for_withdrawal": null,
+        "buffer_requirement": "EOD balance must be ≥ $52,100",
+        "performance_reward_cap": 1200,
+        "max_withdrawals_total": 5,
+        "final_withdrawal": 7700,
+        "after_final": "Account concluded, certificates awarded",
+        "first_payout_delay_days": 1,
+        "payout_guarantee": "24-hour guaranteed or $1,000 penalty",
+        "typical_payout_speed_hours": 5,
+        "note": "Withdrawal amounts: $250-$1,200 per cycle. After 5 withdrawals, unlimited at 80% split."
+      },
+      "restrictions": {
+        "inactivity_days_breach": 7,
+        "inactivity_days_funded_breach": 30,
+        "disciplinary_program": true,
+        "account_reset_allowed": false,
+        "reset_discount_pct": 8
+      },
+      "transition_to_funded": {
+        "consistency_rule_applies": false,
+        "daily_loss_limit_applies": false,
+        "max_loss_limit_applies": true,
+        "max_loss_limit_value": 50100,
+        "note": "Bolt accounts have a defined endpoint (not ongoing). Consistency rule and daily loss limit REMOVED in funded phase."
       }
     }
-  ]
+  ],
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 73,
+    "best_for_beginners": true,
+    "best_for_scalpers": true,
+    "best_for_swing_traders": true,
+    "transparency_score": 9,
+    "support_quality_score": 9,
+    "payout_speed_score": 10,
+    "payout_reliability_score": 9,
+    "trading_conditions_score": 9,
+    "rule_fairness_score": 8,
+    "customer_satisfaction_score": 4.5,
+    "top_strengths": [
+      "Industry-leading 5-hour average payout (24-hour guarantee with $1K penalty)",
+      "Real CME pricing, not simulated",
+      "Transparent $7 per contract roundtrip cost (no hidden fees)",
+      "Excellent support (praised in 83% of reviews)",
+      "Trader-friendly rules with no time limits",
+      "15% performance reward during challenge phase",
+      "Built from ground up for futures, not retrofit"
+    ],
+    "key_concerns": [
+      "Strict compliance reviews on profitable accounts (7% negative reviews mention this)",
+      "Micro-scalping restrictions eliminate some trading styles",
+      "Overnight holding prohibited",
+      "Occasional payout delays despite 24-hour guarantee"
+    ],
+    "ideal_trader_profile": "Intraday/swing traders seeking fast payouts, real CME pricing, and transparent rules",
+    "not_ideal_for": "Overnight position traders, grid/scalping specialists, traders needing exotic leverage"
+  },
+  "⚠️ STILL TBD": []
 }

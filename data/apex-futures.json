@@ -1,194 +1,615 @@
 {
   "firm_name": "Apex Trader Funding",
   "division": "Futures",
-  "last_verified": "2026-03-26",
+  "last_verified": "2026-03-29",
   "verified_by": "Steph",
   "source_urls": [
     "https://apextraderfunding.com",
-    "https://propfirmapp.com/prop-firms/apex-trader-funding"
+    "https://support.apextraderfunding.com",
+    "https://support.apextraderfunding.com/hc/en-us/articles/7223858697755-What-countries-are-not-allowed-to-participate"
   ],
-  "challenge_models": [
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2021,
+    "years_in_operation": 4,
+    "restricted_countries": [
+      "Russia",
+      "Belarus",
+      "North Korea",
+      "Iran",
+      "Syria",
+      "Cuba",
+      "Venezuela",
+      "Myanmar"
+    ],
+    "restricted_countries_source": "https://support.apextraderfunding.com/hc/en-us/articles/7223858697755-What-countries-are-not-allowed-to-participate",
+    "restricted_countries_verified": false,
+    "platforms_offered": [
+      "NinjaTrader",
+      "TradingView",
+      "Tradovate",
+      "WealthCharts",
+      "Rithmic (rTrader Pro)",
+      "Quantower",
+      "Sierra Chart",
+      "TrendSpider"
+    ],
+    "payment_methods": [
+      "Credit Card (Visa, Mastercard, AMEX)",
+      "Debit Card",
+      "PayPal",
+      "Bank Transfer / ACH"
+    ],
+    "payout_methods": [
+      "Deel (ACH - US)",
+      "Deel (Plane - International)",
+      "Bank Transfer",
+      "PayPal",
+      "Wise",
+      "Crypto"
+    ],
+    "brokers": [
+      "Rithmic",
+      "Tradovate"
+    ],
+    "max_allocation_per_trader": 3000000,
+    "estimated_user_count": null,
+    "review_score_avg": 4.4,
+    "review_count": 18070,
+    "is_featured_favorite": false,
+    "ceo": "Darrell Martin",
+    "trustpilot_rating": 4.4,
+    "total_payouts_reported_usd": "721,000,000+",
+    "avg_monthly_payouts_usd": "15,000,000+",
+    "ninjatrader_license_included": true,
+    "ninjatrader_license_note": "Free NinjaTrader license included with active Apex evaluation/PA account (saves ~$75/month)",
+    "max_funded_accounts": 20,
+    "countries_supported": "150+"
+  },
+  "💰 PRICING & OFFERS": {
+    "one_time_fee_usd": null,
+    "monthly_subscription_usd": null,
+    "refund_policy_days": null,
+    "active_promotions": [
+      "Frequent 50-90% off promo sales (codes such as LIVESTREAM, LUMI posted on social channels)",
+      "During sales, $50K EOD eval can drop to approximately $35"
+    ],
+    "commission_structure": {
+      "per_lot_forex": null,
+      "per_contract_futures": null,
+      "crypto_percentage": null,
+      "commission_info_url": "https://support.apextraderfunding.com"
+    },
+    "leverage_offered": {
+      "forex": null,
+      "indices": null,
+      "gold": null,
+      "silver": null,
+      "oil": null,
+      "futures_general": "Determined by contract position limits per account size"
+    },
+    "pricing_model_note": "One-time evaluation fee + one-time activation fee for new accounts launched March 2026 onward. Legacy accounts remain on prior recurring billing/reset structure. No monthly rebilling on new account structure.",
+    "legacy_vs_new_note": "Accounts created before March 2026 operate under legacy rules including monthly billing, reset options available, different payout cap structures. New accounts (March 2026+) are one-time fee, no resets, 6-payout lifecycle.",
+    "reset_policy": "Resets available on legacy accounts only at a fee. New accounts (March 2026+) have no reset option.",
+    "model_pricing": {
+      "EOD": {
+        "25K": {
+          "original": 177.0,
+          "discounted": null,
+          "activation_fee": 99.0,
+          "total_original": 276.0,
+          "total_discounted": null
+        },
+        "50K": {
+          "original": 197.0,
+          "discounted": null,
+          "activation_fee": 99.0,
+          "total_original": 296.0,
+          "total_discounted": null
+        },
+        "100K": {
+          "original": 297.0,
+          "discounted": null,
+          "activation_fee": 99.0,
+          "total_original": 396.0,
+          "total_discounted": null
+        },
+        "150K": {
+          "original": 397.0,
+          "discounted": null,
+          "activation_fee": 99.0,
+          "total_original": 496.0,
+          "total_discounted": null
+        }
+      },
+      "Intraday": {
+        "25K": {
+          "original": 118.0,
+          "discounted": null,
+          "activation_fee": 79.0,
+          "total_original": 197.0,
+          "total_discounted": null
+        },
+        "50K": {
+          "original": 132.0,
+          "discounted": null,
+          "activation_fee": 79.0,
+          "total_original": 211.0,
+          "total_discounted": null
+        },
+        "100K": {
+          "original": 198.0,
+          "discounted": null,
+          "activation_fee": 79.0,
+          "total_original": 277.0,
+          "total_discounted": null
+        },
+        "150K": {
+          "original": 265.0,
+          "discounted": null,
+          "activation_fee": 79.0,
+          "total_original": 344.0,
+          "total_discounted": null
+        }
+      }
+    }
+  },
+  "📊 CHALLENGE MODELS": [
     {
-      "model_name": "EOD Evaluation",
+      "model_name": "EOD (End-of-Day) Drawdown Evaluation",
       "model_type": "discipline",
+      "steps": 1,
+      "description": "End-of-day trailing drawdown. The drawdown threshold is calculated once per day at 4:59:59 PM ET based on the highest account balance reached that day. The trailing threshold locks (stops moving up) once the account balance reaches starting balance + $100 on the PA account. Includes a daily loss limit. 30-day access period per evaluation purchase.",
       "account_sizes": [
         {
           "size": 25000,
-          "profit_target": 1500,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 1000,
-          "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": 500,
-          "daily_loss_limit_pct": 2.0
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 1000,
+          "daily_loss_limit_usd": 500,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 4,
+          "max_contracts_micro": 40,
+          "eval_fee": 177.0,
+          "activation_fee": 99.0,
+          "total_fee": 276.0
         },
         {
           "size": 50000,
-          "profit_target": 3000,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 2000,
-          "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": 1000,
-          "daily_loss_limit_pct": 2.0
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 2000,
+          "daily_loss_limit_usd": 1000,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 10,
+          "max_contracts_micro": null,
+          "eval_fee": 197.0,
+          "activation_fee": 99.0,
+          "total_fee": 296.0
         },
         {
           "size": 100000,
-          "profit_target": 6000,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 3000,
-          "max_loss_limit_pct": 3.0,
-          "daily_loss_limit": 1500,
-          "daily_loss_limit_pct": 1.5
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 3000,
+          "daily_loss_limit_usd": 1500,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 14,
+          "max_contracts_micro": null,
+          "eval_fee": 297.0,
+          "activation_fee": 99.0,
+          "total_fee": 396.0
         },
         {
           "size": 150000,
-          "profit_target": 9000,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 4000,
-          "max_loss_limit_pct": 2.67,
-          "daily_loss_limit": 2000,
-          "daily_loss_limit_pct": 1.33
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 4500,
+          "daily_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 17,
+          "max_contracts_micro": null,
+          "eval_fee": 397.0,
+          "activation_fee": 99.0,
+          "total_fee": 496.0,
+          "note": "TBD — trailing drawdown for $150K account listed as $4,000 in prior data vs $4,500 implied by 3% rule. Needs direct verification."
         }
       ],
-      "passing_requirements": {
-        "profit_target_required": true,
-        "min_trading_days": 1,
-        "consistency_rule_active": true,
-        "consistency_rule_pct": 50,
-        "consistency_rule_penalty": "Payout denied if any single day > 50% of total profit",
-        "benchmark_days_required": 0
-      },
-      "risk_limits": {
-        "daily_loss_type": "EOD",
-        "daily_loss_includes_float": false,
-        "daily_loss_includes_commissions": "TBD",
-        "max_loss_type": "Trailing EOD",
-        "max_loss_locks_at_initial": false,
-        "drawdown_calculation": "Balance (EOD)"
-      },
       "trading_rules": {
-        "overnight_holding": "TBD",
-        "weekend_holding": "TBD",
-        "market_close_time_ct": "TBD",
-        "market_open_time_ct": "TBD",
-        "news_trading_allowed": "TBD",
-        "ea_allowed": "TBD",
-        "copy_trading_allowed": "TBD",
-        "prohibited_strategies": []
+        "overnight_holding": false,
+        "must_close_by": "4:59 PM ET",
+        "news_trading_allowed": true,
+        "news_trading_note": "Allowed but no opposing positions (long + short simultaneously) during same news release window",
+        "ea_allowed": false,
+        "ea_restrictions": "Fully automated trading, AI bots, and HFT are NOT allowed on funded/PA accounts. Semi-automated/ATM-style tools with manual control are allowed.",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Allowed across own accounts (up to 20). Third-party copy services: verify on support site.",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "drawdown_trail_on_unrealized": false,
+        "drawdown_calculation_time": "4:59:59 PM ET daily",
+        "drawdown_lock_trigger": "Balance reaches starting balance + $100 on PA"
       },
       "payout_structure": {
+        "withdrawal_frequency_days": null,
         "profit_split_pct": 100,
-        "withdrawal_frequency_days": 5,
-        "min_withdrawal_amount": null,
-        "min_profit_for_withdrawal": null,
-        "benchmark_days_for_payout": 5,
-        "consistency_rule_payout": true,
-        "consistency_rule_payout_pct": 50,
-        "performance_reward_cap": {
-          "25K": 6000,
-          "50K": 15000,
-          "100K": 20000,
-          "150K": 21500
-        },
+        "profit_split_detail": "100% of first $25,000 per account; 90% thereafter",
         "first_payout_delay_days": null,
-        "note": "100% split with per-request payout caps. Safety net = starting balance + $100; balance must be $500 above safety net to withdraw."
+        "first_payout_eligibility": "After 8 trading days on PA with 5 qualifying profit days (each day with $50+ profit)",
+        "minimum_payout": 500.0,
+        "maximum_payout_sim_cap": null,
+        "payout_lifecycle_max_payouts": 6,
+        "payout_caps_by_payout_number": {
+          "payout_1": 1000,
+          "payout_2": 1000,
+          "payout_3": 1000,
+          "payout_4": 1000,
+          "payout_5": 1000,
+          "payout_6": 1000,
+          "total_max_usd": 6000,
+          "note": "Flat $1,000 cap per payout for $25K accounts. Total lifecycle max = $6,000."
+        },
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "payout_processing_time": "3-7 business days (2 business days internal review + 3-5 business days bank processing)"
       },
       "restrictions": {
+        "consistency_rule": false,
+        "consistency_rule_eval": false,
+        "consistency_rule_pa": true,
+        "consistency_max_pct": 50,
+        "consistency_note": "50% rule on PA: no single trading day can account for 50% or more of total profit earned since last payout request",
         "inactivity_days_breach": null,
-        "inactivity_days_funded_breach": null,
-        "disciplinary_program": false,
-        "account_reset_allowed": false
+        "inactivity_note": "No explicit inactivity rule published; accounts with no trading activity for extended periods may be subject to closure per ToS",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": "https://support.apextraderfunding.com"
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": false,
+        "details_url": null,
+        "requirements": "No live capital path — Apex operates simulation-funded accounts exclusively"
       }
     },
     {
-      "model_name": "Intraday Evaluation",
+      "model_name": "Intraday Trailing Drawdown Evaluation",
       "model_type": "speed",
+      "steps": 1,
+      "description": "Intraday trailing drawdown that follows the highest peak balance in real time, INCLUDING unrealized (open position) P&L. As a position moves into profit, the drawdown threshold moves up immediately. The trailing stops (locks) once balance hits starting balance + $100 on PA. No daily loss limit during evaluation phase. Overnight holding is permitted.",
       "account_sizes": [
         {
           "size": 25000,
-          "profit_target": 1500,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 1000,
-          "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 1000,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "Intraday",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 4,
+          "max_contracts_micro": 40,
+          "eval_fee": 118.0,
+          "activation_fee": 79.0,
+          "total_fee": 197.0
         },
         {
           "size": 50000,
-          "profit_target": 3000,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 2000,
-          "max_loss_limit_pct": 4.0,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 2000,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "Intraday",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 10,
+          "max_contracts_micro": null,
+          "eval_fee": 132.0,
+          "activation_fee": 79.0,
+          "total_fee": 211.0
         },
         {
           "size": 100000,
-          "profit_target": 6000,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 3000,
-          "max_loss_limit_pct": 3.0,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 3000,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "Intraday",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 14,
+          "max_contracts_micro": null,
+          "eval_fee": 198.0,
+          "activation_fee": 79.0,
+          "total_fee": 277.0
         },
         {
           "size": 150000,
-          "profit_target": 9000,
           "profit_target_pct": 6.0,
-          "max_loss_limit": 4000,
-          "max_loss_limit_pct": 2.67,
-          "daily_loss_limit": null,
-          "daily_loss_limit_pct": null
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": null,
+          "max_trailing_drawdown_usd": 4000,
+          "daily_loss_limit_usd": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "Intraday",
+          "minimum_trading_days": 1,
+          "maximum_trading_days": 30,
+          "max_contracts_mini": 17,
+          "max_contracts_micro": null,
+          "eval_fee": 265.0,
+          "activation_fee": 79.0,
+          "total_fee": 344.0,
+          "note": "TBD — max trailing drawdown for $150K intraday account listed as $4,000. Confirm against official page."
         }
       ],
-      "passing_requirements": {
-        "profit_target_required": true,
-        "min_trading_days": 1,
-        "consistency_rule_active": true,
-        "consistency_rule_pct": 50,
-        "consistency_rule_penalty": "Payout denied if any single day > 50% of total profit",
-        "benchmark_days_required": 0
-      },
-      "risk_limits": {
-        "daily_loss_type": null,
-        "daily_loss_includes_float": null,
-        "daily_loss_includes_commissions": null,
-        "max_loss_type": "Trailing Intraday",
-        "max_loss_locks_at_initial": false,
-        "drawdown_calculation": "Equity (Balance + Float)"
-      },
       "trading_rules": {
-        "overnight_holding": "TBD",
-        "weekend_holding": "TBD",
-        "market_close_time_ct": "TBD",
-        "market_open_time_ct": "TBD",
-        "news_trading_allowed": "TBD",
-        "ea_allowed": "TBD",
-        "copy_trading_allowed": "TBD",
-        "prohibited_strategies": []
+        "overnight_holding": true,
+        "news_trading_allowed": true,
+        "news_trading_note": "Allowed but no opposing positions (long + short simultaneously) during same news release window",
+        "ea_allowed": false,
+        "ea_restrictions": "Fully automated trading, AI bots, and HFT are NOT allowed on funded/PA accounts. Semi-automated/ATM-style tools with manual control are allowed. DCA bots permitted during evaluation.",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Allowed across own accounts (up to 20). Third-party copy services: verify on support site.",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "drawdown_trail_on_unrealized": true,
+        "drawdown_calculation_time": "Real-time, continuously throughout trading session",
+        "drawdown_lock_trigger": "Balance reaches starting balance + $100 on PA"
       },
       "payout_structure": {
+        "withdrawal_frequency_days": null,
         "profit_split_pct": 100,
-        "withdrawal_frequency_days": 5,
-        "min_withdrawal_amount": null,
-        "min_profit_for_withdrawal": null,
-        "benchmark_days_for_payout": 5,
-        "consistency_rule_payout": true,
-        "consistency_rule_payout_pct": 50,
-        "performance_reward_cap": {
-          "25K": 6000,
-          "50K": 15000,
-          "100K": 20000,
-          "150K": 21500
-        },
+        "profit_split_detail": "100% of first $25,000 per account; 90% thereafter",
         "first_payout_delay_days": null,
-        "note": "100% split with per-request payout caps. Safety net = starting balance + $100; balance must be $500 above safety net to withdraw."
+        "first_payout_eligibility": "After 8 trading days on PA with 5 qualifying profit days (each day with $50+ profit)",
+        "minimum_payout": 500.0,
+        "maximum_payout_sim_cap": null,
+        "payout_lifecycle_max_payouts": 6,
+        "payout_caps_by_account_size": {
+          "50K": {
+            "payout_1": 1500,
+            "payout_2": 1500,
+            "payout_3": 2000,
+            "payout_4": 2500,
+            "payout_5": 2500,
+            "payout_6": 3000,
+            "total_max_usd": 13000
+          },
+          "100K": {
+            "payout_1": 2000,
+            "payout_2": 2500,
+            "payout_3": 2500,
+            "payout_4": 3000,
+            "payout_5": 4000,
+            "payout_6": 4000,
+            "total_max_usd": 18000
+          },
+          "150K": {
+            "payout_1": 2500,
+            "payout_2": 3000,
+            "payout_3": 3000,
+            "payout_4": 3000,
+            "payout_5": 4000,
+            "payout_6": 5000,
+            "total_max_usd": 20500
+          }
+        },
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "payout_processing_time": "3-7 business days (2 business days internal review + 3-5 business days bank processing)"
       },
       "restrictions": {
+        "consistency_rule": false,
+        "consistency_rule_eval": false,
+        "consistency_rule_pa": true,
+        "consistency_max_pct": 50,
+        "consistency_note": "50% rule on PA: no single trading day can account for 50% or more of total profit earned since last payout request",
         "inactivity_days_breach": null,
-        "inactivity_days_funded_breach": null,
-        "disciplinary_program": false,
-        "account_reset_allowed": false
+        "inactivity_note": "No explicit inactivity rule published; accounts with no trading activity for extended periods may be subject to closure per ToS",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": "https://support.apextraderfunding.com"
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": false,
+        "details_url": null,
+        "requirements": "No live capital path — Apex operates simulation-funded accounts exclusively"
       }
     }
-  ]
-}
+  ],
+  "🎯 COMPARISON SCORECARD": {
+    "_note": "Flat 38-metric scorecard. Every field required. Use null if genuinely unknown. Powers side-by-side firm comparisons.",
+    "firm_background": {
+      "year_founded": 2021,
+      "headquarters_country": "United States",
+      "restricted_countries_count": 8,
+      "restricted_countries_includes_kenya": false,
+      "review_score_avg": 4.4,
+      "review_count": 18070
+    },
+    "pricing": {
+      "cheapest_account_usd": 118.0,
+      "cheapest_account_regular_usd": 118.0,
+      "cheapest_account_model": "Intraday 25K (eval fee only, before promo; activation fee $79 additional on pass)",
+      "has_subscription_fee": false,
+      "subscription_fee_monthly_usd": null,
+      "active_discount_codes": [
+        "LIVESTREAM",
+        "LUMI"
+      ],
+      "best_current_discount_pct": 90.0
+    },
+    "challenge_rules": {
+      "profit_target_pct_range": "6%",
+      "trailing_drawdown_types": [
+        "EOD",
+        "Intraday"
+      ],
+      "best_max_loss_pct": null,
+      "has_daily_loss_limit_any_model": true,
+      "daily_loss_limit_on_all_models": false,
+      "min_trading_days_to_pass": 1,
+      "has_consistency_rule_any_model": true
+    },
+    "payout_terms": {
+      "max_profit_split_pct": 100,
+      "has_first_10k_bonus": true,
+      "first_10k_split_pct": 100,
+      "fastest_payout_days": null,
+      "min_withdrawal_usd": 500.0,
+      "payout_processing_hours": 168.0,
+      "has_payout_cap_any_model": true
+    },
+    "trading_restrictions": {
+      "overnight_holding": "some_models",
+      "news_trading": "restricted",
+      "ea_allowed": false,
+      "copy_trading_allowed": true,
+      "instruments": "Futures only (CME, CBOT, COMEX, NYMEX-listed)"
+    },
+    "model_availability": {
+      "num_challenge_models": 2,
+      "has_instant_funded_model": false,
+      "has_live_capital_path": false,
+      "max_account_size_usd": 150000,
+      "max_accounts_per_trader": 20,
+      "platforms_count": 8
+    }
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 60.0,
+    "best_for_beginners": false,
+    "best_for_scalpers": true,
+    "best_for_swing": true,
+    "best_for_large_cap": true,
+    "transparency_score": 7.0,
+    "support_quality_score": 6.0,
+    "value_score": 8.5,
+    "innovation_score": 7.5,
+    "key_differentiators": [
+      "100% profit on first $25,000 per account — unmatched among major competitors",
+      "Up to 20 simultaneous funded accounts with copy trading permitted across own accounts",
+      "Free NinjaTrader license included (saves ~$75/month)",
+      "Largest futures prop firm by reported payout volume ($721M+ paid out)",
+      "EOD drawdown does not trail unrealized intraday P&L — forgiving for volatile sessions",
+      "Intraday accounts allow overnight holding across sessions",
+      "Only 1 minimum trading day required to pass evaluation",
+      "Aggressive promotional pricing — evals can drop to ~$35 during sales",
+      "150+ countries supported via Deel payout infrastructure"
+    ],
+    "potential_concerns": [
+      "6-payout account lifecycle then forced account closure and new evaluation purchase required",
+      "Intraday trailing drawdown trails unrealized P&L in real time — penalizes traders who run winners that reverse",
+      "Fully automated trading, AI bots, and HFT prohibited on funded/PA accounts",
+      "Activation fee ($79-$99) is hidden inside a collapsible dropdown — not prominently advertised",
+      "No resets on new accounts (March 2026+) — failed evaluation requires full new purchase",
+      "No live capital path — simulation-funded accounts only",
+      "30-day evaluation time limit — slow traders may expire before hitting profit target",
+      "Notable subset of Trustpilot reviewers report account terminations near payout with limited explanation",
+      "Restricted country list not fully published — requires direct support page access to verify"
+    ]
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "6-Payout Account Lifecycle Closure",
+        "severity": "high",
+        "detail": "After 6 payouts, the PA account is permanently closed. Trader must purchase a new evaluation to continue. For $25K accounts, total max extractable is only $6,000 per lifecycle — low ROI relative to evaluation cost without heavy promotional discounts."
+      },
+      {
+        "flag": "Hidden Activation Fee",
+        "severity": "medium",
+        "detail": "Activation fee ($79 intraday / $99 EOD) is placed inside a collapsible/expandable dropdown on the membership page. Not prominently featured in top-level pricing display. First-time buyers may be surprised by this additional cost after passing evaluation."
+      },
+      {
+        "flag": "Intraday Trailing Drawdown Includes Unrealized P&L",
+        "severity": "medium",
+        "detail": "For intraday accounts, the drawdown trail moves up in real-time as unrealized profit increases. If a trade moves +$500 into profit then reverses, the drawdown floor is now $500 higher permanently. This penalizes traders who let winners run or experience whipsaw during volatile sessions."
+      },
+      {
+        "flag": "No Resets on New Accounts (March 2026+)",
+        "severity": "medium",
+        "detail": "New accounts cannot be reset if evaluation is failed. A completely new evaluation fee must be paid. Legacy accounts retain reset options. This reduces flexibility for newer subscribers."
+      },
+      {
+        "flag": "Payout Denial and Account Termination Complaints",
+        "severity": "medium",
+        "detail": "A notable subset of Trustpilot reviews describe account terminations shortly before or after payout requests, with vague explanations citing rule violations. Firm maintains these are legitimate enforcement actions. Dispute resolution process is not clearly defined publicly."
+      },
+      {
+        "flag": "No Live Capital Path",
+        "severity": "low",
+        "detail": "Apex operates exclusively in a simulated/funded environment. Traders are not trading real capital and cannot progress to a live funded account. All payouts come from Apex's own business model, not from trader-generated market profits."
+      },
+      {
+        "flag": "Fully Automated Trading Prohibited on PA Accounts",
+        "severity": "low",
+        "detail": "AI bots, fully automated systems, and HFT are banned on funded accounts. Manual or semi-automated (ATM with manual trigger) only. DCA strategies are permitted during evaluation phase only."
+      },
+      {
+        "flag": "30-Day Evaluation Time Limit",
+        "severity": "low",
+        "detail": "While only 1 trading day is required to pass, the evaluation window expires after 30 days. Traders who take a slow approach may find the account expired before hitting the profit target."
+      }
+    ],
+    "restricted_countries_summary": "OFAC-sanctioned nations restricted at minimum (Russia, Belarus, North Korea, Iran, Syria, Cuba; Venezuela and Myanmar TBD). VPN use prohibited. Full official list requires direct page access: https://support.apextraderfunding.com/hc/en-us/articles/7223858697755-What-countries-are-not-allowed-to-participate",
+    "pass_rate_pct": null,
+    "minimum_experience_months": null,
+    "account_minimum_ok": true
+  },
+  "💡 PRO TIPS FOR TRADERS": [
+    "Wait for 80-90% promotional sales — $50K EOD eval drops to approximately $35; check Apex's social channels and email list",
+    "EOD drawdown accounts are strongly preferred for safety: intraday spikes do not move your drawdown threshold, only end-of-day balance matters",
+    "You keep 100% of the first $25,000 per account — running multiple accounts maximizes this benefit; plan to cycle through 20 accounts",
+    "Up to 20 funded accounts simultaneously — copy trading your own strategy across accounts is permitted and is an effective scaling approach",
+    "Only 1 trading day minimum required to pass evaluation — no time pressure to rush trades in early days",
+    "Need 8 trading days on PA with 5 qualifying profit days ($50+ each) before first payout request",
+    "The 50% consistency rule on PA is lenient — one strong day won't automatically block payouts unless it exceeds 50% of total profit since last payout",
+    "NinjaTrader license is free with active Apex account — saves ~$75/month compared to standalone NinjaTrader subscription",
+    "After 6 payouts, account closes — plan withdrawal timing accordingly; for $25K accounts consider requesting payouts earlier rather than letting profit accumulate",
+    "News trading is allowed — but do not hold opposing long + short positions simultaneously during a news release",
+    "EOD accounts cannot hold overnight — if your strategy requires overnight holds, choose Intraday account type",
+    "New accounts (March 2026+) have no resets — treat each evaluation with full discipline as there is no recovery option beyond buying a new eval"
+  ],
+  "⚖️ COMPETITIVE POSITIONING": {
+    "vs_topstep": "Apex: More account sizes, broader platform selection, free NinjaTrader license, aggressive promo pricing (can get evals under $40), no daily drawdown on intraday eval, 100% first $25K. Topstep: Founded 2012 (longer track record), monthly subscription model, more conservative/transparent rules, no payout lifecycle cap per account"
+  },
+  "generated_at": "2026-03-29T02:26:03.664036Z"
+}'// APPROVED'

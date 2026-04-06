@@ -1,0 +1,27 @@
+/schema-extended-extraction Extract FULL extended schema for [topstep]
+
+OBJECTIVE: Extract all trading rules, pricing, firm profile, reviews, business metrics.
+
+SOURCE: https://propfirmmatch.com/prop-firms/[firm-name-lowercase]
+If blocked, use: official site, help docs, Trustpilot, or web search.
+
+SCHEMA SECTIONS (extract ALL):
+1. FIRM PROFILE: country_headquarters, year_founded, platforms[], payment_methods[], payout_methods[], reviews, user_count, restricted_countries[]
+   - restricted_countries: CRITICAL - list every country the firm explicitly blocks or restricts from signing up. Check TOS, FAQ, help docs, and sign-up pages. Use null if no restrictions found (not an empty array). Use the full English country name (e.g. "United States", not "US").
+2. PRICING: one_time_fee, subscription, refund_days, promotions[], commissions{}, leverage{}
+3. CHALLENGE MODELS (array): model_name, model_type, account_sizes[], trading_rules{}, payout_structure{}, restrictions{}, popularity{}, live_transition{}
+4. AGGREGATE: difficulty_score, best_for_* flags, transparency_score, support_score, differentiators[], concerns[]
+
+OUTPUT RULES:
+- Valid JSON only, start with { end with }
+- UTF-8 encoding, no BOM
+- null for missing fields, not "null" string
+- true/false for booleans, not "yes/no"
+- numbers as numbers: 299 not "299"
+- topstep must be exactly "[topstep]"
+- division: "Futures"
+- last_verified: YYYY-MM-DD format
+- verified_by: "Steph"
+
+Replace [topstep] with the actual firm name before running.
+Output valid JSON only.

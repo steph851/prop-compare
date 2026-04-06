@@ -1,0 +1,509 @@
+{
+  "firm_name": "Alpha Futures",
+  "division": "Futures",
+  "last_verified": "2026-03-28",
+  "verified_by": "Claude (web scrape)",
+  "source_urls": [
+    "https://alpha-futures.com",
+    "https://www.daytradinginsights.com/prop-firm-reviews/alpha-futures-review",
+    "https://www.proptradingvibes.com/prop-firms/alpha-futures",
+    "https://blog.traderspost.io/article/alpha-ticks-pricing-evaluation-guide",
+    "https://help.alpha-futures.com/en/articles/9492068-monthly-subscription",
+    "https://wrtrading.com/tools/prop-trading/firms/alpha-futures/",
+    "https://funded.now/propfirm/alpha-futures",
+    "https://nickdoesfutures.com/alpha-futures-review-rules-plans-and-payouts/"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United Kingdom (London, England; also registered in Wales)",
+    "year_founded": 2024,
+    "ceo": "Ben Chaffee",
+    "company_tagline": "One-step evaluation, EOD drawdown, industry-highest $15K payout cap",
+    "sister_company": "Alpha Capital Group (forex prop trading)",
+    "platforms_offered": [
+      "AlphaTick (Quantower) — proprietary, replaced ProjectX in early 2026",
+      "NinjaTrader",
+      "TradingView",
+      "Tradovate"
+    ],
+    "platforms_deprecated": [
+      "ProjectX — phased out February 2026 after ProjectX went exclusive with Topstep"
+    ],
+    "brokers": [
+      "Tradovate",
+      "NinjaTrader Brokerage"
+    ],
+    "payment_methods": [
+      "Credit Card",
+      "Debit Card"
+    ],
+    "payout_methods": [
+      "Rise (Riseworks) — ACH, instant bank, crypto USDT/USDC",
+      "Wise (multi-currency international transfer)",
+      "Bank Wire (ACH / SWIFT)"
+    ],
+    "review_score_avg": 4.9,
+    "review_count": 3291,
+    "review_platform": "Trustpilot",
+    "trading_hours": "Must close all positions by market close (no overnight / weekend holding)",
+    "regulated_exchanges": [
+      "CME",
+      "CBOT",
+      "COMEX",
+      "NYMEX"
+    ],
+    "account_minimum": 50000,
+    "account_maximum": 150000,
+    "max_total_allocation": 450000,
+    "max_total_allocation_note": "3 qualified accounts of $150K each",
+    "payout_speed_hours": "24–48 business hours after approval",
+    "kyc_time_hours": null,
+    "inactivity_rule": "Qualified Zero accounts require at least 1 trade every 5 trading days before first payout",
+    "overnight_holding": "Not allowed. All positions must close by market close.",
+    "minimum_trade_duration_seconds": 120,
+    "minimum_trade_ticks": 10,
+    "minimum_trade_note": "Micro scalping banned — trades under 2 minutes OR under 10 ticks prohibited",
+    "ea_bots_allowed": false,
+    "semi_automated_allowed": true,
+    "semi_automated_note": "TradersPost-style alert execution permitted with active trader oversight; fully automated set-and-forget prohibited",
+    "news_trading_allowed": true,
+    "news_trading_note": "Standard/Zero: 2-minute buffer before/after high-impact news. Advanced: unrestricted.",
+    "hft_allowed": false,
+    "vpn_vps_kyc": false
+  },
+  "💰 PRICING & OFFERS": {
+    "pricing_model": "Monthly subscription (rebills until pass or cancel) + one-time activation fee on Standard & Advanced. No recurring fees after qualifying.",
+    "account_sizes_pricing": {
+      "25000": {
+        "note": "Only available on Zero plan",
+        "zero": 79,
+        "standard": null,
+        "advanced": null,
+        "activation_fee": 0,
+        "reset_fee": null
+      },
+      "50000": {
+        "standard": 79,
+        "advanced": 139,
+        "zero": 119,
+        "activation_fee_standard_advanced": 149,
+        "activation_fee_zero": 0,
+        "reset_fee_standard": 59,
+        "reset_fee_advanced": 139,
+        "reset_fee_zero": 79
+      },
+      "100000": {
+        "standard": 159,
+        "advanced": 279,
+        "zero": 239,
+        "activation_fee_standard_advanced": 149,
+        "activation_fee_zero": 0,
+        "reset_fee_standard": 129,
+        "reset_fee_advanced": 279,
+        "reset_fee_zero": 159
+      },
+      "150000": {
+        "standard": 239,
+        "advanced": 419,
+        "zero": null,
+        "note": "Zero plan not available at 150K",
+        "activation_fee_standard_advanced": 149,
+        "reset_fee_standard": 199,
+        "reset_fee_advanced": 419
+      }
+    },
+    "activation_fee_deadline_days": 30,
+    "activation_fee_note": "Must pay $149 within 30 days of passing eval (Standard/Advanced) or evaluation status is voided.",
+    "active_promotions": [
+      "Code: dtinsights000620 = additional 15% OFF + No Activation Fee (DayTradingInsights affiliate)",
+      "Code: LUMI = 10% OFF (Funded.Now affiliate)"
+    ],
+    "refund_policy": "Non-refundable. Rebills automatically with fresh account if still in eval period."
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "Standard (1-Step)",
+      "model_type": "discipline",
+      "description": "Entry-level monthly subscription. 6% profit target, tiered profit split (70% → 90%), bi-weekly payouts, $149 activation fee after passing.",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_guard_pct": null,
+          "daily_loss_guard_note": "No Daily Loss Guard on Standard eval",
+          "max_contracts": 5,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 50,
+          "consistency_note": "Eval: no single day >50% of total profit. Funded: no single day >40% of total profit.",
+          "drawdown_type": "End-of-Day (EOD) Trailing — calculated from daily close balance, NOT intraday equity",
+          "min_trading_days_eval": 2,
+          "min_trading_days_funded": 3,
+          "payout_structure": "Tiered: 70% (payouts 1–2), 80% (payouts 3–4), 90% (payout 5+)",
+          "payout_frequency": "Every 14 days (bi-weekly), min $200, max $15,000",
+          "monthly_fee": 79,
+          "activation_fee": 149,
+          "reset_fee": 59
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 4000,
+          "max_contracts": 10,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct_eval": 50,
+          "consistency_pct_funded": 40,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 2,
+          "min_trading_days_funded": 3,
+          "payout_structure": "Tiered: 70% → 80% → 90%",
+          "payout_frequency": "Every 14 days, min $200, max $15,000",
+          "monthly_fee": 159,
+          "activation_fee": 149,
+          "reset_fee": 129
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 6000,
+          "max_contracts": 15,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct_eval": 50,
+          "consistency_pct_funded": 40,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 2,
+          "min_trading_days_funded": 3,
+          "payout_structure": "Tiered: 70% → 80% → 90%",
+          "payout_frequency": "Every 14 days, min $200, max $15,000",
+          "monthly_fee": 239,
+          "activation_fee": 149,
+          "reset_fee": 199
+        }
+      ]
+    },
+    {
+      "model_name": "Advanced (1-Step)",
+      "model_type": "speed",
+      "description": "Premium plan. Harder 8% target and 3.5% MLL, but 90% profit split from payout 1, weekly payouts, NO consistency rule funded, NO news buffer. Best for high-volume traders.",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target_pct": 8.0,
+          "profit_target_usd": 4000,
+          "max_loss_limit_pct": 3.5,
+          "max_loss_limit_usd": 1750,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 5,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct_eval": 50,
+          "consistency_pct_funded": null,
+          "consistency_note": "50% eval consistency; NO consistency rule once funded",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 2,
+          "min_trading_days_funded": 5,
+          "payout_structure": "Flat 90% from payout 1",
+          "payout_frequency": "Weekly — every 5 winning days with $200+ profit each; min $1,000, max $15,000",
+          "monthly_fee": 139,
+          "activation_fee": 149,
+          "reset_fee": 139
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 8.0,
+          "profit_target_usd": 8000,
+          "max_loss_limit_pct": 3.5,
+          "max_loss_limit_usd": 3500,
+          "max_contracts": 10,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct_eval": 50,
+          "consistency_pct_funded": null,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 2,
+          "min_trading_days_funded": 5,
+          "payout_structure": "Flat 90% from payout 1",
+          "payout_frequency": "Weekly, min $1,000, max $15,000",
+          "monthly_fee": 279,
+          "activation_fee": 149,
+          "reset_fee": 279
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": 8.0,
+          "profit_target_usd": 12000,
+          "max_loss_limit_pct": 3.5,
+          "max_loss_limit_usd": 5250,
+          "max_contracts": 15,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct_eval": 50,
+          "consistency_pct_funded": null,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 2,
+          "min_trading_days_funded": 5,
+          "payout_structure": "Flat 90% from payout 1",
+          "payout_frequency": "Weekly, min $1,000, max $15,000",
+          "monthly_fee": 419,
+          "activation_fee": 149,
+          "reset_fee": 419
+        }
+      ]
+    },
+    {
+      "model_name": "Zero (1-Step)",
+      "model_type": "budget",
+      "description": "No activation fee, 90% split from day one, can technically pass eval in 1 day (no eval consistency rule). Has 2% Daily Loss Guard during eval. Lower per-payout withdrawal caps. Not available at $150K.",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 1000,
+          "daily_loss_guard_pct": 2.0,
+          "daily_loss_guard_note": "Soft daily loss guard during evaluation only",
+          "max_contracts": 3,
+          "overnight_holding": false,
+          "consistency_rule": false,
+          "consistency_note": "No consistency rule during evaluation. 40% rule applies once funded.",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 1,
+          "min_trading_days_funded": 5,
+          "payout_structure": "90% from payout 1",
+          "payout_frequency": "Up to 4x/month after 5 winning days; min $200, max $1,500 per request",
+          "monthly_fee": 79,
+          "activation_fee": 0,
+          "reset_fee": null
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_guard_pct": 2.0,
+          "max_contracts": 3,
+          "max_contracts_zero_max": 3,
+          "overnight_holding": false,
+          "consistency_rule": false,
+          "consistency_note": "No eval consistency. 40% rule applies funded.",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 1,
+          "min_trading_days_funded": 5,
+          "payout_structure": "90% from payout 1",
+          "payout_frequency": "Up to 4x/month; min $200, max $1,500 per request",
+          "monthly_fee": 119,
+          "activation_fee": 0,
+          "reset_fee": 79
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 4000,
+          "daily_loss_guard_pct": 2.0,
+          "max_contracts": 6,
+          "overnight_holding": false,
+          "consistency_rule": false,
+          "consistency_note": "No eval consistency. 40% rule applies funded.",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days_eval": 1,
+          "min_trading_days_funded": 5,
+          "payout_structure": "90% from payout 1",
+          "payout_frequency": "Up to 4x/month; min $200, max $3,000 per request",
+          "monthly_fee": 239,
+          "activation_fee": 0,
+          "reset_fee": 159
+        }
+      ]
+    }
+  ],
+  "🎯 PAYOUT STRUCTURE": {
+    "profit_split_pct": {
+      "standard": "70% (payouts 1–2) / 80% (payouts 3–4) / 90% (payout 5+)",
+      "advanced": "90% flat from payout 1",
+      "zero": "90% flat from payout 1"
+    },
+    "payout_frequency": {
+      "standard": "Bi-weekly (every 14 days), min $200",
+      "advanced": "Weekly (every 5 winning days with $200+ each day), min $1,000",
+      "zero": "Up to 4x per month after 5 winning days ($200+ each), min $200"
+    },
+    "max_payout_per_request": {
+      "standard_advanced": 15000,
+      "zero_50k": 1500,
+      "zero_100k": 3000,
+      "note": "$15,000 is industry-highest payout cap"
+    },
+    "payout_methods": [
+      "Rise (Riseworks) — ACH, instant bank, or crypto USDT/USDC",
+      "Wise — multi-currency international transfer",
+      "Bank Wire (ACH / SWIFT)"
+    ],
+    "withdrawal_processing_hours": "24–48 business hours",
+    "withdrawal_weekend_note": "Business days only. Weekend submissions enter Monday queue.",
+    "payout_reduces_mll": true,
+    "payout_reduces_mll_note": "Each withdrawal reduces your Maximum Loss Limit by the payout amount. Draining all profits closes the account.",
+    "path_to_live": "Alpha Prime — complete 3 payouts on Sim-Funded account to become eligible for Live-Funded (Alpha Prime) status",
+    "profit_target_funded": "No profit target once qualified — trade freely"
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 50,
+    "difficulty_reasoning": "EOD drawdown (not intraday) is beginner-friendly; 1-step evaluation; Standard 6% target is achievable in 5–10 sessions; Advanced 8% target is harder; 2-minute minimum trade duration catches scalpers; 40% funded consistency can delay payouts",
+    "transparency_score": 9,
+    "support_quality_score": 9,
+    "support_note": "Responses reportedly under 2 minutes via live chat",
+    "community_size": "3,291 Trustpilot reviews, 4.9 rating — highest of any futures prop firm per multiple sources",
+    "completion_rate_pct": null,
+    "avg_time_to_pass_days": "Minimum 1 day (Zero); typically 5–10 sessions (Standard)",
+    "best_suited_for": "Intraday disciplined traders; news traders (Advanced); data-driven technical traders; traders wanting high payout caps; scaling-focused traders ($50K → $450K)",
+    "worst_suited_for": "Swing traders (no overnight); EA/bot users; HFT / tick scalpers; traders in 59 restricted countries (including Kenya); traders wanting instant funding without evaluation",
+    "payout_reliability": "Excellent (4.9 Trustpilot, 3,291 reviews, multiple confirmed payouts in reviews)",
+    "platform_stability": "Stable — NinjaTrader, TradingView, Tradovate, AlphaTick (Quantower). ProjectX deprecated Feb 2026.",
+    "key_strength": "Industry-highest $15,000 payout cap; EOD trailing drawdown (not intraday); 1-step evaluation; 4.9 Trustpilot; path to live capital (Alpha Prime); strong educational resources; sister company of established Alpha Capital Group",
+    "key_weakness": "Kenya is a restricted country; subscription-based (monthly fees accumulate if slow to pass); $149 activation fee on top of monthly (Standard/Advanced); no overnight/weekend holding; scalping prohibited; tiered split on Standard means lower early payouts; no free trial or instant funding"
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "Kenya Restricted",
+        "severity": "critical",
+        "detail": "Kenya is explicitly on the 59-country restricted list. Kenyan residents/citizens cannot legally trade with Alpha Futures. Using a VPN during KYC is also prohibited and causes account closure."
+      },
+      {
+        "flag": "Subscription-Based Pricing",
+        "severity": "medium",
+        "detail": "Monthly fees keep billing until you pass. A slow evaluation compounds cost: Standard $50K passing in 3 months = $79 × 3 + $149 activation = $386 total. No refunds."
+      },
+      {
+        "flag": "No Overnight / Weekend Holding",
+        "severity": "medium",
+        "detail": "All positions must close by market close. Not suitable for swing traders or those holding multi-day setups."
+      },
+      {
+        "flag": "Micro Scalping Banned",
+        "severity": "medium",
+        "detail": "Trades under 2 minutes OR under 10 ticks are prohibited. Strict scalpers will face violations."
+      },
+      {
+        "flag": "EA / Bots Fully Prohibited",
+        "severity": "low",
+        "detail": "Fully automated strategies, EAs, and AI trading systems banned across all account types. Semi-automated with active oversight permitted."
+      },
+      {
+        "flag": "Payout Reduces MLL",
+        "severity": "medium",
+        "detail": "Withdrawals shrink the Maximum Loss Limit. Aggressive payouts tighten the drawdown cushion and can trap traders walking a tightrope."
+      },
+      {
+        "flag": "Standard Plan Tiered Split",
+        "severity": "low",
+        "detail": "Standard starts at only 70% split for first 2 payouts. Most traders don't stay funded long enough to reach the 90% tier."
+      },
+      {
+        "flag": "ProjectX Platform Deprecated",
+        "severity": "low",
+        "detail": "ProjectX removed February 2026. Existing accounts migrated to AlphaTick (Quantower) or other platforms. Cannot switch platforms after activation."
+      }
+    ],
+    "restricted_countries": [
+      "Afghanistan",
+      "Albania",
+      "Belarus",
+      "Bosnia and Herzegovina",
+      "Bulgaria",
+      "Burkina Faso",
+      "Burma/Myanmar",
+      "Chad",
+      "Côte d'Ivoire",
+      "Croatia",
+      "Cuba",
+      "Democratic Republic of Congo",
+      "Djibouti",
+      "East Timor",
+      "Guinea-Bissau",
+      "Ethiopia",
+      "Haiti",
+      "Iran",
+      "Iraq",
+      "Jamaica",
+      "Jordan",
+      "Kenya",
+      "Kosovo",
+      "Laos",
+      "Lebanon",
+      "Lesotho",
+      "Libya",
+      "Malawi",
+      "Malaysia",
+      "Mali",
+      "Montenegro",
+      "Mozambique",
+      "Namibia",
+      "Nigeria",
+      "North Korea",
+      "North Macedonia",
+      "Palestinian Territory",
+      "Pakistan",
+      "Philippines",
+      "Romania",
+      "Russia",
+      "Rwanda",
+      "Senegal",
+      "Serbia",
+      "Sierra Leone",
+      "Slovenia",
+      "Somalia",
+      "South Africa",
+      "South Sudan",
+      "Sudan and Darfur",
+      "Syria",
+      "Tajikistan",
+      "Tanzania",
+      "Turkey",
+      "Ukraine",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zimbabwe"
+    ],
+    "restricted_countries_count": 59,
+    "account_minimum_ok": true,
+    "pass_rate_pct": null
+  },
+  "💡 PRO TIPS FOR TRADERS": [
+    "Zero Plan is best for first-timers: $0 activation fee, 90% split from day one, can pass in 1 day with no eval consistency rule",
+    "Advanced Plan justifies its premium if you generate $4,000+/month profit — weekly payouts and no funded consistency rule compound earnings faster",
+    "Standard Plan is the worst value in 2026 — Zero undercuts it on cost and Advanced outperforms it on rules quality",
+    "EOD trailing drawdown is calculated from daily close balance, NOT intraday equity — gives you more room to recover intraday without failing",
+    "$15,000 per-payout cap is industry-highest — ideal for high-profit traders who don't want per-cycle ceilings",
+    "Advanced's no-consistency rule is transformative for news traders — catch NFP/FOMC for 80% of monthly profits and withdraw it all",
+    "Rise is fastest payout method for US traders; Wise is best internationally; crypto USDT/USDC via Rise for same-day settlement",
+    "Payout reduces MLL — maintain a capital buffer and avoid draining all profits or account will close",
+    "Cannot switch platforms after activation — choose your platform carefully before paying the $149 activation fee",
+    "Copy trading allowed between Alpha Futures accounts — provide both Master and Slave account numbers before starting"
+  ],
+  "⚖️ COMPETITIVE POSITIONING": {
+    "vs_toponefutures": "Alpha: Subscription-based, no instant funding, 4.9 Trustpilot (3,291 reviews), $15K payout cap, 50K minimum account. TopOne: One-time fee, instant funding options, 4.7 Trustpilot (66 reviews), $3,500 max payout, 25K minimum account. Alpha wins on reputation and payout cap; TopOne wins on instant access and lower entry.",
+    "vs_apex": "Alpha: Monthly sub, EOD drawdown, 1-step, $15K payout cap. Apex: Monthly sub, multiple account stacking (up to 20), 5-day payout wait, lower caps.",
+    "vs_topstep": "Alpha: Newer (2024), 1-step, EOD drawdown, $15K cap, 90% split (Advanced). Topstep: Established 2012, 2-step evaluation, longer payout processing.",
+    "vs_tradeify": "Alpha: Business-day-only payout processing. Tradeify: 7-day/week payouts via Rise including weekends.",
+    "unique_advantage": "$15,000 per-payout cap (industry-highest) + EOD trailing drawdown (not intraday) + 4.9 Trustpilot (highest-rated futures prop firm) + path to live capital via Alpha Prime + sister company of Alpha Capital Group = strongest reputation and largest single payout ceiling in futures prop trading"
+  },
+  "⚠️ IMPORTANT NOTE FOR KENYAN TRADERS": {
+    "warning": "Kenya is on Alpha Futures' restricted country list. Kenyan residents and citizens are NOT permitted to trade with Alpha Futures. Attempting to bypass this restriction via VPN/VPS during KYC will result in account closure. Please verify your country's eligibility directly on alpha-futures.com before purchasing.",
+    "alternatives_for_kenya": "Consider Top One Futures (Kenya not listed as restricted), or other firms that explicitly accept African traders."
+  },
+  "generated_at": "2026-03-28T00:00:00Z"
+}

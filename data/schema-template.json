@@ -1,0 +1,347 @@
+{
+  "firm_name": "My Funded Futures",
+  "division": "Futures",
+  "last_verified": "2026-03-26",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://propfirmmatch.com/prop-firms/myfundedfutures",
+    "https://www.myfundedfutures.com",
+    "https://help.myfundedfutures.com"
+  ],
+  
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2023,
+    "years_in_operation": 2,
+    "restricted_countries": [
+      "Afghanistan", "Albania", "Algeria", "Angola", "Bahamas", "Barbados", "Belarus",
+      "Bosnia and Herzegovina", "Botswana", "Bulgaria", "Burkina Faso", "Burundi",
+      "Cambodia", "Cameroon", "Central African Republic", "China", "Cote d'Ivoire",
+      "Crimea", "Croatia", "Cuba", "Democratic Republic of the Congo", "Ecuador",
+      "Ethiopia", "Ghana", "Gibraltar", "Haiti", "Hong Kong", "Iceland", "Indonesia",
+      "Iran", "Iraq", "Jamaica", "Jordan", "Kenya", "Kosovo", "Laos", "Lebanon",
+      "Liberia", "Libya", "Macedonia", "Malaysia", "Mali", "Malta", "Mauritius",
+      "Mexico", "Mongolia", "Montenegro", "Mozambique", "Myanmar", "Namibia",
+      "Nicaragua", "Nigeria", "North Korea", "Pakistan", "Panama", "Papua New Guinea",
+      "Philippines", "Qatar", "Romania", "Russia", "Senegal", "Serbia", "Slovenia",
+      "Somalia", "South Africa", "South Sudan", "Sri Lanka", "Sudan", "Syria",
+      "Taiwan", "Tanzania", "Trinidad and Tobago", "Tunisia", "Turkey", "Uganda",
+      "Ukraine", "United Arab Emirates", "Venezuela", "Vietnam", "Yemen", "Zimbabwe"
+    ],
+    "platforms_offered": [
+      "ATAS Orderflow Trading",
+      "NinjaTrader",
+      "Quantower",
+      "TradingView",
+      "Tradovate",
+      "Volbook",
+      "Volsys",
+      "Volumetrica Trading"
+    ],
+    "payment_methods": ["Credit/Debit Card", "Crypto"],
+    "payout_methods": ["Riseworks"],
+    "brokers": ["DXFeed", "Tradovate"],
+    "max_allocation_per_trader": 450000,
+    "estimated_user_count": 37952,
+    "review_score_avg": 4.6,
+    "review_count": 208,
+    "is_featured_favorite": true,
+    "ceo": "Matthew Leech",
+    "trustpilot_rating": 4.9
+  },
+  
+  "💰 PRICING & OFFERS": {
+    "one_time_fee_usd": null,
+    "monthly_subscription_usd": null,
+    "refund_policy_days": null,
+    "active_promotions": [
+      "MATCH - 50% off all Pro accounts for new users",
+      "$25K Flex for $49 with code MATCH (limited offer)"
+    ],
+    "commission_structure": {
+      "per_lot_forex": null,
+      "per_contract_futures": null,
+      "crypto_percentage": null,
+      "commission_info_url": "https://intercom.help/myfundedfutures/en/articles/8271708-commissions"
+    },
+    "leverage_offered": {
+      "forex": "1:100",
+      "indices": "1:20",
+      "gold": "1:80",
+      "silver": "1:25",
+      "oil": "1:40",
+      "futures_general": "Varies by contract"
+    },
+    "model_pricing": {
+      "Rapid": {
+        "25K": {"original": 109.00, "discounted": 87.00},
+        "50K": {"original": 157.00, "discounted": 125.60},
+        "100K": {"original": 267.00, "discounted": 213.60},
+        "150K": {"original": 347.00, "discounted": 277.60}
+      },
+      "Pro": {
+        "50K": {"original": 227.00, "discounted": 113.50},
+        "100K": {"original": 344.00, "discounted": 172.00},
+        "150K": {"original": 477.00, "discounted": 238.50}
+      },
+      "Flex": {
+        "25K": {"original": 84.00, "discounted": 49.00},
+        "50K": {"original": null, "discounted": 107.00}
+      }
+    }
+  },
+  
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "Rapid",
+      "model_type": "speed",
+      "account_sizes": [
+        {"size": 25000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": true, "minimum_trading_days": 1, "buffer_required": 1100},
+        {"size": 50000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": true, "minimum_trading_days": 1, "buffer_required": 2100},
+        {"size": 100000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": true, "minimum_trading_days": 1, "buffer_required": 3100},
+        {"size": 150000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": true, "minimum_trading_days": 1, "buffer_required": 4600}
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": false,
+        "tier1_news_restriction": "No positions 2 minutes before or after T1 data release",
+        "ea_allowed": true,
+        "ea_restrictions": "Must not exploit simulator fills; live accounts must follow CME guidelines",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Same as EA restrictions",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "max_contracts_by_size": {
+          "25K": "Up to 3 Minis or 30 Micros",
+          "50K": "Up to 5 Minis or 50 Micros",
+          "100K": "Up to 10 Minis or 100 Micros",
+          "150K": "Up to 15 Minis or 150 Micros"
+        },
+        "price_limit_rule": "No trading when product within 2% of CME price limit",
+        "cross_instrument_policy": "Single instrument limits enforced; bypassing via cross-instrument orders is prohibited"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 90,
+        "first_payout_delay_days": 1,
+        "minimum_payout": 500,
+        "maximum_payout_sim_cap": 100000,
+        "max_payout_per_request": null,
+        "scaling_plan_available": true,
+        "scaling_increment_pct": null,
+        "max_loss_lock": "Trailing drawdown locks at $100 after first payout; account breached if balance < $100"
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "inactivity_days_breach": 7,
+        "inactivity_note": "Must place at least one trade every 7-day cycle; inform support for breaks",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": "https://help.myfundedfutures.com/en/articles/8444599-fair-play-and-prohibited-trading-practices"
+      },
+      "popularity_metrics": {
+        "is_best_seller": true,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details_url": "https://help.myfundedfutures.com/en/articles/13134718-understanding-rapid-live",
+        "requirements": "Buffer + payout requirements met"
+      }
+    },
+    {
+      "model_name": "Pro",
+      "model_type": "discipline",
+      "account_sizes": [
+        {"size": 50000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": false, "minimum_trading_days": 2, "buffer_required": 2100},
+        {"size": 100000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": false, "minimum_trading_days": 2, "buffer_required": 3100},
+        {"size": 150000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": false, "minimum_trading_days": 2, "buffer_required": 4600}
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": false,
+        "tier1_news_restriction": "No positions 2 minutes before or after T1 data release",
+        "ea_allowed": true,
+        "ea_restrictions": "Must not exploit simulator fills; live accounts must follow CME guidelines",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Same as EA restrictions",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "max_contracts_by_size": {
+          "50K": "Up to 3 Minis or 30 Micros",
+          "100K": "Up to 6 Minis or 60 Micros",
+          "150K": "Up to 9 Minis or 90 Micros"
+        },
+        "price_limit_rule": "No trading when product within 2% of CME price limit",
+        "cross_instrument_policy": "Single instrument limits enforced; bypassing via cross-instrument orders is prohibited"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 14,
+        "profit_split_pct": 80,
+        "first_payout_delay_days": 14,
+        "minimum_payout": 1000,
+        "maximum_payout_sim_cap": 100000,
+        "max_payout_per_request": null,
+        "scaling_plan_available": true,
+        "scaling_increment_pct": 25,
+        "max_loss_lock": "After first payout, Max Loss Limit locks to starting balance + $100 (e.g., $50,100 for 50K account)",
+        "buffer_withdrawal": "Can withdraw up to 60% of profits before fully clearing buffer"
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 50,
+        "consistency_note": "50% consistency rule applies in evaluation stage only",
+        "inactivity_days_breach": 7,
+        "inactivity_note": "Must place at least one trade every 7-day cycle",
+        "max_consecutive_loss_days": null,
+        "prohibited_conduct_url": "https://help.myfundedfutures.com/en/articles/8444599-fair-play-and-prohibited-trading-practices"
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "requirements": "Reviewed after 3 consecutive payouts OR $20,000 profit milestone; risk team may fast-track based on performance",
+        "excess_profit_handling": "Excess profits beyond $100K Sim cap may be transitioned to Live (up to plan-specific limits)"
+      }
+    },
+    {
+      "model_name": "Flex",
+      "model_type": "discipline",
+      "account_sizes": [
+        {"size": 25000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": false, "minimum_trading_days": 5, "winning_days_required": 5, "win_amount_per_day": 100},
+        {"size": 50000, "profit_target_pct": null, "max_loss_limit_pct": null, "daily_loss_limit_pct": null, "trailing_drawdown": false, "minimum_trading_days": 5, "winning_days_required": 5, "win_amount_per_day": 150}
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "news_trading_allowed": true,
+        "news_trading_note": "Flex accounts are unrestricted for news trading",
+        "ea_allowed": true,
+        "ea_restrictions": "Must not exploit simulator fills",
+        "copy_trading_allowed": true,
+        "copy_trading_restrictions": "Same as EA restrictions",
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "max_contracts_by_size": {
+          "25K": "Up to 3 Minis or 30 Micros",
+          "50K": "Up to 5 Minis or 50 Micros"
+        },
+        "price_limit_rule": "No trading when product within 2% of CME price limit",
+        "cross_instrument_policy": "Single instrument limits enforced"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": null,
+        "profit_split_pct": 80,
+        "first_payout_delay_days": null,
+        "minimum_payout": 250,
+        "maximum_payout_percentage": 50,
+        "maximum_payout_cap": {"25K": 3000, "50K": 5000},
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null,
+        "max_loss_lock": "After first payout, MLL moves to $100 and remains static"
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "consistency_note": "No consistency rule in sim funded stage",
+        "inactivity_days_breach": 7,
+        "inactivity_note": "Must place at least one trade every 7-day cycle",
+        "max_consecutive_loss_days": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      }
+    }
+  ],
+  
+  "🎯 COMPARISON SCORECARD": {
+    "_note": "Flat 38-metric scorecard. Every field required. Use null if genuinely unknown. Powers side-by-side firm comparisons.",
+
+    "firm_background": {
+      "year_founded": null,
+      "headquarters_country": null,
+      "restricted_countries_count": null,
+      "restricted_countries_includes_kenya": null,
+      "review_score_avg": null,
+      "review_count": null
+    },
+
+    "pricing": {
+      "cheapest_account_usd": null,
+      "cheapest_account_regular_usd": null,
+      "cheapest_account_model": null,
+      "has_subscription_fee": null,
+      "subscription_fee_monthly_usd": null,
+      "active_discount_codes": [],
+      "best_current_discount_pct": null
+    },
+
+    "challenge_rules": {
+      "profit_target_pct_range": null,
+      "trailing_drawdown_types": [],
+      "best_max_loss_pct": null,
+      "has_daily_loss_limit_any_model": null,
+      "daily_loss_limit_on_all_models": null,
+      "min_trading_days_to_pass": null,
+      "has_consistency_rule_any_model": null
+    },
+
+    "payout_terms": {
+      "max_profit_split_pct": null,
+      "has_first_10k_bonus": null,
+      "first_10k_split_pct": null,
+      "fastest_payout_days": null,
+      "min_withdrawal_usd": null,
+      "payout_processing_hours": null,
+      "has_payout_cap_any_model": null
+    },
+
+    "trading_restrictions": {
+      "overnight_holding": null,
+      "news_trading": null,
+      "ea_allowed": null,
+      "copy_trading_allowed": null,
+      "instruments": null
+    },
+
+    "model_availability": {
+      "num_challenge_models": null,
+      "has_instant_funded_model": null,
+      "has_live_capital_path": null,
+      "max_account_size_usd": null,
+      "max_accounts_per_trader": null,
+      "platforms_count": null
+    }
+  },
+
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 38.0,
+    "best_for_beginners": true,
+    "best_for_scalpers": true,
+    "best_for_swing": false,
+    "best_for_large_cap": true,
+    "transparency_score": 9.0,
+    "support_quality_score": 8.5,
+    "value_score": 8.0,
+    "innovation_score": 9.0,
+    "key_differentiators": [
+      "No consistency rule on Rapid and Flex models",
+      "Daily payouts on Rapid plan (90% split)",
+      "8+ platform options including NinjaTrader, TradingView, Quantower",
+      "Buffer system allows partial withdrawals before full target",
+      "Clear 2% price limit rule protects from extreme volatility",
+      "Live account transition path with performance-based fast-tracking"
+    ],
+    "potential_concerns": [
+      "No overnight holding on any model (not suitable for swing trading)",
+      "Tier 1 news restrictions require careful timing",
+      "Trailing drawdown on Rapid can be challenging for new traders",
+      "Extensive restricted countries list limits global access"
+    ]
+  }
+}

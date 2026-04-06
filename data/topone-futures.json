@@ -1,0 +1,530 @@
+{
+  "firm_name": "Top One Futures",
+  "division": "Futures",
+  "last_verified": "2026-03-28",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://www.toponefutures.com",
+    "https://propfirmmatch.com/firms/top-one-futures"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2025,
+    "ceo": "Matt Morris",
+    "company_tagline": "Same-day payouts, instant funding, EOD drawdown",
+    "platforms_offered": [
+      "NinjaTrader",
+      "TradingView",
+      "Tradovate"
+    ],
+    "brokers": [
+      "Tradovate",
+      "Plus500"
+    ],
+    "payment_methods": [
+      "Apple Pay",
+      "Credit Card",
+      "Debit Card",
+      "Crypto"
+    ],
+    "payout_methods": [
+      "Riseworks (Rise)",
+      "Crypto"
+    ],
+    "review_score_avg": 4.7,
+    "review_count": 66,
+    "review_platform": "Trustpilot",
+    "trading_hours": "6:00 PM EST to 4:10 PM EST (Mon-Fri). Break: 5:00 PM to 6:00 PM EST",
+    "regulated_exchanges": [
+      "CME",
+      "CBOT",
+      "COMEX",
+      "NYMEX"
+    ],
+    "account_minimum": 25000,
+    "account_maximum": 150000,
+    "payout_speed_hours": "Less than 4 hours on average",
+    "kyc_time_hours": 1,
+    "inactivity_rule": "Funded accounts: 1 trade every 14 days",
+    "overnight_holding": "Not allowed. All positions must close by 4:10 PM EST.",
+    "minimum_trade_duration_seconds": 10,
+    "ea_bots_allowed": false,
+    "news_trading_allowed": true
+  },
+  "💰 PRICING & OFFERS": {
+    "pricing_model": "One-time evaluation fee + one-time activation fee (no monthly rebilling)",
+    "account_sizes_pricing": {
+      "25000": {
+        "elite": 27.6,
+        "elite_original": 69.0,
+        "elite_daily": null,
+        "instant_sim_funded": 167.6,
+        "instant_sim_funded_original": 419.0,
+        "ignite": 87.2,
+        "ignite_original": 218.0,
+        "s2f_sim_pro": 102.8,
+        "s2f_sim_pro_original": 257.0,
+        "activation_fee": null,
+        "note": "Elite Daily not offered in 25K. Sale prices shown; originals reflect full price."
+      },
+      "50000": {
+        "elite": null,
+        "elite_daily": 87.2,
+        "elite_daily_original": 218.0,
+        "instant_sim_funded": 167.6,
+        "instant_sim_funded_original": null,
+        "ignite": null,
+        "s2f_sim_pro": 168.4,
+        "s2f_sim_pro_original": 421.0,
+        "activation_fee": null,
+        "note": "Sale prices shown alongside original prices."
+      },
+      "100000": {
+        "elite": null,
+        "elite_daily": null,
+        "instant_sim_funded": null,
+        "ignite": null,
+        "s2f_sim_pro": 252.8,
+        "s2f_sim_pro_original": 632.0,
+        "activation_fee": null
+      },
+      "150000": {
+        "elite": null,
+        "elite_daily": null,
+        "instant_sim_funded": 375.6,
+        "instant_sim_funded_original": 939.0,
+        "ignite": 319.6,
+        "ignite_original": 799.0,
+        "s2f_sim_pro": 290.8,
+        "s2f_sim_pro_original": 727.0,
+        "activation_fee": null
+      }
+    },
+    "active_promotions": [
+      "Code: MATCH = 60% off all accounts - first order only"
+    ],
+    "refund_policy": "Non-refundable one-time fees"
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "Elite (1-Step)",
+      "model_type": "discipline",
+      "description": "Standard 1-step evaluation with EOD drawdown and tiered payout structure",
+      "max_accounts_per_trader": 5,
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 1000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 1,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 25,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 2,
+          "payout_structure": "Tiered: 6% (1st), 5% (2nd), 4% (3rd+)",
+          "max_payout_per_withdrawal": 1500,
+          "max_accounts": 5
+        }
+      ]
+    },
+    {
+      "model_name": "Elite Daily (1-Step)",
+      "model_type": "speed",
+      "description": "1-step evaluation with 45% consistency rule on evaluation, none on funded",
+      "max_accounts_per_trader": 5,
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 4,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 45,
+          "consistency_note": "45% on evaluation only; no consistency rule on funded",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 2,
+          "max_payout_per_withdrawal": 2500,
+          "max_accounts": 5
+        }
+      ]
+    },
+    {
+      "model_name": "Instant Sim Funded",
+      "model_type": "speed",
+      "description": "SKIP evaluation entirely, get funded immediately after purchase",
+      "max_accounts_per_trader": 5,
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 1000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 1,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 20,
+          "consistency_note": "No single trading day >20% of total profits",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 0,
+          "payout_structure": "Tiered: 6% (1st), 5% (2nd), 4% (3rd+)",
+          "max_payout_per_withdrawal": 1500,
+          "max_accounts": 5
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 4,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 20,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "max_payout_per_withdrawal": 2500,
+          "max_accounts": 5
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 4000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 8,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 20,
+          "consistency_note": "No single trading day >20% of total profits",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 0,
+          "payout_structure": "Tiered: 6% (1st), 5% (2nd), 4% (3rd+)",
+          "max_payout_per_withdrawal": 3000,
+          "max_accounts": 5
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 6000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 12,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 20,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "max_payout_per_withdrawal": 3500,
+          "max_accounts": 5
+        }
+      ]
+    },
+    {
+      "model_name": "S2F Sim Pro",
+      "model_type": "discipline",
+      "description": "Instant funding with ESS consistency rule and minimum trading day requirements",
+      "max_accounts_per_trader": 5,
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 1000,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 1,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": null,
+          "equity_stability_score": 20,
+          "equity_stability_note": "ESS 20%: combined total of most profitable day + largest losing day ≤20% of total profits",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 10,
+          "profitable_days_required": 7,
+          "min_profit_per_day_pct": 0.1,
+          "payout_structure": "Tiered: 6% (1st), 5% (2nd), 4% (3rd+)",
+          "max_payout_per_withdrawal": 1500,
+          "max_accounts": 5
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "max_contracts": 4,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "equity_stability_score": 20,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 10,
+          "profitable_days_required": 7,
+          "min_profit_per_day_pct": 0.1,
+          "max_payout_per_withdrawal": 2500,
+          "max_accounts": 5
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 4000,
+          "max_contracts": 8,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "equity_stability_score": 20,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 10,
+          "profitable_days_required": 7,
+          "min_profit_per_day_pct": 0.1,
+          "max_payout_per_withdrawal": 3000,
+          "max_accounts": 5
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 6000,
+          "max_contracts": 12,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "equity_stability_score": 20,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 10,
+          "profitable_days_required": 7,
+          "min_profit_per_day_pct": 0.1,
+          "max_payout_per_withdrawal": 3500,
+          "max_accounts": 5
+        }
+      ]
+    },
+    {
+      "model_name": "IGNITE Instant Funding",
+      "model_type": "aggressive",
+      "description": "Instant funding with 15% consistency rule and no minimum trading days",
+      "max_accounts_per_trader": 6,
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": 5.0,
+          "profit_target_usd": 1250,
+          "max_loss_limit_pct": null,
+          "max_loss_limit_usd": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 1,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 15,
+          "consistency_note": "No single trading day >15% of total profits",
+          "drawdown_type": null,
+          "min_trading_days": 0,
+          "payout_structure": "5% profit target per payout cycle",
+          "max_payout_per_withdrawal": 500,
+          "max_accounts": 6
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": 5.0,
+          "profit_target_usd": 2500,
+          "max_contracts": 3,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 15,
+          "min_trading_days": 0,
+          "max_payout_per_withdrawal": 1000,
+          "max_accounts": 6
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 5.0,
+          "profit_target_usd": 5000,
+          "max_contracts": 5,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 15,
+          "min_trading_days": 0,
+          "max_payout_per_withdrawal": 1500,
+          "max_accounts": 6
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": 5.0,
+          "profit_target_usd": 7500,
+          "max_contracts": 7,
+          "overnight_holding": false,
+          "consistency_rule": true,
+          "consistency_pct": 15,
+          "min_trading_days": 0,
+          "max_payout_per_withdrawal": null,
+          "max_accounts": 6
+        }
+      ]
+    }
+  ],
+  "🎯 PAYOUT STRUCTURE": {
+    "profit_split_pct": "90% / 10%",
+    "profit_split_detail": "90% trader / 10% firm across all models",
+    "payout_frequency": "On-demand after meeting profit targets and consistency rules",
+    "payout_methods": [
+      "Riseworks (Rise)",
+      "Crypto"
+    ],
+    "withdrawal_hours": 4,
+    "first_payout_threshold_pct": "Varies by model: 6% (Elite/Instant/S2F), 5% (IGNITE)",
+    "first_payout_delay_hours": "Less than 4 hours",
+    "consistency_rule_reset": "After each payout, targets reset",
+    "path_to_live_capital": "Complete 3 payouts on Sim-Funded account to become eligible for Live-Funded account",
+    "path_to_live_capital_payouts_required": 3,
+    "path_to_live_capital_url": "https://intercom.help/top-one-futures/en/articles/11003130-path-to-trading-live-capital",
+    "drawdown_lock_info_url": "https://intercom.help/top-one-futures/en/articles/10907150-understanding-the-drawdown-lock",
+    "anytime_payout_addon_models": [
+      "Elite (1-Step)",
+      "Instant Sim Funded"
+    ],
+    "anytime_payout_addon_note": "On-demand payout once profit requirement and consistency rule are met"
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 55,
+    "difficulty_reasoning": "EOD drawdown is beginner-friendly; 20% consistency (Instant/S2F) is lenient; 15% consistency (IGNITE) is stricter; 10-second minimum trade duration",
+    "transparency_score": 8,
+    "support_quality_score": 8,
+    "community_size": "66 Trustpilot reviews, 4.7 rating",
+    "completion_rate_pct": null,
+    "avg_time_to_pass_days": null,
+    "best_suited_for": "Traders wanting instant funding (no eval); same-day payout chasers; intraday traders; copy traders (with restrictions)",
+    "worst_suited_for": "Swing traders (no overnight); EA/bot users; those wanting long company history",
+    "payout_reliability": "Good (4.7 Trustpilot, 66 reviews)",
+    "platform_stability": "Stable (NinjaTrader, TradingView, Tradovate)",
+    "key_strength": "Multiple instant funding options, same-day payouts, flexible copy trading rules between same account types",
+    "key_weakness": "Very new firm (founded April 2025); no overnight holding; EA/bots prohibited"
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "Brand New Firm (Founded April 2025)",
+        "severity": "medium",
+        "detail": "Less than 1 year old. Limited track record compared to established firms."
+      },
+      {
+        "flag": "No Overnight Holding",
+        "severity": "medium",
+        "detail": "All positions must close by 4:10 PM EST. Not suitable for swing traders."
+      },
+      {
+        "flag": "EA/Bots Prohibited",
+        "severity": "low",
+        "detail": "Manual trading only. Automated strategies not permitted."
+      },
+      {
+        "flag": "10-Second Minimum Trade Duration",
+        "severity": "low",
+        "detail": "Scalpers may face profit removal if >50% of trades violate this rule."
+      }
+    ],
+    "restricted_countries_source": "https://help.toponefutures.com/en/articles/11021644-countries-with-limitations-and-restrictions",
+    "restricted_countries_verified": "2026-03-28",
+    "restricted_countries": [
+      "Afghanistan",
+      "Albania",
+      "Algeria",
+      "Angola",
+      "Antarctica",
+      "Armenia",
+      "Azerbaijan",
+      "Bahamas",
+      "Barbados",
+      "Belarus",
+      "Bosnia & Herzegovina",
+      "Botswana",
+      "Burkina Faso",
+      "Burma (Myanmar)",
+      "Burundi",
+      "Cambodia",
+      "Central African Republic",
+      "Chad",
+      "Côte d'Ivoire",
+      "Crimea",
+      "Cuba",
+      "Democratic Republic of Congo",
+      "Djibouti",
+      "East Timor",
+      "Ecuador",
+      "Ethiopia",
+      "Ghana",
+      "Guinea-Bissau",
+      "Iceland",
+      "Indonesia",
+      "Iran",
+      "Iraq",
+      "Jamaica",
+      "Jordan",
+      "Kazakhstan",
+      "Kosovo",
+      "Kuwait",
+      "Laos",
+      "Lebanon",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Macedonia",
+      "Malawi",
+      "Mauritius",
+      "Mongolia",
+      "Montenegro",
+      "Morocco",
+      "Nicaragua",
+      "North Korea",
+      "Pakistan",
+      "Palestine/Palestinian Territory",
+      "Panama",
+      "Papua New Guinea",
+      "Philippines",
+      "Russia (Russian Federation)",
+      "Rwanda",
+      "Sierra Leone",
+      "Somalia",
+      "South Sudan",
+      "Sri Lanka",
+      "Sudan",
+      "Syria",
+      "Tajikistan",
+      "Trinidad and Tobago",
+      "Tunisia",
+      "Turkey",
+      "Uganda",
+      "Ukraine",
+      "Venezuela",
+      "Vietnam",
+      "Yemen",
+      "Zimbabwe"
+    ],
+    "account_minimum_ok": true,
+    "minimum_experience_months": 3,
+    "pass_rate_pct": null
+  },
+  "💡 PRO TIPS FOR TRADERS": [
+    "Instant Sim Funded is fastest path: funded immediately after purchase, skip evaluation entirely",
+    "20% consistency rule (Instant/S2F) is more lenient than many competitors",
+    "Same-day payouts confirmed with <4 hour average processing",
+    "Tiered payout targets (6%→5%→4%) mean each payout requires less profit than the last",
+    "Copy trading allowed between same account types and sizes - up to 10 accounts on S2F and IGNITE",
+    "S2F Sim Pro requires 10 trading days with 7 profitable days at 0.1% of balance minimum",
+    "IGNITE offers lowest consistency requirement (15%) but lower payout caps",
+    "No inactivity timer on Elite challenge phase - take as long as needed"
+  ],
+  "⚖️ COMPETITIVE POSITIONING": {
+    "vs_tradethepool": "TopOne: Instant funding, 90/10 split, same-day payouts. TradeThePool: Evaluation required, 80/20 split.",
+    "vs_apex": "TopOne: One-time fees, 90/10 split, same-day. Apex: Monthly fees, scaling splits, 5-day wait.",
+    "vs_topstep": "TopOne: Instant funding options, same-day payout, founded 2025. Topstep: Evaluation required, longer payout processing, established 2012.",
+    "unique_advantage": "Multiple instant funding paths (Instant Sim, S2F, IGNITE) + same-day payouts + lenient consistency rules (15-25%) = fastest time to first payout"
+  },
+  "generated_at": "2026-03-28T00:00:00Z"
+}

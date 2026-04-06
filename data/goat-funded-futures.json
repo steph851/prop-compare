@@ -1,0 +1,333 @@
+{
+  "firm_name": "Goat Funded Futures",
+  "division": "Futures",
+  "last_verified": "2026-03-27",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://goatfundedfutures.com",
+    "https://propfirmmatch.com/futures/prop-firms/goat-funded-futures"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "Hong Kong",
+    "year_founded": 2024,
+    "ceo": "Edoardo Dalla Torre",
+    "company_tagline": "Fast payouts, flexible rules, and 90% profit splits",
+    "platforms_offered": [
+      "ATAS Orderflow Trading",
+      "Deepcharts",
+      "Deepmap",
+      "NinjaTrader",
+      "Quantower",
+      "TradingView",
+      "Tradovate",
+      "Volumetrica Trading"
+    ],
+    "payment_methods": [
+      "Apple Pay",
+      "Credit/Debit Card",
+      "Crypto",
+      "Google Pay"
+    ],
+    "payout_methods": [
+      "Riseworks"
+    ],
+    "review_score_avg": 0.0,
+    "review_count": 0,
+    "review_platform": "Trustpilot",
+    "trading_hours": "Not specified",
+    "regulated_exchanges": [
+      "CME",
+      "CBOT",
+      "COMEX",
+      "NYMEX"
+    ],
+    "account_minimum": 25000,
+    "account_maximum": 150000,
+    "max_simultaneous_accounts": 5,
+    "payout_speed_minutes": "Not specified",
+    "company_age_months": 17
+  },
+  "💰 PRICING & OFFERS": {
+    "pricing_model": "One-time flat fee (non-refundable, no monthly rebilling)",
+    "account_sizes_pricing": {
+      "25000": {
+        "sprint": 45.0,
+        "instant": 277.0
+      },
+      "50000": {
+        "eod": 80.6,
+        "sprint": 69.5,
+        "instant": 277.0
+      },
+      "75000": {
+        "instant": 382.0
+      },
+      "100000": {
+        "eod": 165.1,
+        "sprint": 109.0,
+        "instant": 489.0
+      },
+      "150000": {
+        "eod": 236.6,
+        "sprint": null,
+        "instant": 624.0
+      }
+    },
+    "commission_structure": {
+      "note": "Commissions vary by broker (DXFeed/Tradovate); check platform pricing directly"
+    },
+    "active_promotions": [
+      "50% OFF on Sprint and Instant accounts (Ends: Apr 21, 2026)"
+    ],
+    "refund_policy": "Non-refundable one-time fee; no monthly billing"
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "EOD (End of Day)",
+      "model_type": "discipline",
+      "description": "Traditional 1-step evaluation with profit target and EOD trailing drawdown",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": null,
+          "max_loss_limit_usd": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts": 5,
+          "overnight_holding": null,
+          "consistency_rule": true,
+          "consistency_pct": 50,
+          "consistency_note": "Eval: 50% cap on single day profit; Funded: 30% cap",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 7,
+          "withdrawal_cap_first": 1500,
+          "withdrawal_cap_subsequent": 2750
+        },
+        {
+          "size": 100000,
+          "max_contracts": 9,
+          "min_trading_days": 7,
+          "withdrawal_cap_first": 2000,
+          "withdrawal_cap_subsequent": 3750
+        },
+        {
+          "size": 150000,
+          "max_contracts": 12,
+          "min_trading_days": 7,
+          "withdrawal_cap_first": 2500,
+          "withdrawal_cap_subsequent": 4250
+        }
+      ]
+    },
+    {
+      "model_name": "Sprint",
+      "model_type": "aggressive",
+      "description": "1-step evaluation with lower pricing; consistency rule only applies after funding",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": null,
+          "max_loss_limit_usd": null,
+          "daily_loss_limit_pct": null,
+          "max_contracts_eval": 2,
+          "max_contracts_funded": 3,
+          "overnight_holding": null,
+          "consistency_rule": true,
+          "consistency_pct": 30,
+          "consistency_note": "Funded accounts only; none during eval",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 5,
+          "withdrawal_cap_first": 800,
+          "withdrawal_cap_fourth_plus": 1500
+        },
+        {
+          "size": 50000,
+          "max_contracts_eval": 3,
+          "max_contracts_funded": 5,
+          "min_trading_days": 5,
+          "withdrawal_cap_first": 1500,
+          "withdrawal_cap_fourth_plus": 2500
+        },
+        {
+          "size": 100000,
+          "max_contracts_eval": 5,
+          "max_contracts_funded": 7,
+          "min_trading_days": 5,
+          "withdrawal_cap_first": 2500,
+          "withdrawal_cap_fourth_plus": 4500
+        },
+        {
+          "size": 150000,
+          "max_contracts_eval": 6,
+          "max_contracts_funded": 8,
+          "min_trading_days": 5,
+          "withdrawal_cap_first": null,
+          "withdrawal_cap_fourth_plus": null
+        }
+      ]
+    },
+    {
+      "model_name": "Instant",
+      "model_type": "speed",
+      "description": "No evaluation; start funded immediately with profit cap on single days",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": null,
+          "max_loss_limit_usd": null,
+          "daily_loss_limit_pct": 5.0,
+          "daily_loss_limit_note": "Max profit per day capped at 5% of account balance",
+          "max_contracts": 3,
+          "overnight_holding": null,
+          "consistency_rule": true,
+          "consistency_pct": 20,
+          "consistency_note": "Single day profit cannot exceed 20% of total profit",
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "min_trading_days": 10,
+          "winning_days_required": 7,
+          "withdrawal_cap": 1000
+        },
+        {
+          "size": 50000,
+          "max_contracts": 4,
+          "daily_loss_limit_pct": 5.0,
+          "min_trading_days": 10,
+          "winning_days_required": 7,
+          "withdrawal_cap": 2000
+        },
+        {
+          "size": 75000,
+          "max_contracts": 5,
+          "daily_loss_limit_pct": 5.0,
+          "min_trading_days": 10,
+          "winning_days_required": 7,
+          "withdrawal_cap": 3000
+        },
+        {
+          "size": 100000,
+          "max_contracts": 6,
+          "daily_loss_limit_pct": 5.0,
+          "min_trading_days": 10,
+          "winning_days_required": 7,
+          "withdrawal_cap": 3000
+        },
+        {
+          "size": 150000,
+          "max_contracts": 8,
+          "daily_loss_limit_pct": 5.0,
+          "min_trading_days": 10,
+          "winning_days_required": 7,
+          "withdrawal_cap": 4000
+        }
+      ]
+    }
+  ],
+  "🎯 PAYOUT STRUCTURE": {
+    "funded_account": {
+      "profit_split_pct": "90%",
+      "payout_frequency": "On-demand after meeting winning day requirements",
+      "payout_methods": [
+        "Riseworks"
+      ],
+      "payout_speed": "Not specified",
+      "first_payout_requirement": "Varies by account type (EOD: 7 winning days; Sprint: 5 winning days; Instant: 10 days min with 7 winning days)",
+      "min_withdrawal_usd": "Not specified",
+      "scaling_program": "Every 15 calendar days with 2.5% growth → +1 mini contract, +$500 drawdown. Max: 9 minis"
+    }
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 50,
+    "difficulty_reasoning": "EOD drawdown; consistency rules vary by account type; Instant has 5% daily profit cap and 20% total consistency rule",
+    "transparency_score": 7,
+    "support_quality_score": "Not enough data",
+    "community_size": "New firm with limited reviews",
+    "completion_rate_pct": "Not specified",
+    "avg_time_to_pass_days": "Not specified",
+    "best_suited_for": "Traders who prefer EOD drawdown; those seeking flexible challenge options; users of TradingView, NinjaTrader, or Tradovate",
+    "worst_suited_for": "Scalpers (micro scalping banned); HFT traders; residents of restricted countries",
+    "payout_reliability": "Limited track record",
+    "platform_stability": "Good (8 platform options)",
+    "key_strength": "Multiple challenge types; EOD drawdown; 90% profit split; scaling plan",
+    "key_weakness": "Very new (2024); no reviews; micro scalping prohibited; restricted countries include Hong Kong and Singapore"
+  },
+  "🔴 RED FLAGS & CONSIDERATIONS": {
+    "red_flags": [
+      {
+        "flag": "Very New Firm (Founded Nov 2024)",
+        "severity": "medium",
+        "detail": "Less than 18 months old. No Trustpilot reviews. Long-term track record unknown."
+      },
+      {
+        "flag": "Micro Scalping Prohibited",
+        "severity": "medium",
+        "detail": "Trades held for seconds or fractions of a point are banned. Scalping allowed; micro scalping is not."
+      },
+      {
+        "flag": "News Trading Restrictions on Funded Accounts",
+        "severity": "low",
+        "detail": "2-minute buffer around high-impact news on funded accounts."
+      },
+      {
+        "flag": "Restricted Countries",
+        "severity": "high",
+        "detail": "Includes Hong Kong (HQ), Japan, Singapore, South Korea, Russia, and others."
+      },
+      {
+        "flag": "Full Automation Banned",
+        "severity": "medium",
+        "detail": "No AI bots, fully automated systems, or hands-free trading."
+      }
+    ],
+    "restricted_countries": [
+      "Bangladesh",
+      "Bulgaria",
+      "Chile",
+      "Cuba",
+      "Ethiopia",
+      "Hong Kong",
+      "Indonesia",
+      "Iran",
+      "Japan",
+      "Jordan",
+      "Lebanon",
+      "Libya",
+      "Malaysia",
+      "Myanmar (Burma)",
+      "North Korea",
+      "Russia",
+      "Senegal",
+      "Singapore",
+      "Somalia",
+      "South Korea",
+      "Sri Lanka",
+      "Sudan",
+      "Syria",
+      "Thailand",
+      "Togo"
+    ],
+    "account_minimum_ok": true,
+    "minimum_experience_months": 3,
+    "pass_rate_pct": "Not specified"
+  },
+  "💡 PRO TIPS FOR TRADERS": [
+    "Current promotion: 50% OFF on Sprint and Instant accounts (ends Apr 21, 2026)",
+    "EOD accounts offer the highest contract limits (12 minis on 150K)",
+    "Scaling program adds +1 mini contract every 15 days if you grow 2.5%",
+    "Sprint accounts have lower pricing and no consistency rule during evaluation",
+    "Micro scalping is strictly prohibited—ensure trades are held for minutes, not seconds",
+    "News trading is allowed during evaluation but restricted on funded accounts (2-minute buffer)",
+    "Maximum of 5 funded accounts allowed across all challenge types"
+  ],
+  "⚖️ COMPETITIVE POSITIONING": {
+    "vs_lucid": "Goat: Founded 2024 (Hong Kong), EOD/Sprint/Instant models, 90% split, scaling program. Lucid: Founded 2025 (US), 4 models, 90% split, 15-min payouts.",
+    "vs_topstep": "Goat: One-time fee, Hong Kong-based, limited track record. Topstep: Subscription model, US-based, 14 years history.",
+    "vs_apex": "Goat: EOD only drawdown, no daily loss limits on some models, strict micro scalping ban. Apex: Choice of EOD/intraday, more flexible scalping.",
+    "unique_advantage": "Multiple distinct challenge models (EOD/Sprint/Instant); scaling program increases drawdown alongside contracts; EOD trailing drawdown only"
+  },
+  "generated_at": "2026-03-27T12:00:00Z"
+}

@@ -1,0 +1,695 @@
+{
+  "firm_name": "Lucid Trading",
+  "division": "Futures",
+  "last_verified": "2026-03-28",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://lucidtrading.com",
+    "https://lucidtrading.com/terms-and-conditions"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2025,
+    "years_in_operation": 1,
+    "restricted_countries": [
+      "OFAC-sanctioned countries per US law"
+    ],
+    "restricted_countries_source": "https://lucidtrading.com/terms-and-conditions",
+    "restricted_countries_verified": false,
+    "restricted_countries_note": "Full enumerated list not publicly available; governed by OFAC sanctions compliance as a US-based entity.",
+    "platforms_offered": [
+      "Tradovate",
+      "TradingView",
+      "NinjaTrader",
+      "Sierra Chart",
+      "MotiveWave",
+      "Quantower",
+      "Bookmap",
+      "Tradesea",
+      "Jigsaw Daytradr",
+      "MultiCharts",
+      "ATAS"
+    ],
+    "payment_methods": [
+      "Credit Card",
+      "Debit Card",
+      "Crypto"
+    ],
+    "payout_methods": [
+      "Wire / Bank Transfer (Plaid ACH)",
+      "PayPal",
+      "Crypto"
+    ],
+    "brokers": [
+      "Tradovate",
+      "Rithmic"
+    ],
+    "max_allocation_per_trader": 150000,
+    "estimated_user_count": null,
+    "review_score_avg": 4.8,
+    "review_count": 2698,
+    "is_featured_favorite": false,
+    "ceo": "AJ Campanella",
+    "trustpilot_rating": 4.8
+  },
+  "💰 PRICING & OFFERS": {
+    "one_time_fee_usd": null,
+    "monthly_subscription_usd": null,
+    "refund_policy_days": null,
+    "active_promotions": [
+      "Code: VIBES = 50% off LucidFlex accounts"
+    ],
+    "commission_structure": {
+      "per_lot_forex": null,
+      "per_contract_futures": null,
+      "crypto_percentage": null,
+      "commission_info_url": null
+    },
+    "leverage_offered": {
+      "forex": null,
+      "indices": null,
+      "gold": null,
+      "silver": null,
+      "oil": null,
+      "futures_general": "Varies by contract (CME-listed futures only)"
+    },
+    "model_pricing": {
+      "LucidFlex": {
+        "25K": {
+          "original": 75.0,
+          "discounted": 37.5,
+          "discount_code": "VIBES"
+        },
+        "50K": {
+          "original": 175.0,
+          "discounted": 87.5,
+          "discount_code": "VIBES"
+        },
+        "100K": {
+          "original": 295.0,
+          "discounted": 147.5,
+          "discount_code": "VIBES"
+        },
+        "150K": {
+          "original": 345.0,
+          "discounted": 172.5,
+          "discount_code": "VIBES"
+        }
+      },
+      "LucidPro": {
+        "25K": {
+          "original": 94.5,
+          "discounted": null
+        },
+        "50K": {
+          "original": 129.5,
+          "discounted": null
+        },
+        "100K": {
+          "original": 199.5,
+          "discounted": null
+        },
+        "150K": {
+          "original": 259.0,
+          "discounted": null
+        }
+      },
+      "LucidDirect": {
+        "25K": {
+          "original": 197.0,
+          "discounted": null
+        },
+        "50K": {
+          "original": null,
+          "discounted": null,
+          "note": "TBD - pricing not confirmed on current pricing page"
+        },
+        "100K": {
+          "original": null,
+          "discounted": null,
+          "note": "TBD - pricing not confirmed on current pricing page"
+        },
+        "150K": {
+          "original": null,
+          "discounted": null,
+          "note": "TBD - pricing not confirmed on current pricing page"
+        }
+      },
+      "LucidMaxx": {
+        "invite_only": true,
+        "pricing": null
+      }
+    }
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "LucidFlex",
+      "model_type": "discipline",
+      "description": "EOD trailing drawdown evaluation model with no daily loss limit and no consistency rule. Minimum 5 profitable days required before first payout.",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": 6.0,
+          "max_loss_limit_usd": 1500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": false,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 5,
+          "winning_days_required": 5,
+          "max_payout_per_withdrawal": 1500,
+          "contracts_allowed": null
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": false,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 5,
+          "winning_days_required": 5,
+          "max_payout_per_withdrawal": 2500,
+          "contracts_allowed": null
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": false,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 5,
+          "winning_days_required": 5,
+          "max_payout_per_withdrawal": 3000,
+          "contracts_allowed": null
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 4500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": false,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 5,
+          "winning_days_required": 5,
+          "max_payout_per_withdrawal": 4000,
+          "contracts_allowed": null
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "position_close_deadline": "4:45 PM EST daily",
+        "news_trading_allowed": true,
+        "news_trading_note": "News trading allowed on all Lucid accounts",
+        "ea_allowed": true,
+        "ea_restrictions": "Latency arbitrage prohibited; automation via TradersPost + Tradovate integration supported",
+        "copy_trading_allowed": null,
+        "copy_trading_restrictions": null,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "instrument_restrictions": "CME-listed futures only"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 90,
+        "bonus_first_10k_pct": null,
+        "first_payout_threshold": "5 profitable days completed",
+        "first_payout_delay_days": null,
+        "minimum_payout": null,
+        "max_payout_per_request_by_size": {
+          "25K": 1500,
+          "50K": 2500,
+          "100K": 3000,
+          "150K": 4000
+        },
+        "payout_processing_hours": 0.25,
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "consistency_note": "No consistency rule in evaluation or funded stage",
+        "daily_loss_limit_active": false,
+        "inactivity_days_breach": null,
+        "inactivity_policy": null,
+        "max_consecutive_loss_days": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "requirements": "5 payouts completed on LucidFlex sim-funded account to qualify for LucidLive"
+      }
+    },
+    {
+      "model_name": "LucidPro",
+      "model_type": "speed",
+      "description": "Speed-focused model with 1-day minimum, 3-day payout cycles, daily loss limit active, 100% of first $10K in payouts then 90/10.",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 1500,
+          "max_loss_limit_pct": 6.0,
+          "max_loss_limit_usd": 1500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 1,
+          "payout_cycle_days": 3,
+          "payouts_to_live": 5
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 3000,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 1,
+          "payout_cycle_days": 3,
+          "payouts_to_live": 5
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 6000,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 1,
+          "payout_cycle_days": 3,
+          "payouts_to_live": 5
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": 6.0,
+          "profit_target_usd": 9000,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 4500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_limit_usd": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 1,
+          "payout_cycle_days": 3,
+          "payouts_to_live": 5
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "position_close_deadline": "4:45 PM EST daily",
+        "news_trading_allowed": true,
+        "news_trading_note": "News trading allowed on all Lucid accounts",
+        "ea_allowed": true,
+        "ea_restrictions": "Latency arbitrage prohibited; automation via TradersPost + Tradovate integration supported",
+        "copy_trading_allowed": null,
+        "copy_trading_restrictions": null,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "instrument_restrictions": "CME-listed futures only"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 3,
+        "profit_split_pct": 90,
+        "profit_split_detail": "100% of first $10,000 earned, then 90/10 thereafter",
+        "bonus_first_10k_pct": 100,
+        "first_payout_delay_days": 3,
+        "first_payout_threshold": "3-day payout cycle completed",
+        "minimum_payout": null,
+        "max_payout_per_request": null,
+        "payout_processing_hours": 0.25,
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": null,
+        "consistency_note": "Per-cycle consistency rule active; exact percentage not publicly disclosed",
+        "daily_loss_limit_active": true,
+        "daily_loss_limit_note": "Exact DLL values not publicly disclosed on challenge rules page",
+        "inactivity_days_breach": null,
+        "inactivity_policy": null,
+        "max_consecutive_loss_days": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "requirements": "5 payouts completed on LucidPro sim-funded account to qualify for LucidLive"
+      }
+    },
+    {
+      "model_name": "LucidDirect",
+      "model_type": "instant-funded",
+      "description": "Instant-funded account with no profit target, EOD trailing drawdown, soft daily loss breach levels that pause rather than terminate the account. 100% of first $10K in payouts.",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 6.0,
+          "max_loss_limit_usd": 1500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_soft_breach_levels": [
+            600,
+            1200,
+            1800,
+            2700
+          ],
+          "daily_loss_breach_note": "Soft breach levels pause account; do not terminate",
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 0,
+          "payouts_to_live": 5,
+          "min_withdrawal": 500
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 4.0,
+          "max_loss_limit_usd": 2000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_soft_breach_levels": null,
+          "daily_loss_breach_note": "Soft breach levels pause account; do not terminate",
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 0,
+          "payouts_to_live": 5,
+          "min_withdrawal": 500,
+          "pricing_note": "TBD - pricing not confirmed on current pricing page"
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 3000,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_soft_breach_levels": null,
+          "daily_loss_breach_note": "Soft breach levels pause account; do not terminate",
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 0,
+          "payouts_to_live": 5,
+          "min_withdrawal": 500,
+          "pricing_note": "TBD - pricing not confirmed on current pricing page"
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": null,
+          "profit_target_usd": null,
+          "max_loss_limit_pct": 3.0,
+          "max_loss_limit_usd": 4500,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": true,
+          "daily_loss_soft_breach_levels": null,
+          "daily_loss_breach_note": "Soft breach levels pause account; do not terminate",
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 0,
+          "payouts_to_live": 5,
+          "min_withdrawal": 500,
+          "pricing_note": "TBD - pricing not confirmed on current pricing page"
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "position_close_deadline": "4:45 PM EST daily",
+        "news_trading_allowed": true,
+        "news_trading_note": "News trading allowed on all Lucid accounts",
+        "ea_allowed": true,
+        "ea_restrictions": "Latency arbitrage prohibited; automation via TradersPost + Tradovate integration supported",
+        "copy_trading_allowed": null,
+        "copy_trading_restrictions": null,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "instrument_restrictions": "CME-listed futures only"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 90,
+        "profit_split_detail": "100% of first $10,000 earned, then 90/10 thereafter",
+        "bonus_first_10k_pct": 100,
+        "first_payout_delay_days": null,
+        "first_payout_threshold": "No minimum days requirement",
+        "minimum_payout": 500,
+        "max_payout_per_request": null,
+        "payout_processing_hours": 0.25,
+        "scaling_plan_available": false,
+        "scaling_increment_pct": null
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 20,
+        "consistency_note": "No single day can exceed 20% of total profits",
+        "daily_loss_limit_active": true,
+        "inactivity_days_breach": null,
+        "inactivity_policy": null,
+        "max_consecutive_loss_days": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "requirements": "5 payouts completed on LucidDirect sim-funded account to qualify for LucidLive"
+      }
+    },
+    {
+      "model_name": "LucidMaxx",
+      "model_type": "elite",
+      "description": "Invite-only elite program for proven PayoutMaxx traders. Instant live capital from day one, no sim phase required, no daily loss limits, overnight holding allowed.",
+      "account_sizes": [
+        {
+          "size": null,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "daily_loss_limit_active": false,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": 0,
+          "max_accounts": 5,
+          "eligibility": "Invite-only; proven PayoutMaxx traders only; no public pricing or application"
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": true,
+        "position_close_deadline": null,
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "ea_restrictions": "Latency arbitrage prohibited",
+        "copy_trading_allowed": null,
+        "copy_trading_restrictions": null,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "instrument_restrictions": "CME-listed futures only"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": null,
+        "profit_split_detail": "Daily payouts, no caps; exact split not publicly disclosed",
+        "bonus_first_10k_pct": null,
+        "first_payout_delay_days": null,
+        "minimum_payout": null,
+        "max_payout_per_request": null,
+        "payout_processing_hours": null,
+        "scaling_plan_available": null,
+        "scaling_increment_pct": null
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "consistency_note": "No consistency rule",
+        "daily_loss_limit_active": false,
+        "inactivity_days_breach": null,
+        "inactivity_policy": null,
+        "max_consecutive_loss_days": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details": "Instant live capital from day one; no sim phase required"
+      }
+    },
+    {
+      "model_name": "LucidLive",
+      "model_type": "live-capital",
+      "description": "Real capital live account unlocked after 5 payouts on any sim-funded model. Overnight and swing trading allowed. One-time bonus granted at activation. 80/20 profit split.",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": null,
+          "bonus_one_time_usd": 1000,
+          "overnight_holding": true,
+          "swing_trading_allowed": true
+        },
+        {
+          "size": 50000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": null,
+          "bonus_one_time_usd": 2000,
+          "overnight_holding": true,
+          "swing_trading_allowed": true
+        },
+        {
+          "size": 100000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": null,
+          "bonus_one_time_usd": 3000,
+          "overnight_holding": true,
+          "swing_trading_allowed": true
+        },
+        {
+          "size": 150000,
+          "profit_target_pct": null,
+          "max_loss_limit_pct": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "drawdown_type": "End-of-Day (EOD) Trailing",
+          "minimum_trading_days": null,
+          "bonus_one_time_usd": 4500,
+          "overnight_holding": true,
+          "swing_trading_allowed": true
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": true,
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "ea_restrictions": "Latency arbitrage prohibited",
+        "copy_trading_allowed": null,
+        "copy_trading_restrictions": null,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
+        "instrument_restrictions": "CME-listed futures only"
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 1,
+        "profit_split_pct": 80,
+        "profit_split_detail": "Trader keeps 80% on LucidLive real capital",
+        "bonus_first_10k_pct": null,
+        "first_payout_delay_days": null,
+        "minimum_payout": null,
+        "max_payout_per_request": null,
+        "payout_processing_hours": 0.25,
+        "escrow": false,
+        "escrow_note": "LucidLive escrow eliminated February 2026 - full real capital deployment",
+        "scaling_plan_available": null,
+        "scaling_increment_pct": null
+      },
+      "restrictions": {
+        "consistency_rule": null,
+        "consistency_max_pct": null,
+        "consistency_note": "TBD - not confirmed in payout policy or challenge rules",
+        "daily_loss_limit_active": null,
+        "inactivity_days_breach": null,
+        "inactivity_policy": null,
+        "max_consecutive_loss_days": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "requirements": "Complete 5 payouts on LucidFlex, LucidPro, or LucidDirect sim-funded account"
+      }
+    }
+  ],
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 45.0,
+    "best_for_beginners": true,
+    "best_for_scalpers": true,
+    "best_for_swing": false,
+    "best_for_large_cap": true,
+    "transparency_score": 8.0,
+    "support_quality_score": 7.0,
+    "value_score": null,
+    "innovation_score": null,
+    "key_differentiators": [
+      "Zero daily loss limit and zero funded consistency rule on LucidFlex",
+      "EOD (end-of-day) trailing drawdown instead of intraday - more forgiving",
+      "100% of first $10,000 in payouts on LucidPro and LucidDirect",
+      "Average payout processing under 15 minutes; same-day Plaid ACH for US traders",
+      "LucidPro can be passed in a single trading day (1-day minimum)",
+      "No activation fees on any account type",
+      "11 platform options including NinjaTrader, TradingView, Sierra Chart, ATAS",
+      "Soft DLL breach on LucidDirect pauses account rather than terminating it",
+      "LucidLive provides real capital with overnight/weekend holds allowed",
+      "LucidLive escrow eliminated February 2026 - full real capital deployment"
+    ],
+    "potential_concerns": [
+      "Brand new firm founded 2025 - limited long-term track record",
+      "No overnight holding on any sim-funded model (Flex, Pro, Direct)",
+      "LucidLive profit split drops to 80/20, below some competitors",
+      "LucidMaxx invite-only with no public criteria or pricing",
+      "Payout caps on LucidFlex limit large single withdrawals",
+      "Restricted countries list not fully enumerated publicly",
+      "Copy trading policy not explicitly confirmed in trading rules",
+      "LucidDirect 50K/100K/150K pricing not confirmed on current pricing page",
+      "LucidPro daily loss limit exact values not publicly disclosed",
+      "LucidPro consistency rule percentage not publicly disclosed"
+    ]
+  },
+  "generated_at": "2026-03-28T14:44:05.553579Z"
+}

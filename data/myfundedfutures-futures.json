@@ -1,0 +1,373 @@
+{
+  "firm_name": "My Funded Futures",
+  "division": "Futures",
+  "last_verified": "2026-03-27",
+  "verified_by": "Steph",
+  "source_urls": [
+    "https://myfundedfutures.com",
+    "https://help.myfundedfutures.com",
+    "https://propfirmmatch.com/futures/prop-firms/my-funded-futures",
+    "https://www.proptradingvibes.com/prop-firms/myfundedfutures"
+  ],
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2023,
+    "ceo": "Matthew Leech",
+    "parent_company": "MyFundedFX (Forex sibling firm)",
+    "platforms_offered": [
+      "NinjaTrader",
+      "Tradovate",
+      "TradingView",
+      "R|Trader Pro",
+      "Quantower",
+      "Sierra Chart"
+    ],
+    "brokers": [
+      "Tradovate"
+    ],
+    "payment_methods": [
+      "Credit/Debit Card",
+      "Crypto"
+    ],
+    "payout_methods": [
+      "RiseWorks (bank transfer)",
+      "Crypto"
+    ],
+    "payout_processor": "RiseWorks",
+    "review_score_avg": 4.9,
+    "review_count": 16767,
+    "review_breakdown_pct": {
+      "five_star": "TBD",
+      "four_star": "TBD",
+      "three_star": "TBD",
+      "two_star": "TBD",
+      "one_star": "TBD"
+    },
+    "restricted_countries": "TBD",
+    "estimated_pass_rate_pct": 25,
+    "global_traders_active": "TBD",
+    "total_payouts_usd": "$20M+ (estimated)",
+    "key_features": [
+      "Futures-only (CME Group products exclusively)",
+      "100% profit split up to $10K, then 90% thereafter",
+      "Instant payout approval (most requests)",
+      "No activation fees",
+      "One-phase evaluation (no two-phase)",
+      "Activity rule: 1 trade per week minimum",
+      "Up to 10 simultaneous accounts",
+      "Fastest payout processing in industry (5-hour typical)"
+    ]
+  },
+  "💰 PRICING & OFFERS": {
+    "monthly_subscription_usd": {
+      "core": 77,
+      "rapid": 129,
+      "pro": 229,
+      "scale": "TBD"
+    },
+    "one_time_fee_usd": 0,
+    "activation_fee_usd": 0,
+    "inactivity_fees_usd": 0,
+    "refund_policy_days": "TBD",
+    "commission_structure": {
+      "per_side_futures": 0.56,
+      "roundtrip_cost": 1.12,
+      "note": "Variable by asset class, starts at $0.56 per lot per side"
+    },
+    "leverage_offered": {
+      "futures": "Institutional CME standard (variable by contract)"
+    },
+    "spreads": "Real market spreads (ECN-style)",
+    "active_promotions": [
+      "50% off discount code available",
+      "100 free 25K Flex accounts giveaway (ends March 27)",
+      "RAPID discount code for additional discounts"
+    ]
+  },
+  "📊 CHALLENGE MODELS": [
+    {
+      "model_name": "Core Plan",
+      "model_type": "standard",
+      "description": "Cheapest entry, ideal for consistent traders",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": 1500,
+          "profit_target_pct": 3.0,
+          "max_loss_limit": 1500,
+          "max_loss_limit_pct": 3.0,
+          "daily_loss_limit": "TBD",
+          "daily_loss_limit_pct": 2.4,
+          "trailing_drawdown_pct": 3.0,
+          "minimum_trading_days": 0,
+          "max_contracts": "TBD"
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 0,
+        "consistency_rule": true,
+        "consistency_rule_pct": 40,
+        "consistency_penalty": "Increases profit target to: highest_day / 0.40",
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "drawdown_type": "EOD Trailing",
+        "drawdown_calculation": "3% of initial account balance",
+        "drawdown_includes_float": true,
+        "drawdown_includes_commissions": true
+      },
+      "trading_rules": {
+        "overnight_holding": true,
+        "weekend_holding": false,
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "copy_trading_allowed": false,
+        "hedging_allowed": false,
+        "micro_scalping_rule": "TBD"
+      },
+      "payout_structure": {
+        "profit_split_pct": 80,
+        "profit_split_first_10k": 100,
+        "withdrawal_frequency_days": 5,
+        "min_withdrawal_amount": 250,
+        "min_profit_for_withdrawal": 250,
+        "first_payout_delay_days": 14,
+        "scaling_plan_available": true,
+        "scaling_rule": "Micro to full contracts as profits grow"
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 40,
+        "inactivity_days_breach": 7,
+        "max_accounts_total": 10,
+        "max_simultaneous_funded": 5,
+        "account_reset_allowed": false
+      },
+      "popularity_metrics": {
+        "is_best_seller": true,
+        "completion_rate_pct": "TBD"
+      }
+    },
+    {
+      "model_name": "Rapid Plan",
+      "model_type": "speed",
+      "description": "Highest profit split, fastest payouts, intraday drawdown",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": 1500,
+          "profit_target_pct": 3.0,
+          "max_loss_limit": "TBD",
+          "max_loss_limit_pct": "TBD",
+          "daily_loss_limit": "TBD",
+          "daily_loss_limit_pct": "TBD",
+          "trailing_drawdown_pct": "Intraday (real-time)",
+          "minimum_trading_days": 0,
+          "max_contracts": "TBD",
+          "daily_profit_cap": 10000,
+          "daily_profit_cap_note": "Excess forfeited; triggers live account risk review"
+        },
+        {
+          "size": 100000,
+          "profit_target": 3000,
+          "profit_target_pct": 3.0,
+          "max_loss_limit": "TBD",
+          "max_loss_limit_pct": "TBD",
+          "daily_loss_limit": "TBD",
+          "daily_loss_limit_pct": "TBD",
+          "trailing_drawdown_pct": "Intraday (real-time)",
+          "minimum_trading_days": 0,
+          "max_contracts": "TBD"
+        },
+        {
+          "size": 150000,
+          "profit_target": 4500,
+          "profit_target_pct": 3.0,
+          "max_loss_limit": "TBD",
+          "max_loss_limit_pct": "TBD",
+          "daily_loss_limit": "TBD",
+          "daily_loss_limit_pct": "TBD",
+          "trailing_drawdown_pct": "Intraday (real-time)",
+          "minimum_trading_days": 0,
+          "max_contracts": "TBD"
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 0,
+        "consistency_rule": false,
+        "consistency_rule_pct": null,
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "drawdown_type": "Intraday Trailing (real-time)",
+        "drawdown_calculation": "Stops at account starting balance + $100",
+        "drawdown_includes_float": true,
+        "drawdown_includes_commissions": true
+      },
+      "trading_rules": {
+        "overnight_holding": "TBD",
+        "weekend_holding": false,
+        "news_trading_allowed": true,
+        "ea_allowed": true,
+        "copy_trading_allowed": false,
+        "hedging_allowed": false
+      },
+      "payout_structure": {
+        "profit_split_pct": 90,
+        "profit_split_first_10k": 100,
+        "withdrawal_frequency_days": "Daily",
+        "min_withdrawal_amount": "TBD",
+        "min_profit_for_withdrawal": "TBD",
+        "first_payout_delay_days": 0,
+        "reserve_program_available": true,
+        "reserve_program_note": "Locks profits until 20 profitable days + $10K cumulative gross payouts",
+        "payout_cap": 100000,
+        "scaling_plan_available": false
+      },
+      "restrictions": {
+        "consistency_rule": false,
+        "consistency_max_pct": null,
+        "inactivity_days_breach": 7,
+        "max_accounts_total": 10,
+        "max_simultaneous_funded": "TBD"
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "completion_rate_pct": "TBD"
+      }
+    },
+    {
+      "model_name": "Pro Plan",
+      "model_type": "discipline",
+      "description": "No consistency rules, biweekly payouts, highest flexibility",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": 1500,
+          "profit_target_pct": 3.0,
+          "max_loss_limit": 1500,
+          "max_loss_limit_pct": 3.0,
+          "daily_loss_limit": "TBD",
+          "daily_loss_limit_pct": 2.4,
+          "trailing_drawdown_pct": 3.0,
+          "minimum_trading_days": 0,
+          "max_contracts": "TBD"
+        },
+        {
+          "size": 100000,
+          "profit_target": 3000,
+          "profit_target_pct": 3.0,
+          "max_loss_limit": 3000,
+          "max_loss_limit_pct": 3.0,
+          "daily_loss_limit": "TBD",
+          "daily_loss_limit_pct": 2.4,
+          "trailing_drawdown_pct": 3.0,
+          "minimum_trading_days": 0,
+          "max_contracts": "TBD"
+        },
+        {
+          "size": 150000,
+          "profit_target": 4500,
+          "profit_target_pct": 3.0,
+          "max_loss_limit": 4500,
+          "max_loss_limit_pct": 3.0,
+          "daily_loss_limit": "TBD",
+          "daily_loss_limit_pct": 2.4,
+          "trailing_drawdown_pct": 3.0,
+          "minimum_trading_days": 0,
+          "max_contracts": "TBD"
+        }
+      ],
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 0,
+        "consistency_rule": true,
+        "consistency_rule_pct": 50,
+        "consistency_rule_eval_only": true,
+        "consistency_rule_funded_exempt": true,
+        "benchmark_days_required": 0
+      },
+      "risk_limits": {
+        "drawdown_type": "EOD Trailing",
+        "drawdown_calculation": "3% of initial account balance",
+        "drawdown_includes_float": true,
+        "drawdown_includes_commissions": true
+      },
+      "trading_rules": {
+        "overnight_holding": true,
+        "weekend_holding": false,
+        "news_trading_allowed": true,
+        "news_trading_t1_funded": false,
+        "ea_allowed": true,
+        "copy_trading_allowed": false,
+        "hedging_allowed": false
+      },
+      "payout_structure": {
+        "profit_split_pct": 80,
+        "profit_split_first_10k": 100,
+        "withdrawal_frequency_days": 14,
+        "min_withdrawal_amount": 1000,
+        "min_profit_for_withdrawal": 1000,
+        "first_payout_delay_days": 14,
+        "buffer_withdrawal_rule": "Can withdraw up to 60% before clearing buffer",
+        "scaling_plan_available": false
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_rule_eval_only": true,
+        "consistency_max_pct": 50,
+        "inactivity_days_breach": 7,
+        "max_accounts_total": 10,
+        "max_simultaneous_funded": "TBD"
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "completion_rate_pct": "TBD"
+      }
+    }
+  ],
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 65,
+    "best_for_beginners": true,
+    "best_for_scalpers": true,
+    "best_for_swing_traders": true,
+    "best_for_large_cap": false,
+    "transparency_score": 7,
+    "support_quality_score": 8,
+    "payout_speed_score": 10,
+    "payout_reliability_score": 9,
+    "trading_conditions_score": 8,
+    "rule_fairness_score": 8,
+    "customer_satisfaction_score": 4.9,
+    "key_strengths": [
+      "Highest Trustpilot rating (4.9/5 from 16K+ reviews)",
+      "Industry-fastest payout processing (instant approval most cases)",
+      "Generous profit split: 100% up to $10K, then 90%",
+      "CME Group futures only (no forex/CFD confusion)",
+      "1-phase evaluation (no lengthy 2-phase process)",
+      "Affordable monthly fees ($77–$229)",
+      "High pass rate (25%, double industry average)",
+      "Multiple plan options for different trader styles"
+    ],
+    "key_concerns": [
+      "Intraday drawdown (Rapid plan) requires real-time risk management",
+      "Consistency rules limit flexibility during evaluation",
+      "Documentation updates lag (old FAQ entries persist)",
+      "Reserve program lock on Rapid plan profits",
+      "Activity rule enforced (1 trade per week required)"
+    ],
+    "ideal_trader_profile": "Profitable traders seeking fastest payouts, generous splits, and CME-only exposure",
+    "not_ideal_for": "Beginners needing extensive education; overnight position traders on Rapid plan"
+  },
+  "⚠️ STILL TBD": [
+    "Daily loss limits (specific amounts)",
+    "Max contracts per account size",
+    "Restricted countries list",
+    "Detailed review breakdown percentages",
+    "Specific refund policy details",
+    "Some daily loss limits on Rapid plan",
+    "Exact completion rates by plan"
+  ]
+}

@@ -1,100 +1,515 @@
 {
-  "firm_name": "Topstep",
+  "firm_name": "TopStep",
   "division": "Futures",
-  "last_verified": "2026-03-25",
+  "last_verified": "2026-03-28",
   "verified_by": "Steph",
   "source_urls": [
-    "https://propfirmmatch.com/prop-firms/topstep",
-    "https://intercom.help/topstep-llc/"
+    "https://help.topstep.com/hc/en-us/articles/20692934442647-Restricted-Countries",
+    "https://help.topstep.com/hc/en-us/articles/20693005090071-Withdrawal-Policy",
+    "https://www.topstep.com"
   ],
-  "challenge_models": [
+  "🏢 FIRM PROFILE": {
+    "country_headquarters": "United States",
+    "year_founded": 2012,
+    "years_in_operation": 14,
+    "restricted_countries": [
+      "Afghanistan",
+      "Belarus",
+      "Burma (Myanmar)",
+      "Central African Republic",
+      "China",
+      "Congo (Democratic Republic)",
+      "Cuba",
+      "Ethiopia",
+      "Hong Kong",
+      "Iran",
+      "Iraq",
+      "Lebanon",
+      "Libya",
+      "Mali",
+      "Nicaragua",
+      "North Korea",
+      "Russia",
+      "Somalia",
+      "South Sudan",
+      "Sudan",
+      "Syria",
+      "Ukraine (select regions under sanctions)",
+      "Venezuela",
+      "Yemen",
+      "Zimbabwe"
+    ],
+    "restricted_countries_source": "https://help.topstep.com/hc/en-us/articles/20692934442647-Restricted-Countries",
+    "restricted_countries_verified": false,
+    "platforms_offered": [
+      "TopstepX (proprietary)",
+      "Quantower",
+      "NinjaTrader"
+    ],
+    "payment_methods": [
+      "ACH",
+      "Bank Wire",
+      "Wise",
+      "Credit/Debit Card"
+    ],
+    "payout_methods": [
+      "ACH",
+      "Bank Wire",
+      "Wise"
+    ],
+    "brokers": null,
+    "tradeable_instruments": [
+      "CME Futures (ES, NQ, YM, RTY, CL, NG, GC, SI, ZB, ZN, ZC, ZS, ZW, 6E, 6J, 6B, 6A, 6C, MES, MNQ, M2K, MYM)"
+    ],
+    "max_allocation_per_trader": 2000000,
+    "estimated_user_count": null,
+    "review_score_avg": 3.4,
+    "review_count": 13721,
+    "review_source": "Trustpilot",
+    "is_featured_favorite": false,
+    "ceo": null,
+    "trustpilot_rating": 3.4,
+    "support_channels": [
+      "Email",
+      "Live Chat",
+      "Community Forum",
+      "Educational Content",
+      "Help Center"
+    ],
+    "notes": [
+      "Founded 2012 - longest-running futures prop firm in industry",
+      "Rebranded from TopstepTrader to TopStep in 2020",
+      "Known for: Education, coaching, clear rules",
+      "Strongest in: Futures trading education and community support"
+    ]
+  },
+  "💰 PRICING & OFFERS": {
+    "one_time_fee_usd": null,
+    "monthly_subscription_usd": 49.0,
+    "activation_fee_after_passing_usd": 149.0,
+    "refund_policy_days": null,
+    "active_promotions": [],
+    "commission_structure": {
+      "per_lot_forex": null,
+      "per_contract_futures": 0.0,
+      "crypto_percentage": null,
+      "platform_notes": {
+        "topstepx": "Zero commission",
+        "quantower": "Flat fee per trade (covered by TopStep in sim)",
+        "ninjatrader": "Standard NinjaTrader commissions may apply"
+      },
+      "commission_info_url": null
+    },
+    "leverage_offered": {
+      "forex": null,
+      "indices": null,
+      "gold": null,
+      "silver": null,
+      "oil": null,
+      "futures_general": "Variable by contract (CME standard margin rates)",
+      "micro_futures_available": true
+    },
+    "model_pricing": {
+      "Trading Combine": {
+        "50K": {
+          "original": 49.0,
+          "discounted": null,
+          "type": "monthly_subscription",
+          "activation_fee": 149.0,
+          "reset_fee": 49.0
+        },
+        "100K": {
+          "original": 99.0,
+          "discounted": null,
+          "type": "monthly_subscription",
+          "activation_fee": 149.0,
+          "reset_fee": 99.0
+        },
+        "150K": {
+          "original": 149.0,
+          "discounted": null,
+          "type": "monthly_subscription",
+          "activation_fee": 149.0,
+          "reset_fee": 149.0
+        }
+      }
+    }
+  },
+  "📊 CHALLENGE MODELS": [
     {
-      "model_name": "Standard Path",
-      "model_type": "speed",
+      "model_name": "Trading Combine - Standard Path",
+      "model_type": "discipline",
+      "path_type": "standard",
+      "difficulty_tier": "advanced",
+      "phases": 1,
+      "phase_names": [
+        "Trading Combine"
+      ],
+      "evaluation_model": "Simulated evaluation, then Express Funded, then Live Funded",
       "account_sizes": [
         {
           "size": 50000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": 2000,
-          "daily_loss_limit_pct": 4.0
+          "profit_target": 3000.0,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 2000.0,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": 2,
+          "max_contracts_per_side": 5,
+          "micro_contracts_per_side": 50,
+          "monthly_subscription_fee": 49.0,
+          "reset_fee": 49.0,
+          "activation_fee": 149.0
         },
         {
           "size": 100000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": 3000,
-          "daily_loss_limit_pct": 3.0
+          "profit_target": 6000.0,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 4000.0,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": 2,
+          "max_contracts_per_side": 10,
+          "micro_contracts_per_side": 100,
+          "monthly_subscription_fee": 99.0,
+          "reset_fee": 99.0,
+          "activation_fee": 149.0
         },
         {
           "size": 150000,
-          "profit_target": null,
-          "profit_target_pct": null,
-          "max_loss_limit": null,
-          "max_loss_limit_pct": null,
-          "daily_loss_limit": 4500,
-          "daily_loss_limit_pct": 3.0
+          "profit_target": 9000.0,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 6000.0,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": 2,
+          "max_contracts_per_side": 15,
+          "micro_contracts_per_side": 150,
+          "monthly_subscription_fee": 149.0,
+          "reset_fee": 149.0,
+          "activation_fee": 149.0
         }
       ],
-      "passing_requirements": {
-        "profit_target_required": true,
-        "min_trading_days": 2,
-        "consistency_rule_active": true,
-        "consistency_rule_pct": 50,
-        "benchmark_days_required": 0
-      },
-      "risk_limits": {
-        "daily_loss_type": "TBD",
-        "daily_loss_includes_float": true,
-        "daily_loss_includes_commissions": true,
-        "max_loss_type": "TBD",
-        "max_loss_locks_at_initial": null,
-        "drawdown_calculation": "TBD"
-      },
       "trading_rules": {
         "overnight_holding": false,
         "weekend_holding": false,
-        "market_close_time_ct": "15:10",
         "market_open_time_ct": "17:00",
+        "market_close_time_ct": "16:00",
         "news_trading_allowed": true,
-        "ea_allowed": true,
-        "copy_trading_allowed": "own_accounts_only",
+        "ea_allowed": false,
+        "copy_trading_allowed": false,
+        "hedging_allowed": false,
+        "high_frequency_scalping_allowed": false,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null,
         "prohibited_strategies": [
-          "Account Stacking",
-          "Intentional Account Depletion",
-          "Use of Manipulative Tools",
-          "Abnormal Market Behavior",
-          "Trading Outside Market Range",
-          "News Event Exploitation",
-          "VPN Usage",
-          "Sim Fill Abuse"
+          "Expert Advisors / Fully Automated Trading",
+          "Hedging (simultaneous long and short same instrument)",
+          "Copy trading / signal following / mirroring",
+          "Overnight position holds",
+          "Weekend position holds",
+          "High-frequency scalping",
+          "Exploiting platform latency or data errors",
+          "Manipulative trading patterns"
+        ],
+        "allowed_strategies": [
+          "Manual trading",
+          "Semi-automated order management (alerts, bracket orders)",
+          "News trading",
+          "Day trading",
+          "Scalping (non-HFT)",
+          "Swing trading within session hours"
         ]
       },
+      "risk_limits": {
+        "daily_loss_limit_type": "None",
+        "daily_loss_includes_float": false,
+        "daily_loss_includes_commissions": true,
+        "max_loss_type": "Trailing End-of-Day Maximum Loss Limit",
+        "max_loss_calculation": "Trails from highest end-of-day (EOD) account balance",
+        "max_loss_intraday": false,
+        "max_loss_locks_at_initial": false,
+        "max_loss_lock_condition": "Locks (stops trailing) when profit equals the MLL amount (e.g., $2,000 for $50K account)",
+        "intraday_recovery_allowed": true,
+        "intraday_note": "MLL only updates EOD - intraday drawdown can recover before day closes",
+        "drawdown_reset_time_ct": "16:00",
+        "max_loss_reset_frequency": "Trails daily at end of session (EOD only, not intraday)"
+      },
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": 2,
+        "max_trading_days": null,
+        "no_time_limit": true,
+        "consistency_rule": true,
+        "consistency_rule_description": "Best single day's profit cannot exceed 50% of total profit at time of evaluation",
+        "consistency_rule_pct": 50,
+        "funded_account_winning_days_required": 5,
+        "funded_account_min_profit_per_winning_day": 150
+      },
       "payout_structure": {
+        "withdrawal_frequency_days": 7,
         "profit_split_pct": 90,
-        "withdrawal_frequency_days": 1,
-        "min_withdrawal_amount": 125,
-        "min_profit_for_withdrawal": 150,
-        "benchmark_days_for_payout": 5,
-        "consistency_rule_payout": false,
-        "consistency_rule_payout_pct": null,
-        "performance_reward_cap": {
-          "50K": 5000,
-          "100K": 5000,
-          "150K": 5000
-        },
-        "first_payout_delay_days": null
+        "first_withdrawal_pct": 100,
+        "first_withdrawal_cap_usd": 10000,
+        "beyond_first_cap_pct": 90,
+        "first_payout_delay_days": 14,
+        "minimum_payout": null,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "withdrawal_max_pct_of_account": 50,
+        "funded_winning_days_before_payout": 5,
+        "payout_processor": "ACH / Bank Wire / Wise",
+        "scaling_plan_available": true,
+        "scaling_increment_pct": 25,
+        "scaling_note": "25% account size increase every 4 months of consistent profitability",
+        "note": "First $10,000 of profits paid at 100% split; thereafter 90/10. Max single withdrawal is 50% of funded account balance."
       },
       "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": 50,
+        "consistency_note": "Best single day profit cannot exceed 50% of total profit at evaluation",
         "inactivity_days_breach": null,
-        "inactivity_days_funded_breach": 30,
-        "disciplinary_program": true,
-        "account_reset_allowed": true
+        "inactivity_note": null,
+        "max_consecutive_loss_days": null,
+        "account_reset_allowed": true,
+        "no_time_limit": true,
+        "max_accounts_per_trader": null
+      },
+      "popularity_metrics": {
+        "is_best_seller": true,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details_url": null,
+        "requirements": "Pass Trading Combine, pay $149 activation fee, complete Express Funded stage, then transition to Live Funded",
+        "max_account_size_usd": 2000000
       }
+    },
+    {
+      "model_name": "Trading Combine - Consistency Path",
+      "model_type": "discipline",
+      "path_type": "consistency",
+      "introduced_date": "2026-02-05",
+      "difficulty_tier": "advanced",
+      "phases": 1,
+      "phase_names": [
+        "Trading Combine - Consistency Path"
+      ],
+      "evaluation_model": "Simulated evaluation with stricter consistency requirements, then Express Funded, then Live Funded",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "profit_target": 3000.0,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 2000.0,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": null,
+          "max_contracts_per_side": 5,
+          "monthly_subscription_fee": 49.0,
+          "reset_fee": 49.0,
+          "activation_fee": 149.0
+        },
+        {
+          "size": 100000,
+          "profit_target": 6000.0,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 4000.0,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": null,
+          "max_contracts_per_side": 10,
+          "monthly_subscription_fee": 99.0,
+          "reset_fee": 99.0,
+          "activation_fee": 149.0
+        },
+        {
+          "size": 150000,
+          "profit_target": 9000.0,
+          "profit_target_pct": 6.0,
+          "max_loss_limit": 6000.0,
+          "max_loss_limit_pct": 4.0,
+          "daily_loss_limit": null,
+          "daily_loss_limit_pct": null,
+          "trailing_drawdown": true,
+          "trailing_drawdown_type": "EOD",
+          "minimum_trading_days": null,
+          "max_contracts_per_side": 15,
+          "monthly_subscription_fee": 149.0,
+          "reset_fee": 149.0,
+          "activation_fee": 149.0
+        }
+      ],
+      "trading_rules": {
+        "overnight_holding": false,
+        "weekend_holding": false,
+        "news_trading_allowed": true,
+        "ea_allowed": false,
+        "copy_trading_allowed": false,
+        "hedging_allowed": false,
+        "minimum_lot_size": null,
+        "maximum_lot_size": null
+      },
+      "risk_limits": {
+        "max_loss_type": "Trailing End-of-Day Maximum Loss Limit",
+        "intraday_recovery_allowed": true,
+        "note": "Same trailing EOD drawdown mechanism as Standard Path. Daily loss limit TBD for Consistency Path."
+      },
+      "passing_requirements": {
+        "profit_target_required": true,
+        "min_trading_days": null,
+        "max_trading_days": null,
+        "no_time_limit": true,
+        "consistency_rule": true,
+        "consistency_rule_description": "Stricter consistency requirement - best day profit percentage cap likely lower than 50%",
+        "consistency_rule_pct": null,
+        "funded_account_winning_days_required": null,
+        "funded_account_min_profit_per_winning_day": null
+      },
+      "payout_structure": {
+        "withdrawal_frequency_days": 7,
+        "profit_split_pct": 90,
+        "first_withdrawal_pct": 100,
+        "first_withdrawal_cap_usd": 10000,
+        "beyond_first_cap_pct": 90,
+        "first_payout_delay_days": 14,
+        "minimum_payout": null,
+        "maximum_payout_sim_cap": null,
+        "max_payout_per_request": null,
+        "withdrawal_max_pct_of_account": 50,
+        "scaling_plan_available": true,
+        "note": "Assumed same payout structure as Standard Path. TBD if Consistency Path offers enhanced split."
+      },
+      "restrictions": {
+        "consistency_rule": true,
+        "consistency_max_pct": null,
+        "consistency_note": "Stricter consistency rule than Standard Path; full details TBD",
+        "inactivity_days_breach": null,
+        "inactivity_note": null,
+        "max_consecutive_loss_days": null,
+        "account_reset_allowed": true,
+        "no_time_limit": true
+      },
+      "popularity_metrics": {
+        "is_best_seller": false,
+        "purchase_count_estimate": null,
+        "completion_rate_pct": null
+      },
+      "live_transition": {
+        "available": true,
+        "details_url": null,
+        "requirements": "Pass Trading Combine Consistency Path, pay $149 activation fee, complete Express Funded stage, then transition to Live Funded"
+      },
+      "notes": [
+        "Introduced 2026-02-05 as dual-path option alongside Standard Path",
+        "Designed for traders who prefer to demonstrate consistency over raw profit targets",
+        "Full rule specifics TBD pending live source verification"
+      ]
     }
-  ]
+  ],
+  "🎯 COMPARISON SCORECARD": {
+    "_note": "Flat 38-metric scorecard. Every field required. Use null if genuinely unknown. Powers side-by-side firm comparisons.",
+    "firm_background": {
+      "year_founded": 2012,
+      "headquarters_country": "United States",
+      "restricted_countries_count": 25,
+      "restricted_countries_includes_kenya": false,
+      "review_score_avg": 3.4,
+      "review_count": 13721
+    },
+    "pricing": {
+      "cheapest_account_usd": 49.0,
+      "cheapest_account_regular_usd": 49.0,
+      "cheapest_account_model": "Trading Combine 50K (monthly subscription)",
+      "has_subscription_fee": true,
+      "subscription_fee_monthly_usd": 49.0,
+      "active_discount_codes": [],
+      "best_current_discount_pct": null
+    },
+    "challenge_rules": {
+      "profit_target_pct_range": "6%",
+      "trailing_drawdown_types": [
+        "EOD"
+      ],
+      "best_max_loss_pct": 4.0,
+      "has_daily_loss_limit_any_model": false,
+      "daily_loss_limit_on_all_models": false,
+      "min_trading_days_to_pass": 2,
+      "has_consistency_rule_any_model": true
+    },
+    "payout_terms": {
+      "max_profit_split_pct": 100,
+      "has_first_10k_bonus": true,
+      "first_10k_split_pct": 100,
+      "fastest_payout_days": 7,
+      "min_withdrawal_usd": null,
+      "payout_processing_hours": 72.0,
+      "has_payout_cap_any_model": true
+    },
+    "trading_restrictions": {
+      "overnight_holding": "none",
+      "news_trading": "allowed",
+      "ea_allowed": false,
+      "copy_trading_allowed": false,
+      "instruments": "Futures only (CME-listed)"
+    },
+    "model_availability": {
+      "num_challenge_models": 2,
+      "has_instant_funded_model": false,
+      "has_live_capital_path": true,
+      "max_account_size_usd": 2000000,
+      "max_accounts_per_trader": null,
+      "platforms_count": 3
+    }
+  },
+  "🏆 AGGREGATE METRICS": {
+    "overall_difficulty_score": 75.0,
+    "best_for_beginners": false,
+    "best_for_scalpers": true,
+    "best_for_swing": false,
+    "best_for_large_cap": true,
+    "transparency_score": 8.0,
+    "support_quality_score": 8.0,
+    "value_score": 7.0,
+    "innovation_score": 7.0,
+    "key_differentiators": [
+      "Founded 2012 - longest-running futures prop firm in the industry",
+      "First $10,000 in profits paid at 100% split to trader",
+      "No daily loss limit - only EOD trailing drawdown",
+      "Intraday drawdown recovery allowed before EOD reset",
+      "Dual evaluation paths: Standard and Consistency (introduced Feb 2026)",
+      "Scaling up to $2,000,000 max account size",
+      "Zero commission on proprietary TopstepX platform",
+      "Live funded account transition pathway available",
+      "News trading permitted on all models"
+    ],
+    "potential_concerns": [
+      "Monthly subscription model means ongoing costs until passing - no refund on fees paid",
+      "$149 activation fee required after passing before accessing funded account",
+      "No EAs or copy trading allowed on any model",
+      "No overnight or weekend holding permitted",
+      "Relatively low Trustpilot review score (3.4) compared to newer competitors",
+      "5 winning days required before first payout adds delay",
+      "Consistency rule applies on all models including at evaluation stage",
+      "EA prohibition limits algorithmic traders entirely"
+    ]
+  },
+  "generated_at": "2026-03-28T15:30:53.372763Z"
 }
