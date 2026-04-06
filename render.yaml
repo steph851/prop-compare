@@ -1,3 +1,4 @@
+type: compose
 services:
   - name: prop-intel
     env: python
