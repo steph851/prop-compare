@@ -6,7 +6,8 @@ services:
     env: python
     region: oregon
     buildCommand: "pip install -r requirements.txt"
-    startCommand: "/bin/bash -c 'python -m uvicorn api:app --host 0.0.0.0 --port 8000'"
+    startCommand: "uvicorn api:app --host 0.0.0.0 --port 8000 --no-access-log"
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
+    pythonVersion: "3.14.3"
