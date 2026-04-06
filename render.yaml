@@ -1,5 +1,0 @@
-preBuildCommand: pip install -r requirements.txt
-startCommand: python server.py
-envVars:
-  - key: PYTHONUNBUFFERED
-    value: "1"
