@@ -1,14 +1,14 @@
-type: compose
+databases: []
+
 services:
-  - name: prop-intel
+  - type: web
+    name: prop-intel
     env: python
     region: oregon
     buildCommand: pip install -r requirements.txt
     startCommand: python api.py
     envVars:
       - key: PORT
-        value: 8000
+        value: "8000"
       - key: PYTHONUNBUFFERED
         value: "1"
-      - key: ANTHROPIC_API_KEY
-        sync: false
