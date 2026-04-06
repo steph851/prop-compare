@@ -4,7 +4,7 @@ services:
     env: python
     region: oregon
     buildCommand: pip install -r requirements.txt
-    startCommand: "python3.14 -c 'import uvicorn; from api import app; uvicorn.run(app, host=\"0.0.0.0\", port=8000)'"
+    startCommand: python server.py
     envVars:
       - key: PYTHONUNBUFFERED
         value: "1"
